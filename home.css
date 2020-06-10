@@ -5,3 +5,71 @@
 body {
   width: 1366px;
 }
+
+#menu{
+  list-style-type: none;
+  width: 700px;
+  height: 80px;
+  margin: 20px 20px 20px 124px;
+  padding: 0;
+  background-color: rgba (0,0,255,0);
+  position: absolute;top: 0px;
+}
+
+#menu li{
+  position: relative;
+  width: 100px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#menu li a{
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+  color: #fff;
+  font-size: 20px;
+  font-family: impact;
+  line-height: 1;
+  text-decoration: none;
+}
+#menu li ul{
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+    padding: 0;
+}
+
+#menu li ul li{
+  overflow: hidden;
+  width: 100px;
+  height: 0;
+  color: #fff;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  transition: .2s;
+}
+#menu li ul li a{
+  padding: 12px 4px;
+  background: #1a5293;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#menu li:hover > a{
+  background: #1a5293;
+  color: #e0dc62;
+}
+
+#menu li:hover ul li{
+  overflow: visible;
+  height: 32px;
+  border-bottom: 1px solid #fff;
+}
