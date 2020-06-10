@@ -208,6 +208,7 @@ h5{
   font-size: 28px;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
-  position: relative;
+  position: relative;top: -420px;
   width: 440px;
+  background-color: red;
 }
