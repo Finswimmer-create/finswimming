@@ -82,12 +82,11 @@ body{
   width: 560px;
   height: 489px;
 }
-.htext1{
-  text-align: center;
+h2{
   font-size: 48px;
   font-family: Impact;
   letter-spacing: 0.77px;
   color: #D6E1F4;
-  opacity: 1;
   position: absolute;top: 828px;
+  text-align: center;
 }
