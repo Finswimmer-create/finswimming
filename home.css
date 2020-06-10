@@ -97,7 +97,6 @@ h3{
   color: #D6E1F4;
   position: relative; top:795px;
   text-align: center;
-  background-color: white;
   margin-bottom: 40px;
 }
 h4{
@@ -126,4 +125,22 @@ h4{
     height: 8px;
     background-color: white;
     position:absolute;top: 1280px;left: 677px;
+}
+.bar4{
+    width: 60px;
+    height: 8px;
+    background-color: white;
+    position:absolute;top: 1496px;left: 653px;
+}
+.hbox1{
+  width: 683px;
+  height: 500px;
+  position: absolute;top: 1568px;left: 683px;
+}
+.hbox1-text{
+  font-size: 24px;
+  font-family: "Hiragino Sans";
+  color: #D6E1F4;
+  width: 560px;
+  position: relative;
 }
