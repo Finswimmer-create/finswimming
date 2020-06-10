@@ -1,5 +1,6 @@
 .imgtop{
-  width: 1366px;
+  height: 700px;
+  object-fit: cover;
 }
 
 #menu{
