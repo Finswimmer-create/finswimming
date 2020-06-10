@@ -112,8 +112,9 @@ h5{
   font-family: Impact;
   letter-spacing: 0px;
   color: #D6E1F4;
-  position: relative;
+  position: relative;top: -700px;
   text-align: center;
+  background-color: white;
 }
 .bar1{
   width: 80px;
