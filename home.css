@@ -151,9 +151,11 @@ h4{
   background-color: #4D84FF;
   background-image: -webkit-linear-gradient(top, #49c0f0, #2cafe3);
   background-image: linear-gradient(to bottom, #49c0f0, #2cafe3);
-  border-radius: 12px;
+  border-radius: 24px;
   color: #fff;
   font-family: impact;
+  text-align: center;
+  text-decoration: none;
   line-height: 50px;
   -webkit-transition: none;
   transition: none;
