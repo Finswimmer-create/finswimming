@@ -2,7 +2,7 @@
   width: 1366px;
   height: 700px;
   object-fit: cover;
-  position:absolute;top: 0;left: 0;
+  position:absolute;top: 0;right: 0;
 }
 
 .wrap{
