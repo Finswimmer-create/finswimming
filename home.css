@@ -6,7 +6,7 @@
 }
 
 html,body {
-  width: 1366px;
+  min-width: 1366px;
 }
 
 #menu{
