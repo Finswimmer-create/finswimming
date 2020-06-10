@@ -197,3 +197,11 @@ h5{
   height: 500px;
   position: absolute;top: 1568px; left: 0px;
 }
+.triangle1{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 408px 408px 0 0;
+  border-color: #3A1581 transparent transparent transparent;
+  position: relative;
+}
