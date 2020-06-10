@@ -102,9 +102,9 @@ h3{
   margin-bottom: 40px;
 }
 .bar1{
-  width: 100px;
-  height: 80px;
+  width: 80px;
+  height: 8px;
   background-color: white;
-  position: relative; top:795px;
+  position:absolute;top: 1240px;left: 643px;
   text-align: center;
 }
