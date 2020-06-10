@@ -140,6 +140,12 @@ h5{
     background-color: white;
     position:absolute;top: 1496px;left: 653px;
 }
+.bar5{
+    width: 60px;
+    height: 8px;
+    background-color: white;
+    position:absolute;top: 2276px;left: 653px;
+}
 .hbox1{
   width: 683px;
   height: 500px;
