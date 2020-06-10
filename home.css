@@ -201,7 +201,7 @@ h5{
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 408px 408px 0 0;
+  border-width: 480px 408px 0 0;
   border-color: #3A1581 transparent transparent transparent;
-  position: relative;
+  position: absolute;top: 2448px;left: 204px;
 }
