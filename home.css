@@ -2,11 +2,14 @@
   width: 1366px;
   height: 700px;
   object-fit: cover;
-  position: relative;
+  position:absolute;top: 0;
 }
 
 html,body {
   min-width: 1366px;
+}
+.wrap{
+  overflow: hidden;
 }
 
 #menu{
