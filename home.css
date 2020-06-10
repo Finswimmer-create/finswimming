@@ -145,6 +145,12 @@ h5{
     background-color: white;
     position:absolute;top: 2276px;left: 653px;
 }
+.bar6{
+  width: 412px;
+  height: 4px;
+  position: relative;
+  background-color: white;
+}
 .hbox1{
   width: 683px;
   height: 500px;
@@ -209,6 +215,6 @@ h5{
   font-family: "Hiragino Sans";
   color: #D6E1F4;
   position: relative;top: -276px;left: 80px;
-  width: 440px;
+  width: 412px;
   background-color: red;
 }
