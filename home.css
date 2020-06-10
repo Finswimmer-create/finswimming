@@ -105,7 +105,7 @@ h4{
   font-family: Impact;
   letter-spacing: 0px;
   color: #D6E1F4;
-  position: relative;
+  position: relative;top: -400px;
   text-align: center;
   background-color: white;
 }
@@ -125,5 +125,5 @@ h4{
     width: 12px;
     height: 8px;
     background-color: white;
-    position:absolute;top: 1260px;left: 677px;
+    position:absolute;top: 1280px;left: 677px;
 }
