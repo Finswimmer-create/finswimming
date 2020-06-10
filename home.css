@@ -87,6 +87,6 @@ h2{
   font-family: Impact;
   letter-spacing: 0.77px;
   color: #D6E1F4;
-  position: absolute;top: 828px;
+  position: relative;
   text-align: center;
 }
