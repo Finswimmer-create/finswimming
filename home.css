@@ -1,12 +1,12 @@
 .imgtop{
-  width: 1000px;
+  width: 1366px;
   height: 700px;
   object-fit: cover;
   position: absolute;top: 0px;left: 0px;
 }
 
 body{
-  width: 1000px;
+  width: 1366px;
 }
 #menu{
   list-style-type: none;
