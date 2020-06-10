@@ -1,5 +1,7 @@
 .imgtop{
   width: 100%;
+  height: 400px;
+  object-fit: cover;
   position: absolute;top: 0; left:0;
 }
 body {
