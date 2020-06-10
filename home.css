@@ -106,7 +106,6 @@ h4{
   color: #D6E1F4;
   position: relative;top: 952px;
   text-align: center;
-  background-color: white;
 }
 .bar1{
   width: 80px;
@@ -142,7 +141,7 @@ h4{
   font-size: 24px;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
-  position: relative;top: -20px;left: 62px;
+  position: relative;top: 100px;left: 62px;
   width: 560px;
   font-weight: 700;
 }
