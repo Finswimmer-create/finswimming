@@ -5,8 +5,9 @@
   margin: 0 auto;
   position: absolute;top: 0; left:0;
 }
-body {
+html,body {
   width: 1366px;
+  overflow: auto;
 }
 
 #menu{
