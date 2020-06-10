@@ -7,7 +7,7 @@
 
 body{
   width: 1366px;
-
+  overflow-x: hidden;
   background-color: blue;
 }
 #menu{
