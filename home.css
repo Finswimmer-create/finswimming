@@ -94,10 +94,10 @@ h2{
 }
 h3{
   font-size: 24px;
-  font-family: Impact;
+  font-family: "Hiragino Sans";
   letter-spacing: 0.77px;
   color: #D6E1F4;
-  position: relative;
+  position: relative; top:795px;
   text-align: center;
   background-color: white;
   margin-bottom: 40px;
