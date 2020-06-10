@@ -146,9 +146,9 @@ h5{
     position:absolute;top: 2276px;left: 653px;
 }
 .bar6{
-  width: 412px;
+  width: 420px;
   height: 4px;
-  position: absolute;top: 0px;
+  position: relative;top: 0px;
   background-color: white;
 }
 .hbox1{
