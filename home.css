@@ -2,8 +2,8 @@
   width: 1366px;
   height: 700px;
   object-fit: cover;
-  margin: 0 auto;
-  position: absolute;top: 0; left:0;
+  margin: auto;
+  position: absolute;top: 0; left:0; right: 0; bottom: 0;
 }
 html,body {
   width: 1366px;
