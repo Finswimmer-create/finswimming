@@ -3,6 +3,9 @@
   object-fit: cover;
 }
 
+body{
+  width: 1366px;
+}
 #menu{
   list-style-type: none;
   width: 700px;
