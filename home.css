@@ -1,13 +1,4 @@
-.imgtop{
-  width: 1366px;
-  height: 700px;
-  object-fit: cover;
-  position:absolute;top: 0;right: 0;
-}
 
-.wrap{
-  overflow: hidden;
-}
 
 #menu{
   list-style-type: none;
