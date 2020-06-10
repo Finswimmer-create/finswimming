@@ -98,5 +98,13 @@ h3{
   color: #D6E1F4;
   position: relative; top:795px;
   text-align: center;
+  background-color: white;
   margin-bottom: 40px;
+}
+.bar1{
+  width: 80px;
+  height: 8px;
+  background-color: white;
+  position: relative;
+  text-align: center;
 }
