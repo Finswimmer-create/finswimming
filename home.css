@@ -1,4 +1,4 @@
-.imgtop{
+.imgh1{
   width: 1366px;
   height: 768px;
   object-fit: cover;
@@ -71,7 +71,7 @@
   height: 32px;
   border-bottom: 1px solid #fff;
 }
-.imgtitle{
+.imgh2{
   position: absolute; top: 160px;left: 683px;
   width: 560px;
   height: 489px;
@@ -176,4 +176,9 @@ h4{
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, .2);
   color: #1679a1;
   text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+}
+.imgh3{
+  width: 683px;
+  height: 500px;
+  position: absolute;top: 1568px; left: 0px;
 }
