@@ -205,8 +205,9 @@ h5{
   position: absolute;top: 2448px;left: 204px;
 }
 .triangle1 p {
-  font-size: 32px;
+  font-size: 28px;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
   position: relative;
+  width: 440px;
 }
