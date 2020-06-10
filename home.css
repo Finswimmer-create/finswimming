@@ -107,6 +107,15 @@ h4{
   position: relative;top: 952px;
   text-align: center;
 }
+h5{
+  font-size: 72px;
+  font-family: Impact;
+  letter-spacing: 0px;
+  color: #D6E1F4;
+  position: absolute;top: 2188px; left: 497px;
+  width: 372px;
+  height: 88px;
+}
 .bar1{
   width: 80px;
   height: 8px;
