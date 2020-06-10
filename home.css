@@ -145,3 +145,18 @@ h4{
   width: 560px;
   font-weight: 700;
 }
+
+.btn--more,
+a.btn--more {
+  color: #fff;
+  background-color: #eb6100;
+}
+.btn--more:hover,
+a.btn--more:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+}
