@@ -1,5 +1,5 @@
 .imgtop{
-  width: 100%;
+  width: 1366px;
   height: 700px;
   object-fit: cover;
   position: relative;
@@ -16,7 +16,7 @@ html,body {
   margin: 20px;
   padding: 0;
   background-color: rgba (0,0,255,0);
-  position: absolute;top: 0px; left: 606px;
+  position: absolute;top: 0px; left: 306px;
 }
 
 #menu li{
