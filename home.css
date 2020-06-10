@@ -79,7 +79,7 @@
 body{
   width: 1366px;
   overflow-x: hidden;
-  background-color: blue;
+  background-color: #000033;
 }
 h2{
   font-size: 32px;
@@ -203,4 +203,10 @@ h5{
   border-width: 408px 480px 0 0;
   border-color: #3A1581 transparent transparent transparent;
   position: absolute;top: 2448px;left: 204px;
+}
+.triangle1 p {
+  font-size: 32px;
+  font-family: "Hiragino Sans";
+  color: #D6E1F4;
+  position: relative;
 }
