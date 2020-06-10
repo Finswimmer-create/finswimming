@@ -4,12 +4,6 @@
   object-fit: cover;
   position: absolute;top: 0px;left: 0px;
 }
-
-body{
-  width: 1366px;
-  overflow-x: hidden;
-  background-color: blue;
-}
 #menu{
   list-style-type: none;
   width: 700px;
@@ -82,6 +76,11 @@ body{
   width: 560px;
   height: 489px;
 }
+body{
+  width: 1366px;
+  overflow-x: hidden;
+  background-color: blue;
+}
 h2{
   font-size: 32px;
   font-family: Impact;
@@ -101,6 +100,15 @@ h3{
   background-color: white;
   margin-bottom: 40px;
 }
+h4{
+  font-size: 72px;
+  font-family: Impact;
+  letter-spacing: 0px;
+  color: #D6E1F4;
+  position: relative;
+  text-align: center;
+  background-color: white;
+}
 .bar1{
   width: 80px;
   height: 8px;
@@ -112,4 +120,10 @@ h3{
     height: 8px;
     background-color: white;
     position:absolute;top: 1260px;left: 663px;
+}
+.bar3{
+    width: 12px;
+    height: 8px;
+    background-color: white;
+    position:absolute;top: 1260px;left: 677px;
 }
