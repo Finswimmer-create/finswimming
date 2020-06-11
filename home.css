@@ -230,19 +230,17 @@ h5{
   color: #D6E1F4;
   position: relative;top: -294px;left: 80px;
   width: 416px;
-  background-color: red;
 }
 .tritext2 {
   font-size: 20px;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
   width: 330px;
-  background-color: blue;
   position: relative;top: -326px;left: 80px;
 }
 .tritext3{
-  position: relative;top: -294px;left: 180px;
-  width: 416px;
+  position: relative;top: -174px;left: 180px;
+  width: 255px;
 }
 .figure1,.figure2 {
   position: relative;top:1470px;left:228px;
