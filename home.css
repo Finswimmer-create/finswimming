@@ -226,13 +226,13 @@ figcaption {
   left: -100%;
   z-index: 2;
   width: 468px;
-  height: 230px;
+  height: 228px;
   background: rgba(0,0,0,.6);
   -webkit-transition: .3s;
   transition: .3s;
   opacity: 1;
 }
 figure:hover figcaption {
-  top: 0;
-  left: 8px;
+  top: 2px;
+  left: 6px;
 }
