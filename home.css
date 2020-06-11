@@ -221,7 +221,7 @@ figure {
   height: 240px;
 }
 figcaption {
-  position: absolute;left: 16px;
+  position: absolute;
   top: 0;
   left: -100%;
   z-index: 2;
@@ -234,5 +234,5 @@ figcaption {
 }
 figure:hover figcaption {
   top: 0;
-  left: 0;
+  left: 8px;
 }
