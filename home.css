@@ -215,9 +215,10 @@ h5{
   width: 420px;
 }
 figure {
-  position: absolute;top: 2500px;
+  position: absolute;top: 0px;
   overflow: hidden;
-  width: 300px;
+  width: 480px;
+  height: 240px;
 }
 figcaption {
   position: absolute;
