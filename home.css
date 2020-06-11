@@ -226,6 +226,8 @@ h5{
   font-size: 20px;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
+  width: 330px;
+  background-color: red;
 }
 .figure1 {
   position: relative;top:1470px;left:228px;
