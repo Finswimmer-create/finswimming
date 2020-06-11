@@ -218,11 +218,12 @@ h5{
   font-size: 32px;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
-  position: relative;top: -276px;left: 80px;
+  position: relative;top: -56px;left: 80px;
   width: 416px;
+  background-color: red;
 }
 .figure1 {
-  position: relative;top:1470px;left:228px;
+  position: relative;top:1470px;left:232px;
   overflow: hidden;
   width: 480px;
   height: 240px;
