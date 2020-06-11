@@ -225,7 +225,8 @@ h5{
 .figure1 {
   position: relative;
   overflow: hidden;
-  width: 300px;
+  width: 480px;
+  height: 240px;
 }
 .figcaption1 {
   position: absolute;
