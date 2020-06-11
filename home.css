@@ -222,6 +222,11 @@ h5{
   width: 416px;
   background-color: red;
 }
+.tritext1{
+  font-size: 20px;
+  font-family: "Hiragino Sans";
+  color: #D6E1F4;
+}
 .figure1 {
   position: relative;top:1470px;left:228px;
   overflow: hidden;
