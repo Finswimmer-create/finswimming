@@ -251,7 +251,7 @@ h5{
   height: 240px;
 }
 .figure2{
-  position: absolute;top: 1300px;left: 150px;
+  position: relative;top: 1300px;left: 150px;
 }
 .figcaption1,.figcaption2 {
   position: absolute;
