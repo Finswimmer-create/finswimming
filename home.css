@@ -18,8 +18,8 @@
   width: 480px;
   height: 240px;
 }
-.imgh8{
-  width: 50px;
+.imgh8,.imgh9{
+  width: 56px;
 }
 #menu{
   list-style-type: none;
