@@ -249,13 +249,13 @@ h5{
   width: 330px;
 }
 .figure1,.figure2 {
-  position: relative;top:1470px;left:240px;
+  position: relative;top:1470px;left:238px;
   overflow: hidden;
   width: 480px;
   height: 240px;
 }
 .figure2{
-  position: relative;top: 1220px;left: 842px;
+  position: relative;top: 1220px;left: 840px;
 }
 .figcaption1,.figcaption2 {
   position: absolute;
