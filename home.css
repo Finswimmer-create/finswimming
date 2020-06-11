@@ -214,13 +214,13 @@ h5{
   position: relative;top: -276px;left: 80px;
   width: 420px;
 }
-figure {
+.figure1 {
   position: absolute;top: 0px;
   overflow: hidden;
   width: 480px;
   height: 240px;
 }
-figcaption {
+.figcaption1 {
   position: absolute;
   top: 0;
   left: -100%;
@@ -232,7 +232,7 @@ figcaption {
   transition: .3s;
   opacity: 1;
 }
-figure:hover figcaption {
-  top: 2px;
+.figure1:hover .figcaption1 {
+  top: 4px;
   left: 6px;
 }
