@@ -18,6 +18,9 @@
   width: 480px;
   height: 240px;
 }
+.imgh8{
+  width: 50px;
+}
 #menu{
   list-style-type: none;
   width: 700px;
@@ -235,10 +238,4 @@ h5{
 .figure1:hover .figcaption1 {
   top: 4px;
   left: 6px;
-}
-.tritext1{
-  position: relative;
-  font-size: 32px;
-  font-family: impact;
-  color: #D6E1F4;
 }
