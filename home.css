@@ -238,6 +238,7 @@ h5{
 }
 .tritext1,.tritext3,.tritext5,.tritext7 {
   font-size: 32px;
+  font-weight: 700;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
   position: relative;top: -280px;left: 80px;
@@ -245,6 +246,7 @@ h5{
 }
 .tritext2,.tritext4,.tritext6,.tritext8 {
   font-size: 20px;
+  font-weight: 700;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
   width: 330px;
