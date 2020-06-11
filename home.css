@@ -269,8 +269,8 @@ h5{
 
 .figure1:hover .figcaption1 {
   opacity: 1;
-  top: 4px;
-  left: 6px;
+  top: 0px;
+  left: 0px;
 }
 .figure2:hover .figcaption2 {
   opacity: 1;
