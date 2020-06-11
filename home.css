@@ -236,3 +236,9 @@ h5{
   top: 4px;
   left: 6px;
 }
+.tritext1{
+  position: relative;
+  font-size: 32px;
+  font-family: impact;
+  color: #D6E1F4;
+}
