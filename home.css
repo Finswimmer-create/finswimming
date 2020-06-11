@@ -4,6 +4,21 @@
   object-fit: cover;
   position: absolute;top: 0px;left: 0px;
 }
+.imgh2{
+  position: absolute; top: 160px;left: 683px;
+  width: 560px;
+  height: 489px;
+}
+.imgh3{
+  width: 683px;
+  height: 500px;
+  position: absolute;top: 1568px; left: 0px;
+}
+.img4{
+  width: 480px;
+  height: 240px;
+  position: absolute;
+}
 #menu{
   list-style-type: none;
   width: 700px;
@@ -71,11 +86,7 @@
   height: 32px;
   border-bottom: 1px solid #fff;
 }
-.imgh2{
-  position: absolute; top: 160px;left: 683px;
-  width: 560px;
-  height: 489px;
-}
+
 body{
   width: 1366px;
   overflow-x: hidden;
@@ -99,7 +110,7 @@ h3{
   text-align: center;
   margin-bottom: 40px;
 }
-h4{
+h4,h5{
   font-size: 72px;
   font-family: Impact;
   letter-spacing: 0px;
@@ -108,12 +119,7 @@ h4{
   text-align: center;
 }
 h5{
-  font-size: 72px;
-  font-family: Impact;
-  letter-spacing: 0px;
-  color: #D6E1F4;
   position: relative;top: 1524px;
-  text-align: center;
 }
 .bar1{
   width: 80px;
@@ -133,16 +139,13 @@ h5{
     background-color: white;
     position:absolute;top: 1280px;left: 677px;
 }
-.bar4{
+.bar4,.bar5{
     width: 60px;
     height: 8px;
     background-color: white;
     position:absolute;top: 1496px;left: 653px;
 }
 .bar5{
-    width: 60px;
-    height: 8px;
-    background-color: white;
     position:absolute;top: 2276px;left: 653px;
 }
 .bar6{
@@ -197,11 +200,7 @@ h5{
   color: #1679a1;
   text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
 }
-.imgh3{
-  width: 683px;
-  height: 500px;
-  position: absolute;top: 1568px; left: 0px;
-}
+
 .triangle1{
   width: 0;
   height: 0;
