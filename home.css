@@ -216,7 +216,7 @@ h5{
   width: 420px;
 }
 figure {
-  position: relative;
+  position: absolute;top: 2500px;
   overflow: hidden;
   width: 300px;
 }
