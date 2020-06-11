@@ -206,7 +206,7 @@ h5{
   color: #1679a1;
   text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
 }
-.triangle1{
+.triangle1,.triangle2{
   width: 0;
   height: 0;
   border-style: solid;
@@ -214,7 +214,10 @@ h5{
   border-color: #3A1581 transparent transparent transparent;
   position: absolute;top: 2448px;left: 204px;
 }
-.tritext1 {
+.triangle2{
+  position: absolute;top: 2448px;left: 604px;
+}
+.tritext1,.tritext3 {
   font-size: 32px;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
@@ -229,6 +232,10 @@ h5{
   width: 330px;
   background-color: blue;
   position: relative;top: -326px;left: 80px;
+}
+.tritext3{
+  position: relative;top: -294px;left: 480px;
+  width: 416px;
 }
 .figure1 {
   position: relative;top:1470px;left:228px;
