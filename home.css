@@ -19,8 +19,8 @@
   height: 240px;
 }
 .imgh5{
-  width: 468px;
-  height: 228px;
+  width: 480px;
+  height: 240px;
 }
 .imgh8,.imgh9,.imgh10{
   width: 56px;
@@ -239,11 +239,12 @@ h5{
   position: relative;top: -326px;left: 80px;
 }
 .tritext3{
-  position: relative;top: 0px;left: 0px;
+  position: relative;top: -300px;left: 80px;
   width: 260px;
+  background-color: red;
 }
 .tritext4{
-  position: relative;top: -300px;left: 80px;
+  position: relative;
   background-color: red;
 }
 .figure1,.figure2 {
