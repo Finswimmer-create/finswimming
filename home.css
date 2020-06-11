@@ -161,11 +161,14 @@ h5{
 .bar5{
     position:absolute;top: 2276px;left: 653px;
 }
-.bar6{
+.bar6,.bar7{
   width: 416px;
   height: 4px;
   position: relative;top: -318px;left: 80px;
   background-color: white;
+}
+.bar7{
+  width: 256px;
 }
 .hbox1{
   width: 683px;
@@ -242,10 +245,9 @@ h5{
 }
 .tritext3{
   position: relative;top: -280px;left: 80px;
-  width: 260px;
+  width: 256px;
 }
 .tritext4{
-  position: relative;
   width: 330px;
 }
 .figure1,.figure2 {
