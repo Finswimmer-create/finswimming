@@ -222,7 +222,7 @@ h5{
   width: 420px;
 }
 .figure1 {
-  position: absolute;
+  position: relative;
   overflow: hidden;
   width: 480px;
   height: 240px;
