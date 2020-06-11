@@ -30,6 +30,7 @@
   position: relative;top: 66px;left: 162px;
 }
 .imgh10{
+  width: 84px;
   position: relative;
 }
 #menu{
@@ -170,7 +171,7 @@ h5{
 .bar7{
   width: 256px;
   height: 4px;
-  position: relative;top: -318px;left: 80px;
+  position: relative;top: -312px;left: 80px;
   background-color: white;
 }
 .hbox1{
@@ -219,7 +220,7 @@ h5{
   color: #1679a1;
   text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
 }
-.triangle1,.triangle2{
+.triangle1,.triangle2,.triangle3{
   width: 0;
   height: 0;
   border-style: solid;
@@ -230,7 +231,10 @@ h5{
 .triangle2{
   position: absolute;top: 2448px;left: 806px;
 }
-.tritext1,.tritext3 {
+.triangle3{
+  position: absolute;top: 3016px;left: 0px;
+}
+.tritext1,.tritext3,.tritext5 {
   font-size: 32px;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
@@ -238,7 +242,7 @@ h5{
   width: 416px;
   background-color: red;
 }
-.tritext2, .tritext4 {
+.tritext2, .tritext4,.tritext6 {
   font-size: 20px;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
@@ -247,11 +251,10 @@ h5{
   background-color: red;
 }
 .tritext3{
-  position: relative;top: -280px;left: 80px;
   width: 256px;
 }
-.tritext4{
-  width: 330px;
+.tritext5{
+  width: 380px;
 }
 .figure1,.figure2 {
   position: relative;top:1470px;left:236px;
