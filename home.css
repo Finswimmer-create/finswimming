@@ -230,6 +230,7 @@ h5{
   color: #D6E1F4;
   position: relative;top: -294px;left: 80px;
   width: 416px;
+  background-color: red;
 }
 .tritext2, .tritext4 {
   font-size: 20px;
@@ -237,15 +238,15 @@ h5{
   color: #D6E1F4;
   width: 330px;
   position: relative;top: -326px;left: 80px;
+  background-color: red;
 }
 .tritext3{
   position: relative;top: -300px;left: 80px;
   width: 260px;
-  background-color: red;
 }
 .tritext4{
   position: relative;
-  background-color: red;
+  width: 330px;
 }
 .figure1,.figure2 {
   position: relative;top:1470px;left:228px;
