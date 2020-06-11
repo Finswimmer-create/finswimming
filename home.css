@@ -221,7 +221,7 @@ figure {
   height: 240px;
 }
 figcaption {
-  position: absolute;left: 8px;
+  position: absolute;left: 16px;
   top: 0;
   left: -100%;
   z-index: 2;
