@@ -14,11 +14,7 @@
   height: 500px;
   position: absolute;top: 1568px; left: 0px;
 }
-.imgh4{
-  width: 480px;
-  height: 240px;
-}
-.imgh5{
+.imgh4,.imgh5,.imgh7{
   width: 480px;
   height: 240px;
 }
@@ -256,7 +252,7 @@ h5{
 .tritext5{
   width: 380px;
 }
-.figure1,.figure2 {
+.figure1,.figure2,.figure3 {
   position: relative;top:1470px;left:236px;
   overflow: hidden;
   width: 480px;
@@ -265,7 +261,10 @@ h5{
 .figure2{
   position: relative;top: 1216px;left: 838px;
 }
-.figcaption1,.figcaption2 {
+.figure3{
+  position: relative;
+}
+.figcaption1,.figcaption2,.figcaption3 {
   position: absolute;
   top: 0;
   left: 0;
@@ -284,6 +283,11 @@ h5{
   left: 0px;
 }
 .figure2:hover .figcaption2 {
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+}
+.figure3:hover .figcaption3 {
   opacity: 1;
   top: 0px;
   left: 0px;
