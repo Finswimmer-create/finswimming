@@ -266,7 +266,7 @@ h5{
   opacity: 1;
 }
 .figcaption2{
-  position: absolute;top: -2px;left: -4px;
+  position: absolute;top: -10px;left: -12px;
 }
 .figure1:hover .figcaption1 {
   top: 4px;
