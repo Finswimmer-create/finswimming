@@ -225,8 +225,8 @@ figcaption {
   top: 0;
   left: -100%;
   z-index: 2;
-  width: 464px;
-  height: 232px;
+  width: 468px;
+  height: 230px;
   background: rgba(0,0,0,.6);
   -webkit-transition: .3s;
   transition: .3s;
