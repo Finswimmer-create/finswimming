@@ -243,7 +243,8 @@ h5{
   width: 260px;
 }
 .tritext4{
-  position: relative;
+  position: relative;top: -300px;left: 80px;
+  background-color: red;
 }
 .figure1,.figure2 {
   position: relative;top:1470px;left:228px;
