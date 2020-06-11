@@ -251,7 +251,7 @@ h5{
   height: 240px;
 }
 .figure2{
-  position: relative;
+  position: absolute;
 }
 .figcaption1,.figcaption2 {
   position: absolute;
@@ -271,6 +271,6 @@ h5{
   left: 6px;
 }
 .figure2:hover .figcaption2 {
-  top: 4px;
-  left: 6px;
+  top: 0px;
+  left: 0px;
 }
