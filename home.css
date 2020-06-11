@@ -217,16 +217,16 @@ h5{
 figure {
   position: absolute;top: 0px;
   overflow: hidden;
-  width: 464px;
-  height: 232px;
+  width: 480px;
+  height: 240px;
 }
 figcaption {
   position: absolute;
   top: 0;
   left: -100%;
   z-index: 2;
-  width: 480px;
-  height: 240px;
+  width: 464px;
+  height: 232px;
   background: rgba(0,0,0,.6);
   -webkit-transition: .3s;
   transition: .3s;
