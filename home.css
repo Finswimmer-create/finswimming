@@ -238,7 +238,7 @@ h5{
   width: 416px;
   background-color: red;
 }
-.tritext2, .tritext4,.tritext6 {
+.tritext2,.tritext4,.tritext6 {
   font-size: 20px;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
@@ -262,7 +262,7 @@ h5{
   position: relative;top: 1216px;left: 838px;
 }
 .figure3{
-  position: relative;top: 1532px; left:32px;
+  position: relative;top: 1552px; left:32px;
 }
 .figcaption1,.figcaption2,.figcaption3 {
   position: absolute;
