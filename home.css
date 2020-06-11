@@ -15,8 +15,8 @@
   position: absolute;top: 1568px; left: 0px;
 }
 .imgh4{
-  width: 516px;
-  height: 250px;
+  width: 480px;
+  height: 240px;
 }
 .imgh5{
   width: 480px;
@@ -271,8 +271,8 @@ h5{
 
 .figure1:hover .figcaption1 {
   opacity: 1;
-  top: 0px;
-  left: 0px;
+  top: 4px;
+  left: 8px;
 }
 .figure2:hover .figcaption2 {
   opacity: 1;
