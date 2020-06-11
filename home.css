@@ -222,13 +222,12 @@ h5{
   color: #D6E1F4;
   position: relative;
 }
-.figure1 {
+figure {
   position: relative;
   overflow: hidden;
-  width: 480px;
-  height: 240px;
+  width: 300px;
 }
-.figcaption1 {
+figcaption {
   position: absolute;
   top: 0;
   left: -100%;
@@ -240,7 +239,7 @@ h5{
   transition: .3s;
   opacity: 1;
 }
-.figure1:hover figcaption {
+figure:hover figcaption {
   top: 0;
   left: 0;
 }
