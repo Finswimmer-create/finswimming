@@ -199,7 +199,7 @@ h3{
   width: 416px;
   height: 4px;
   background-color: #D6E1F4;
-  position: relative;top: -200px;
+  position: relative;top: -300px;left: 80px;
 }
 .bar10{
   position: absolute;top:3634px;
@@ -411,7 +411,7 @@ th{
 
 .msr_newslist01 {
   width: 720px;
-  position: absolute;top: 4380px;left: 280px;
+  position: absolute;top: 4388px;left: 280px;
 }
 .msr_newslist01 li {
   border-bottom: 2px solid white;
