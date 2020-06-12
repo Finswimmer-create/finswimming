@@ -340,7 +340,7 @@ h3{
 	margin: 20px;
   width: 450px;
 	height: auto;
-  background-color: #000055;
+  background-color: rgba (0,0,255,0);
   float:left;
   position: absolute;top:3646px;left:214px;
 }
@@ -355,7 +355,7 @@ table{
 
 td,tr,th{
   border: 0px;
-  background-color: #000055;
+  background-color: rgba (0,0,255,0);
   color: white;
   padding: 1px;
 	font-size: 12px;
