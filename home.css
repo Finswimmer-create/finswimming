@@ -128,18 +128,18 @@ h3{
   font-size: 72px;
   color: #D6E1F4;
   font-family: impact;
-  position: relative;top: 974px;
+  position: absolute;top: 1400px;
   text-align: center;
+  background-color: red;
 }
 .title2{
-  position: relative;top: 1594px;
+  position: absolute;top: 2200px;
 }
 .title3{
-  position: relative;top: 2792px;
+  position: absolute;top: 3580px;
 }
 .title4{
-  position: relative;top: 3388px;
-  background-color: red;
+  position: absolute;top: 4000px;
 }
 .more1,.more2,.more3{
   font-size: 40px;
@@ -190,7 +190,7 @@ h3{
     width: 60px;
     height: 12px;
     background-color: #D6E1F4;
-    position:absolute;top: 1496px;left: 0px;
+    position:absolute;top: 1496px;left: 653px;
 }
 .bar5{
     position:absolute;top: 2276px;left: 653px;
