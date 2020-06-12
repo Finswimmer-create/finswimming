@@ -195,11 +195,20 @@ h3{
 .bar5{
     position:absolute;top: 2276px;left: 653px;
 }
-.bar6{
+.bar6,.bar7,.bar8,.bar9{
   width: 416px;
   height: 4px;
   background-color: #D6E1F4;
   position: relative;top: -300px;left: 80px;
+}
+.bar7{
+  width: 256px;
+}
+.bar8{
+  width: 320px;
+}
+.bar9{
+  width: 240px;
 }
 .bar10{
   position: absolute;top:3634px;
@@ -411,7 +420,7 @@ th{
 
 .msr_newslist01 {
   width: 720px;
-  position: absolute;top: 4388px;left: 280px;
+  position: absolute;top: 4448px;left: 280px;
 }
 .msr_newslist01 li {
   border-bottom: 2px solid white;
