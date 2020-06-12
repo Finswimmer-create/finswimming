@@ -125,11 +125,11 @@ h3{
   color: #D6E1F4;
   font-family: impact;
   background-color: red;
-  position: relative;top: 976px;
+  position: relative;top: 972px;
   text-align: center;
 }
 .title2{
-  position: relative;top: 1600px;
+  position: relative;top: 1596px;
 }
 .bar1{
   width: 80px;
@@ -279,7 +279,7 @@ h3{
   position: absolute;top: 2920px;left: 40px;
 }
 .figure4{
-  position: absolute;top: 2920px;left: 602px;
+  position: absolute;top: 2920px;left: 642px;
 }
 .figcaption1,.figcaption2,.figcaption3,.figcaption4 {
   position: absolute;
