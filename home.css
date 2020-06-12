@@ -137,19 +137,33 @@ h3{
 .title3{
   position: relative;top: 2792px;
 }
-.training{
+.more1,.more2,.more3{
   font-size: 40px;
   color: #D6E1F4;
   font-family: impact;
   background-color: red;
   position: absolute;top: 3894px; left: 796px;
 }
-.circle1{
+.more2{
+  position: absolute;top: 3950px; left: 796px;
+}
+.more3{
+  position: absolute;top: 4000px; left: 796px;
+}
+.circle1,.circle2,.circle3{
   width: 40px;
   height: 40px;
   background-color: #6AABF7;
   border-radius: 50%;
   position: absolute;top:3938px;left:732px;
+}
+.circle2{
+  background-color: #68D92D;
+  position: absolute;top:3994px;left:732px;
+}
+.circle3{
+  background-color: #FF0000;
+  position: absolute;top:4044px;left:732px;
 }
 .bar1{
   width: 80px;
@@ -211,7 +225,7 @@ h3{
   font-weight: 700;
 }
 
-.button1,.button2 {
+.button1,.button2,.button3,.button4 {
   border: 1px solid #15aeec;
   background-color: #00CED1;
   background-image: -webkit-linear-gradient(top, #00CED1, #2cafe3);
@@ -230,13 +244,13 @@ h3{
   width: 118px;
   hight:48px;
 }
-.button1:hover,.button2:hover {
+.button1:hover,.button2:hover,.button3:hover,.button4:hover {
   border:1px solid #1090c3;
   background-color: #1ab0ec;
   background-image: -webkit-linear-gradient(top, #1ab0ec, #1a92c2);
   background-image: linear-gradient(to bottom, #1ab0ec, #1a92c2);
 }
-.button1:active,.button2:active {
+.button1:active,.button2:active,.button3:active,.button4:active  {
   background: #1a92c2;
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, .2);
   color: #1679a1;
@@ -244,6 +258,12 @@ h3{
 }
 .button2{
   position: absolute;top: 3932px;left: 990px;
+}
+.button3{
+  position: absolute;top: 3982px; left: 990px;
+}
+.button4{
+  position: absolute;top: 4032px; left: 990px;
 }
 .triangle1,.triangle2,.triangle3,.triangle4{
   width: 0;
