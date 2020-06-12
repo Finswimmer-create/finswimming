@@ -219,7 +219,7 @@ h3{
 .bar12{
   width: 600px;
   height: 2px;
-  position: absolute;top:4500px;
+  position: absolute;top:4450px;left: 300px;
   background-color: #D6E1F4;
 }
 .hbox1{
