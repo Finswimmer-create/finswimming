@@ -29,7 +29,7 @@
   width: 84px;
   position: relative;
 }
-#menu{
+#menu1,#menu2{
   list-style-type: none;
   width: 700px;
   height: 80px;
@@ -38,8 +38,10 @@
   background-color: rgba (0,0,255,0);
   position:absolute;top: 0px;left: 626px;
 }
-
-#menu li{
+#menu2{
+  position: absolute;top: 5100px;
+}
+#menu1,#menu2 li{
   position: relative;
   width: 100px;
   float: left;
@@ -48,7 +50,7 @@
   text-align: center;
 }
 
-#menu li a{
+#menu1,#menu2 li a{
   display: block;
   margin: 0;
   padding: 8px 0;
@@ -58,7 +60,7 @@
   line-height: 1;
   text-decoration: none;
 }
-#menu li ul{
+#menu1,#menu2 li ul{
   list-style: none;
   position: absolute;
   top: 100%;
@@ -67,7 +69,7 @@
     padding: 0;
 }
 
-#menu li ul li{
+#menu1,#menu2 li ul li{
   overflow: hidden;
   width: 100px;
   height: 0;
@@ -78,7 +80,7 @@
   -ms-transition: .2s;
   transition: .2s;
 }
-#menu li ul li a{
+#menu1,#menu2 li ul li a{
   padding: 12px 4px;
   background: #1a5293;
   text-align: center;
@@ -86,12 +88,12 @@
   font-weight: normal;
 }
 
-#menu li:hover > a{
+#menu1,#menu2 li:hover > a{
   background: #1a5293;
   color: #e0dc62;
 }
 
-#menu li:hover ul li{
+#menu1,#menu2 li:hover ul li{
   overflow: visible;
   height: 32px;
   border-bottom: 1px solid #fff;
@@ -133,10 +135,10 @@ h3{
   background-color: red;
 }
 .title2{
-  position: relative;top: 1616px;
+  position: relative;top: 1617px;
 }
 .title3{
-  position: absolute;top: 3475px;left: 541px;
+  position: absolute;top: 3474px;left: 541px;
 }
 .title4{
   position: absolute;top: 4228px;left: 601px;
@@ -242,9 +244,9 @@ h3{
 
 .button1,.button2,.button3,.button4,.button5 {
   border: 1px solid #15aeec;
-  background-color: #00CED1;
-  background-image: -webkit-linear-gradient(top, #00CED1, #2cafe3);
-  background-image: linear-gradient(to bottom, #00CED1, #2cafe3);
+  background-color: #4D84FF;
+  background-image: -webkit-linear-gradient(top, #4D84FF, #2cafe3);
+  background-image: linear-gradient(to bottom, #4D84FF, #2cafe3);
   border-radius: 24px;
   color: #fff;
   font-family: impact;
