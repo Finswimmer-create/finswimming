@@ -120,13 +120,14 @@ h3{
   text-align: center;
   margin-bottom: 40px;
 }
-h4,h5,h6,{
+.title1,.title2,.title3,{
   font-size: 72px;
   font-family: Impact;
   letter-spacing: 0px;
   color: #D6E1F4;
-  position: relative;top:2000px;
+  position: absolute;top:2000px;
   text-align: center;
+  background-color: red;
 }
 h5{
   position: relative;top: 1524px;
