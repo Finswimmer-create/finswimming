@@ -417,7 +417,7 @@ th{
 
 .msr_newslist01 {
   width: 720px;
-  position: absolute;top: 4380px;left: 272px;
+  position: absolute;top: 4380px;left: 280px;
 }
 .msr_newslist01 li {
   border-bottom: 4px solid white;
@@ -453,7 +453,7 @@ th{
   display: table-cell;
   padding-left: 20px;
   vertical-align: middle;
-  position: relative;left: -50px;top: 20px;
+  position: relative;left: -100px;top: 20px;
 }
 
 /* 時間の設定 */
@@ -475,7 +475,7 @@ th{
   padding: 0 2px;
   text-align: center;
   width: 50px;
-  position: relative;top:-20px;left: 50px;
+  position: relative;top:-10px;left: 30px;
 }
 .msr_newslist01 li .cat02 {
   color: #FF0000;
