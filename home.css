@@ -363,6 +363,7 @@ th{
   font-size: 40px;
   color: #D6E1F4;
   text-align: center;
+  position: relative;top:40px;
 }
 .container .poti1{
   color: #6AABF7;
