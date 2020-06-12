@@ -102,6 +102,8 @@ body{
   overflow-x: hidden;
   background-color: #04111C;
   background-image: url("img/home11.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h2{
   font-size: 32px;
