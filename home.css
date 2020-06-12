@@ -318,7 +318,7 @@ h3{
 	height: auto;
   background-color: #000055;
   float:left;
-  position: absolute;top:3700px;
+  position: absolute;top:3700px;left:220px;
 }
 table{
   margin: 25px;
@@ -360,5 +360,5 @@ th{
   color: #68D92D;
 }
 .container .poti3{
-  color: #CE1901;
+  color: #FF0000;
 }
