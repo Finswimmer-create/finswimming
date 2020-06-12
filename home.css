@@ -132,7 +132,7 @@ h5{
   position: relative;top: 1524px;
 }
 h6{
-  position: relative;top: 1496px;
+  position: relative;top: 2000px;
   background-color: red;
 }
 .bar1{
@@ -271,19 +271,19 @@ h6{
   width: 240px;
 }
 .figure1,.figure2,.figure3,.figure4 {
-  position: relative;top: 1700px;left: 236px;
+  position: relative;top: 1860px;left: 236px;
   overflow: hidden;
   width: 480px;
   height: 240px;
 }
 .figure2{
-  position: relative;top: 1442px;left: 838px;
+  position: relative;top: 1602px;left: 838px;
 }
 .figure3{
-  position: relative;top: 1774px; left:32px;
+  position: relative;top: 1934px; left:32px;
 }
 .figure4{
-  position: relative;top: 1516px; left:634px;
+  position: relative;top: 1676px; left:634px;
 }
 .figcaption1,.figcaption2,.figcaption3,.figcaption4 {
   position: absolute;
