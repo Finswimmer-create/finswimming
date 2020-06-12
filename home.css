@@ -145,10 +145,10 @@ h3{
   position: absolute;top: 3894px; left: 796px;
 }
 .more2{
-  position: absolute;top: 3950px; left: 796px;
+  position: absolute;top: 3966px; left: 796px;
 }
 .more3{
-  position: absolute;top: 4000px; left: 796px;
+  position: absolute;top: 4038px; left: 796px;
 }
 .circle1,.circle2,.circle3{
   width: 40px;
@@ -159,11 +159,11 @@ h3{
 }
 .circle2{
   background-color: #68D92D;
-  position: absolute;top:3994px;left:732px;
+  position: absolute;top:4010px;left:732px;
 }
 .circle3{
   background-color: #FF0000;
-  position: absolute;top:4044px;left:732px;
+  position: absolute;top:4082px;left:732px;
 }
 .bar1{
   width: 80px;
