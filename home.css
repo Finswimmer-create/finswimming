@@ -161,7 +161,7 @@ h5{
 .bar6,.bar7,.bar8,.bar9{
   width: 416px;
   height: 4px;
-  position: relative;top: -312px;left: 80px;
+  position: relative;top: -300px;left: 80px;
   background-color: white;
 }
 .bar7{
@@ -241,7 +241,7 @@ h5{
   font-weight: 700;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
-  position: relative;top: -288px;left: 80px;
+  position: relative;top: -268px;left: 80px;
   width: 416px;
   background-color: red;
 }
@@ -251,7 +251,7 @@ h5{
   font-family: "Hiragino Sans";
   color: #D6E1F4;
   width: 330px;
-  position: relative;top: -326px;left: 80px;
+  position: relative;top: -306px;left: 80px;
   background-color: red;
 }
 .tritext3{
