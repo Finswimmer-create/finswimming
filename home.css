@@ -120,7 +120,7 @@ h3{
   text-align: center;
   margin-bottom: 40px;
 }
-h4,h5,h6{
+h4,h5,h6,{
   font-size: 72px;
   font-family: Impact;
   letter-spacing: 0px;
@@ -317,4 +317,53 @@ h6{
   opacity: 1;
   top: 0px;
   left: 0px;
+}
+
+.container{
+	margin: 20px;
+  width: 442px;
+	height: auto;
+  background-color: #000055;
+  float:left;
+}
+table{
+  margin: 25px;
+	width: 392px;
+  height: auto;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+}
+
+td,tr,th{
+  border: 0px;
+  background-color: #000055;
+  color: white;
+  padding: 1px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: top;
+  height: 50px;
+  width:56px;
+}
+th{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container p {
+  font-size: 12px;
+}
+.container .calendermonth{
+  font-size: 40px;
+  color: #D6E1F4
+}
+.container .poti1{
+  color: #3399FF;
+  font-weight: 700;
+}
+.container .poti2{
+  color: #33FF00;
+}
+.container .poti3{
+  color: #FF0000;
 }
