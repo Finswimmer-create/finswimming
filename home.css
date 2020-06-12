@@ -451,6 +451,7 @@ th{
   display: table-cell;
   padding-left: 20px;
   vertical-align: middle;
+  position: relative;top:50px;
 }
 
 /* 時間の設定 */
