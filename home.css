@@ -314,7 +314,7 @@ h3{
 
 .container{
 	margin: 20px;
-  width: 442px;
+  width: 450px;
 	height: auto;
   background-color: #000055;
   float:left;
@@ -322,10 +322,10 @@ h3{
 }
 table{
   margin: 25px;
-	width: 392px;
+	width: 400px;
   height: auto;
-  border-top: 10px solid white;
-  border-bottom: 10px solid white;
+  border-top: 8px solid #D6E1F4;
+  border-bottom: 8px solid #D6E1F4;
 }
 
 td,tr,th{
