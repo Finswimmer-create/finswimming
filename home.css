@@ -29,7 +29,7 @@
   width: 84px;
   position: relative;
 }
-#menu1,#menu2{
+#menu1{
   list-style-type: none;
   width: 700px;
   height: 80px;
@@ -39,9 +39,15 @@
   position:absolute;top: 0px;left: 626px;
 }
 #menu2{
+  list-style-type: none;
+  width: 700px;
+  height: 80px;
+  margin: 20px;
+  padding: 0;
+  background-color: rgba (0,0,255,0);
   position: absolute;top: 5100px;
 }
-#menu1,#menu2 li{
+#menu1 li{
   position: relative;
   width: 100px;
   float: left;
@@ -49,8 +55,15 @@
   padding: 0;
   text-align: center;
 }
-
-#menu1,#menu2 li a{
+#menu2 li{
+  position: relative;
+  width: 100px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#menu1 li a{
   display: block;
   margin: 0;
   padding: 8px 0;
@@ -60,16 +73,33 @@
   line-height: 1;
   text-decoration: none;
 }
-#menu1,#menu2 li ul{
+#menu2 li a {
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+  color: #fff;
+  font-size: 20px;
+  font-family: impact;
+  line-height: 1;
+  text-decoration: none;
+}
+#menu1 li ul{
   list-style: none;
   position: absolute;
   top: 100%;
   left: 0;
   margin: 0;
-    padding: 0;
+  padding: 0;
 }
-
-#menu1,#menu2 li ul li{
+#menu2 li ul{
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+#menu1 li ul li{
   overflow: hidden;
   width: 100px;
   height: 0;
@@ -80,25 +110,49 @@
   -ms-transition: .2s;
   transition: .2s;
 }
-#menu1,#menu2 li ul li a{
+#menu2 li ul li{
+  overflow: hidden;
+  width: 100px;
+  height: 0;
+  color: #fff;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  transition: .2s;
+}
+#menu1 li ul li a{
   padding: 12px 4px;
   background: #1a5293;
   text-align: center;
   font-size: 16px;
   font-weight: normal;
 }
-
-#menu1,#menu2 li:hover > a{
+#menu2 li ul li a{
+  padding: 12px 4px;
+  background: #1a5293;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+#menu1 li:hover > a{
   background: #1a5293;
   color: #e0dc62;
 }
-
-#menu1,#menu2 li:hover ul li{
+#menu2 li:hover > a{
+  background: #1a5293;
+  color: #e0dc62;
+}
+#menu1 li:hover ul li{
   overflow: visible;
   height: 32px;
   border-bottom: 1px solid #fff;
 }
-
+#menu2 li:hover ul li{
+  overflow: visible;
+  height: 32px;
+  border-bottom: 1px solid #fff;
+}
 body{
   width: 1366px;
   overflow-x: hidden;
@@ -495,7 +549,7 @@ th{
   padding: 0 2px;
   text-align: center;
   width: 50px;
-  position: relative;top:-4px;left: 16px;
+  position: relative;top:-3px;left: 16px;
 }
 .msr_newslist01 li .cat02 {
   color: #FF0000;
