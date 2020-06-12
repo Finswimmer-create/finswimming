@@ -349,15 +349,16 @@ th{
 }
 .container .calendermonth{
   font-size: 40px;
-  color: #D6E1F4
+  color: #D6E1F4;
+  text-align: center;
 }
 .container .poti1{
-  color: #3399FF;
+  color: #6AABF7;
   font-weight: 700;
 }
 .container .poti2{
-  color: #33FF00;
+  color: #68D92D;
 }
 .container .poti3{
-  color: #FF0000;
+  color: #CE1901;
 }
