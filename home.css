@@ -267,7 +267,7 @@ h3{
   width: 240px;
 }
 .figure1,.figure2,.figure3,.figure4 {
-  position: absolute;top: 2348px;left: 284px;
+  position: absolute;top: 2348px;left: 0px;
   overflow: hidden;
   width: 480px;
   height: 240px;
