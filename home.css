@@ -45,7 +45,7 @@
   margin: 20px;
   padding: 0;
   background-color: rgba (0,0,255,0);
-  position: absolute;top: 4894px; left: 316px;
+  position: absolute;top: 4894px; left: 314px;
 }
 #menu1 li{
   position: relative;
@@ -125,14 +125,14 @@
   padding: 12px 4px;
   background: #1a5293;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
 }
 #menu2 li ul li a{
   padding: 12px 4px;
   background: #1a5293;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
 }
 #menu1 li:hover > a{
@@ -560,4 +560,11 @@ th{
 
 .msr_newslist01 p {
   color: white;
+}
+
+.mailadd{
+  font-size: 24px;
+  font-family: impact;
+  color: #D6E1F4;
+  position: absolute;top:4944px;left: 554px;
 }
