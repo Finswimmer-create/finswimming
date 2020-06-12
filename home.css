@@ -45,7 +45,7 @@
   margin: 20px;
   padding: 0;
   background-color: rgba (0,0,255,0);
-  position: absolute;top: 4894px; left: 314px;
+  position: absolute;top: 5074px; left: 314px;
 }
 #menu1 li{
   position: relative;
@@ -566,6 +566,6 @@ th{
   font-size: 24px;
   font-family: impact;
   color: #D6E1F4;
-  position: absolute;top:4932px;left: 554px;
+  position: absolute;top:5136px;left: 554px;
   background-color: red;
 }
