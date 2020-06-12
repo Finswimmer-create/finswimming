@@ -125,7 +125,7 @@ h3{
   color: #D6E1F4;
   font-family: impact;
   background-color: red;
-  position: absolute;top: 1340px;left: 375px;
+  position: relative;top: 1340px;
   text-align: center;
 }
 .bar1{
