@@ -45,7 +45,7 @@
   margin: 20px;
   padding: 0;
   background-color: rgba (0,0,255,0);
-  position: absolute;top: 5100px;
+  position: absolute;top: 5100px; left: -28px;
 }
 #menu1 li{
   position: relative;
