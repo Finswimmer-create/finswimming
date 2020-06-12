@@ -267,19 +267,19 @@ h3{
   width: 240px;
 }
 .figure1,.figure2,.figure3,.figure4 {
-  position: absolute;top: 2348px;left: 236px;
+  position: absolute;top: 2348px;left: 284px;
   overflow: hidden;
   width: 480px;
   height: 240px;
 }
 .figure2{
-  position: relative;top: 1602px;left: 838px;
+  position: absolute;top: 2348px;left: 886px;
 }
 .figure3{
-  position: relative;top: 1934px; left:32px;
+  position: absolute;top: 2936px;left: 80px;
 }
 .figure4{
-  position: relative;top: 1676px; left:634px;
+  position: absolute;top: 2936px;left: 682px;
 }
 .figcaption1,.figcaption2,.figcaption3,.figcaption4 {
   position: absolute;
