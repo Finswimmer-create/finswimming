@@ -216,11 +216,14 @@ h3{
 .bar11{
   position: absolute;top: 4388px;
 }
-.bar12{
+.bar12,.bar13{
   width: 720px;
   height: 2px;
   position: absolute;top:4462px;left: 320px;
   background-color: #D6E1F4;
+}
+.bar13{
+  position: absolute;top: 4782px;left: 320px;
 }
 .hbox1{
   width: 683px;
