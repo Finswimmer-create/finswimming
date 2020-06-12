@@ -208,13 +208,19 @@ h3{
   width: 320px;
 }
 .bar9{
-  width: 240px;
+  width: 220px;
 }
 .bar10{
   position: absolute;top:3634px;
 }
 .bar11{
   position: absolute;top: 4388px;
+}
+.bar12{
+  width: 600px;
+  height: 2px;
+  position: absolute;top:4500px;
+  background-color: #D6E1F4;
 }
 .hbox1{
   width: 683px;
