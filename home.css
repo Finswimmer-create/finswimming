@@ -417,13 +417,13 @@ th{
 
 .msr_newslist01 {
   width: 720px;
-  position: absolute;top: 4260px;left: 410px;
+  position: absolute;top: 4380px;left: 324px;
 }
 .msr_newslist01 li {
   border-bottom: 4px solid white;
   border-top: 4px solid white;
   font-size: 24px;
-  color: rgba (0,0,255,0);
+  color: #000033;
   width: 720px;
 }
 .msr_newslist01 li a {
