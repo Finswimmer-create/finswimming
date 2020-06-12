@@ -417,7 +417,7 @@ th{
 
 .msr_newslist01 {
   width: 720px;
-  position: absolute;top: 4380px;left: 324px;
+  position: absolute;top: 4380px;left: 304px;
 }
 .msr_newslist01 li {
   border-bottom: 4px solid white;
@@ -425,6 +425,7 @@ th{
   font-size: 24px;
   color: #000033;
   width: 720px;
+  height: 120px;
 }
 .msr_newslist01 li a {
   box-sizing: border-box;
