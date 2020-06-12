@@ -417,7 +417,7 @@ th{
 
 .msr_newslist01 {
   width: 720px;
-  position: absolute;top: 4380px;left: 276px;
+  position: absolute;top: 4380px;left: 278px;
 }
 .msr_newslist01 li {
   border-bottom: 4px solid white;
@@ -476,7 +476,7 @@ th{
   padding: 0 2px;
   text-align: center;
   width: 50px;
-  position: relative;top:-4px;left: 24px;
+  position: relative;top:-4px;left: 16px;
 }
 .msr_newslist01 li .cat02 {
   color: #FF0000;
