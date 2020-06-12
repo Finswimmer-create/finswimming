@@ -120,16 +120,19 @@ h3{
   text-align: center;
   margin-bottom: 40px;
 }
-.title1,.title2{
+.title1,.title2,.title3{
   font-size: 72px;
   color: #D6E1F4;
   font-family: impact;
   background-color: red;
-  position: relative;top: 973px;
+  position: relative;top: 974px;
   text-align: center;
 }
 .title2{
   position: relative;top: 1594px;
+}
+.title3{
+  position: relative;top: 1600px;
 }
 .bar1{
   width: 80px;
