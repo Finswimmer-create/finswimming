@@ -208,7 +208,7 @@ h3{
   font-weight: 700;
 }
 
-.button1 {
+.button1,.button2 {
   border: 1px solid #15aeec;
   background-color: #00CED1;
   background-image: -webkit-linear-gradient(top, #00CED1, #2cafe3);
@@ -227,17 +227,20 @@ h3{
   width: 118px;
   hight:48px;
 }
-.button1:hover {
+.button1:hover,.button2:hover {
   border:1px solid #1090c3;
   background-color: #1ab0ec;
   background-image: -webkit-linear-gradient(top, #1ab0ec, #1a92c2);
   background-image: linear-gradient(to bottom, #1ab0ec, #1a92c2);
 }
-.button1:active {
+.button1:active,.button2:hover {
   background: #1a92c2;
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, .2);
   color: #1679a1;
   text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+}
+.button2{
+  position: absolute;top: 3936px;left: 990px;
 }
 .triangle1,.triangle2,.triangle3,.triangle4{
   width: 0;
