@@ -132,7 +132,13 @@ h3{
   position: relative;top: 1594px;
 }
 .title3{
-  position: relative;top: 1600px;
+  position: relative;top: 2700px;
+}
+.training{
+  font-size: 40px;
+  color: #D6E1F4;
+  font-family: impact;
+  position: absolute;top: 3000px; left: 800px;
 }
 .bar1{
   width: 80px;
@@ -364,7 +370,9 @@ th{
 }
 .container .poti2{
   color: #68D92D;
+  font-weight: 700;
 }
 .container .poti3{
   color: #FF0000;
+  font-weight: 700;
 }
