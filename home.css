@@ -198,7 +198,7 @@ h3{
 .bar6,.bar7,.bar8,.bar9,{
   width: 416px;
   height: 4px;
-  position: relative;top: 0px;left: 80px;
+  position: absolute;top: 0px;left: 80px;
   background-color: #D6E1F4;
 }
 .bar7{
@@ -214,7 +214,7 @@ h3{
   position: absolute;top:3634px;
 }
 .bar11{
-  position: absolute;top: 4382px;
+  position: absolute;top: 4390px;
 }
 .hbox1{
   width: 683px;
