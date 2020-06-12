@@ -120,7 +120,7 @@ h3{
   text-align: center;
   margin-bottom: 40px;
 }
-h4,h5{
+h4,h5,h6{
   font-size: 72px;
   font-family: Impact;
   letter-spacing: 0px;
@@ -130,6 +130,9 @@ h4,h5{
 }
 h5{
   position: relative;top: 1524px;
+}
+h6{
+  position: relative;
 }
 .bar1{
   width: 80px;
