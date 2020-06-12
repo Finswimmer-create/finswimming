@@ -463,6 +463,7 @@ th{
   width: 90px;
   color: white;
   font-family: impact;
+  font-weight: normal;
 }
 
 /* カテゴリの設定 */
@@ -475,7 +476,7 @@ th{
   padding: 0 2px;
   text-align: center;
   width: 50px;
-  position: relative;top:-10px;left: 30px;
+  position: relative;top:-4px;left: 24px;
 }
 .msr_newslist01 li .cat02 {
   color: #FF0000;
