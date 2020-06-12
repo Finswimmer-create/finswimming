@@ -195,26 +195,15 @@ h3{
 .bar5{
     position:absolute;top: 2276px;left: 653px;
 }
-.bar6,.bar7,.bar8,.bar9,{
+.bar7{
   width: 416px;
   height: 4px;
-  position: absolute;top: 0px;left: 80px;
-  background-color: #D6E1F4;
-}
-.bar7{
-  width: 256px;
-}
-.bar8{
-  width:320px;
-}
-.bar9{
-  width: 240px;
 }
 .bar10{
   position: absolute;top:3634px;
 }
 .bar11{
-  position: absolute;top: 4390px;
+  position: absolute;top: 4388px;
 }
 .hbox1{
   width: 683px;
