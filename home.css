@@ -453,7 +453,7 @@ th{
   display: table-cell;
   padding-left: 0px;
   vertical-align: middle;
-  position: relative;left: -145px;top: 20px;
+  position: relative;left: -144px;top: 20px;
 }
 
 /* 時間の設定 */
@@ -482,7 +482,7 @@ th{
   color: #FF0000;
 }
 .msr_newslist01 li .cat03 {
-  color: #3399FF;
+  color: #6AABF7;
 }
 
 .msr_newslist01 p {
