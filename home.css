@@ -437,7 +437,8 @@ h3{
   font-family: impact;
   color: #D6E1F4;
   background-color: red;
-  position: relative;top: 56px;
+  position: relative;top: 16px;
+  text-align: center;
 }
 .figure1:hover .figcaption1 {
   opacity: 1;
