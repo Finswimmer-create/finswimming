@@ -82,3 +82,9 @@ body{
   height: 32px;
   border-bottom: 1px solid #fff;
 }
+.title1{
+  font-size: 96px;
+  font-family: impact;
+  color: #D6E1F4;
+  position: absolute;top: 150px;left: 579px;
+}
