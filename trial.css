@@ -1,0 +1,14 @@
+body{
+  width: 1366px;
+  overflow-x: hidden;
+  background-color: #04111C;
+  background-image: url("img/home11.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.imgt1{
+  width: 1366px;
+  height: 400px;
+  object-fit: cover;
+}
