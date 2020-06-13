@@ -134,7 +134,7 @@
 }
 #menu2 li ul li{
   overflow: hidden;
-  width: 100px;
+  width: 200px;
   height: 0;
   color: #D6E1F4;
   -moz-transition: .2s;
