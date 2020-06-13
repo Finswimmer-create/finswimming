@@ -10,6 +10,7 @@ body{
 .imgt1{
   width: 1366px;
   height: 400px;
+  filter: blur(6px);
   object-fit: cover;
   position: absolute;top: 0px;left: 0px;
 }
@@ -92,12 +93,13 @@ body{
   font-size: 96px;
   font-family: impact;
   color: #D6E1F4;
-  position: absolute;top: 0px;left: 579px;
+  position: absolute;top: -100px;left: 579px;
 }
 .title2{
   font-size: 32px;
   color: #D6E1F4;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: absolute;top: 0px;left: 477px;
+  position: absolute;top: 50px;left: 477px;
+  background-color: red;
 }
