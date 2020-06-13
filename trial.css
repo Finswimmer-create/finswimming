@@ -14,6 +14,13 @@ body{
   filter: blur(3px);
   position: absolute;top: 0px;left: 0px;
 }
+.cover{
+  width: 1366px;
+  height: 400px;
+  color: black;
+  position: absolute;top: 0px;left: 0px;
+  opacity: 0.5;
+}
 #menu1{
   list-style-type: none;
   width: 700px;
