@@ -93,7 +93,7 @@ body{
   font-size: 96px;
   font-family: impact;
   color: white;
-  position: absolute;top: -96px;left: 579px;
+  position: absolute;top: -83px;left: 579px;
   background-color: blue;
 }
 .title2{
@@ -101,6 +101,6 @@ body{
   color: #D6E1F4;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: absolute;top: 84px;left: 477px;
+  position: absolute;top: 113px;left: 477px;
   background-color: red;
 }
