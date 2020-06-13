@@ -18,7 +18,13 @@
   width: 480px;
   height: 240px;
 }
-
+.imgh8,.imgh9{
+  width: 56px;
+  position: relative;top: 66px;left: 191px;
+}
+.imgh9{
+  position: relative;top: 66px;left: 177px;
+}
 .imgh10,.imgh12,.imgh13{
   width: 72px;
   position:relative;top: 66px;left: 204px;
@@ -429,7 +435,9 @@ h3{
 .figcaption1 p {
   font-size: 40px;
   font-family: impact;
-  position: relative;
+  color: #D6E1F4;
+  background-color: red;
+  position: relative;top: -40px;
 }
 .figure1:hover .figcaption1 {
   opacity: 1;
