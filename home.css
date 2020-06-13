@@ -432,7 +432,8 @@ h3{
   transition: .3s;
   opacity: 0;
 }
-.figcaption1 p {
+.figcaption1 p,.figcaption2 p,
+.figcaption3 p,.figcaption4 p {
   font-size: 40px;
   font-family: impact;
   color: #D6E1F4;
