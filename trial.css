@@ -92,14 +92,15 @@ body{
 .title1{
   font-size: 96px;
   font-family: impact;
-  color: #D6E1F4;
-  position: absolute;top: -100px;left: 579px;
+  color: white;
+  position: absolute;top: -112px;left: 579px;
+  background-color: blue;
 }
 .title2{
   font-size: 32px;
   color: #D6E1F4;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: absolute;top: 50px;left: 477px;
+  position: absolute;top: 44px;left: 477px;
   background-color: red;
 }
