@@ -115,7 +115,7 @@
   margin: 0;
   padding: 0;
 }
-.aboutposition li ul{
+.aboutposition li ul li{
   position: absolute;left: -100px;
 }
 #menu1 li ul li{
