@@ -18,16 +18,15 @@
   width: 480px;
   height: 240px;
 }
-.imgh8,.imgh9,.imgh10{
+.imgh8,.imgh9,.imgh10,.imgh12{
   width: 56px;
   position: relative;top: 66px;left: 191px;
 }
 .imgh9{
   position: relative;top: 66px;left: 177px;
 }
-.imgh10{
-  width: 98px;
-  position: relative;
+.imgh10,.imgh12{
+  position:relative;top: 66px;left: 212px;
 }
 .LINE,.insta,.twitter,.YouTube{
   width: 60px;
