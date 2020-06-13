@@ -11,4 +11,5 @@ body{
   width: 1366px;
   height: 400px;
   object-fit: cover;
+  filter: blur(3px);
 }
