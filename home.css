@@ -27,7 +27,13 @@
 }
 .imgh10,.imgh12,.imgh13{
   width: 72px;
-  position:relative;top: 66px;left: 204px;
+  position:relative;top: 58px;left: 204px;
+}
+.imgh12{
+  position:relative;top: 64px;left: 204px;
+}
+.imgh13{
+  position:relative;top: 54px;left: 204px;
 }
 .LINE,.insta,.twitter,.YouTube{
   width: 60px;
