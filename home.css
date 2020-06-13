@@ -442,7 +442,7 @@ h3{
   text-align: center;
 }
 .figcaption2 p,.figcaption3 p,.figcaption4 p{
-  position: relative;bottom: -12px;
+  position: relative;bottom: -10px;
 }
 .figure1:hover .figcaption1 {
   opacity: 1;
