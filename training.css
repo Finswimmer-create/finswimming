@@ -1,3 +1,12 @@
+body{
+  width: 1366px;
+  overflow-x: hidden;
+  background-color: #04111C;
+  background-image: url("img/home11.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .imgh1{
   width: 1366px;
   height: 768px;
@@ -72,4 +81,23 @@
   overflow: visible;
   height: 32px;
   border-bottom: 1px solid #fff;
+}
+.title1{
+  font-size: 96px;
+  font-family: impact;
+  color: white;
+  position: absolute;top: 326px;left: 450px;
+}
+.title2{
+  font-size: 32px;
+  color: #D6E1F4;
+  font-weight: 700;
+  font-family: "Hiragino Sans";
+  position: absolute;top: 459px;left: 478px;
+}
+.bar1{
+  width: 255px;
+  height: 4px;
+  position: absolute;top: 242px;left: 556px;
+  background-color: white;
 }
