@@ -116,7 +116,7 @@
   padding: 0;
 }
 .aboutposition li ul{
-  left: -100px;
+  position: absolute;left: -100px;
 }
 #menu1 li ul li{
   overflow: hidden;
