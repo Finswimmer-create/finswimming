@@ -98,8 +98,8 @@ body{
   background-color: blue;
 }
 .bar1{
-  width: 330px;
+  width: 320px;
   height: 4px;
-  position: absolute;top: 506px;left: 486px;
+  position: absolute;top: 506px;left: 496px;
   background-color: white;
 }
