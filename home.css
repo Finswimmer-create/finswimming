@@ -118,6 +118,9 @@
 .aboutposition li ul li{
   position: absolute;left: -100px;
 }
+.aboutposition li ul{
+  position: absolute;left: -100px;
+}
 #menu1 li ul li{
   overflow: hidden;
   width: 200px;
