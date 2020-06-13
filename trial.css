@@ -42,7 +42,7 @@ body{
   display: block;
   margin: 0;
   padding: 8px 0;
-  color: #D6E1F4;
+  color: white;
   font-size: 20px;
   font-family: impact;
   line-height: 1;
@@ -66,7 +66,7 @@ body{
   overflow: hidden;
   width: 200px;
   height: 0;
-  color: #D6E1F4;
+  color: white;
   -moz-transition: .2s;
   -webkit-transition: .2s;
   -o-transition: .2s;
@@ -93,7 +93,7 @@ body{
   font-size: 96px;
   font-family: impact;
   color: white;
-  position: absolute;top: -112px;left: 579px;
+  position: absolute;top: -108px;left: 579px;
   background-color: blue;
 }
 .title2{
@@ -101,6 +101,6 @@ body{
   color: #D6E1F4;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: absolute;top: 56px;left: 477px;
+  position: absolute;top: 64px;left: 477px;
   background-color: red;
 }
