@@ -86,7 +86,7 @@ body{
   font-size: 96px;
   font-family: impact;
   color: white;
-  position: absolute;top: -90px;left: 490px;
+  position: absolute;top: -98px;left: 510px;
   background-color: red;
 }
 .title2{
@@ -94,7 +94,7 @@ body{
   color: #D6E1F4;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: absolute;top: 86px;left: 508px;
+  position: absolute;top: 86px;left: 528px;
   background-color: blue;
 }
 .bar1{
