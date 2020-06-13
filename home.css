@@ -23,7 +23,7 @@
   position: relative;top: 66px;left: 191px;
 }
 .imgh9{
-  position: relative;top: 66px;left: 177px;
+  position: relative;left: 177px;
 }
 .imgh10,.imgh12,.imgh13{
   width: 72px;
@@ -432,7 +432,11 @@ h3{
   transition: .3s;
   opacity: 0;
 }
-
+.figcaption1 p {
+  font-size: 40px;
+  font-family: impact;
+  position: relative;
+}
 .figure1:hover .figcaption1 {
   opacity: 1;
   top: 4px;
