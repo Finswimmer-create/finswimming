@@ -7,14 +7,19 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
-.imgt1{
+.imgteam1{
   width: 1366px;
   height: 400px;
-  filter: blur(6px);
   object-fit: cover;
   position: absolute;top: 0px;left: 0px;
 }
-
+.cover{
+  width: 1366px;
+  height: 400px;
+  background-color: black;
+  position: absolute;top: 0px;left: 0px;
+  opacity: 0.5;
+}
 #menu1{
   list-style-type: none;
   width: 700px;
@@ -82,25 +87,4 @@ body{
   overflow: visible;
   height: 32px;
   border-bottom: 1px solid #fff;
-}
-.title1{
-  font-size: 96px;
-  font-family: impact;
-  color: white;
-  position: absolute;top: 17px;left: 579px;
-  background-color: blue;
-}
-.title2{
-  font-size: 32px;
-  color: #D6E1F4;
-  font-weight: 700;
-  font-family: "Hiragino Sans";
-  position: absolute;top: 213px;left: 477px;
-  background-color: red;
-}
-.bar1{
-  width: 416px;
-  height: 4px;
-  position: absolute;top: 292px;left: 477px;
-  background-color: white;
 }
