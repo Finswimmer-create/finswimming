@@ -201,6 +201,7 @@ h3{
   position: relative; top:795px;
   text-align: center;
   margin-bottom: 40px;
+  background-color: red;
 }
 .title1,.title2,.title3,.title4{
   font-size: 72px;
@@ -249,7 +250,7 @@ h3{
   width: 80px;
   height: 8px;
   background-color: #D6E1F4;
-  position:absolute;top: 1240px;left: 643px;
+  position:absolute;top: 1140px;left: 643px;
 }
 .bar2{
     width: 40px;
