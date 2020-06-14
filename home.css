@@ -303,7 +303,7 @@ h3{
   width: 720px;
   height: 2px;
   position: absolute;top:4462px;left: 320px;
-  background-color: #D6E1F4;
+  background-color: rgba(0,0,0,0);
 }
 .bar13{
   position: absolute;top: 4788px;left: 320px;
