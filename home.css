@@ -183,7 +183,6 @@
 }
 body{
   width: 1366px;
-  overflow-x: hidden;
   background-color: #04111C;
   background-image: url("img/home11.png");
   background-repeat: no-repeat;
