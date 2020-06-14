@@ -212,8 +212,9 @@ h3{
   font-size: 72px;
   color: #D6E1F4;
   font-family: impact;
-  position: relative;top: 975px;
+  position: absolute;top: 975px;left: 400px;
   text-align: center;
+  background-color: red;
 }
 .title2{
   position: relative;top: 1617px;
