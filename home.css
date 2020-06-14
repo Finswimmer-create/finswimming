@@ -563,7 +563,7 @@ th{
   display: table-cell;
   padding-left: 0px;
   vertical-align: middle;
-  position: absolute;left: 0px;top: 200px;
+  position: relative;left: -144px;top: 20px;
   background-color: red;
 }
 
@@ -575,7 +575,6 @@ th{
   color: #D6E1F4;
   font-family: impact;
   font-weight: normal;
-  position: absolute;top: -4px;
   background-color: blue;
 }
 
@@ -589,7 +588,7 @@ th{
   padding: 0 2px;
   text-align: center;
   width: 50px;
-  position: absolute;top:-1px;left: 16px;
+  position: relative;top:-1px;left: 16px;
 }
 .msr_newslist01 li .cat02 {
   color: #FF0000;
