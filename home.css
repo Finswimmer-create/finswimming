@@ -302,7 +302,7 @@ h3{
   width: 720px;
   height: 2px;
   position: absolute;top:4462px;left: 320px;
-  background-color: rgba(0,0,0,0);
+  background-color: #D6E1F4;
 }
 .bar13{
   position: absolute;top: 4788px;left: 320px;
@@ -529,8 +529,8 @@ th{
   position: absolute;top: 4448px;left: 280px;
 }
 .msr_newslist01 li {
-  border-bottom: 2px solid white;
-  border-top: 2px solid white;
+  border-bottom: 2px solid #D6E1F4;
+  border-top: 2px solid #D6E1F4;
   font-size: 20px;
   font-weight: 700;
   color: #000033;
