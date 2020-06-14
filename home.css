@@ -563,7 +563,7 @@ th{
   display: table-cell;
   padding-left: 0px;
   vertical-align: middle;
-  position: absolute;left: 0px;top: 0px;
+  position: absolute;left: 0px;top: 200px;
   background-color: red;
 }
 
@@ -575,7 +575,7 @@ th{
   color: #D6E1F4;
   font-family: impact;
   font-weight: normal;
-  position: absolute;top: -20px;
+  position: absolute;top: -4px;
   background-color: blue;
 }
 
