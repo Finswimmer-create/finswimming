@@ -1,9 +1,8 @@
 html {
    font-size: 62.5%;
-   width: 1366px;
 }
 body{
-  width: 100%;
+  width: 1366px;
   overflow-x: hidden;
   background-color: #04111C;
   background-image: url("img/home11.png");
