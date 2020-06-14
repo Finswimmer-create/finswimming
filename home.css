@@ -306,7 +306,7 @@ h3{
   background-color: #D6E1F4;
 }
 .bar13{
-  position: absolute;top: 4780px;left: 320px;
+  position: absolute;top: 4792px;left: 320px;
 }
 .hbox1{
   width: 683px;
@@ -564,7 +564,6 @@ th{
   padding: 0px;
   vertical-align: middle;
   position: relative;left: 0px;top: 0px;
-  background-color: red;
 }
 
 /* 時間の設定 */
@@ -575,7 +574,6 @@ th{
   color: #D6E1F4;
   font-family: impact;
   font-weight: normal;
-  background-color: blue;
   position: relative;top: 0px;
 }
 
