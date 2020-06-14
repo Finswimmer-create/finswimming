@@ -563,7 +563,7 @@ th{
   display: table-cell;
   padding: 0px;
   vertical-align: middle;
-  position: relative;left: -4px;top: 10px;
+  position: relative;left: 0px;top: 4px;
   background-color: red;
 }
 
@@ -576,7 +576,7 @@ th{
   font-family: impact;
   font-weight: normal;
   background-color: blue;
-  position: relative;top: 16px;
+  position: relative;top: 8px;
 }
 
 /* カテゴリの設定 */
@@ -589,7 +589,7 @@ th{
   padding: 0 2px;
   text-align: center;
   width: 50px;
-  position: relative;top:-1px;left: 0px;
+  position: relative;top:3px;left: 0px;
 }
 .msr_newslist01 li .cat02 {
   color: #FF0000;
