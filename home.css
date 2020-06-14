@@ -561,7 +561,7 @@ th{
 }
 .msr_newslist01 li p {
   display: table-cell;
-  padding-left: 0px;
+  padding: 0px;
   vertical-align: middle;
   position: relative;left: -144px;top: 20px;
   background-color: red;
