@@ -536,7 +536,7 @@ th{
   font-weight: 700;
   color: #000033;
   width: 720px;
-  height: 96px;
+  height: 80px;
 }
 .msr_newslist01 li a {
   box-sizing: border-box;
@@ -563,7 +563,7 @@ th{
   display: table-cell;
   padding: 0px;
   vertical-align: middle;
-  position: relative;left: -144px;top: 20px;
+  position: relative;left: -44px;top: 20px;
   background-color: red;
 }
 
