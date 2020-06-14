@@ -562,10 +562,7 @@ th{
   display: table-cell;
   padding: 0px;
   vertical-align: middle;
-  position: absolute;left: 0px;top: 0px;
-}
-.list6{
-  position: absolute;top: 250px;
+  position: relative;left: 0px;top: 0px;
 }
 
 /* 時間の設定 */
@@ -576,7 +573,7 @@ th{
   color: #D6E1F4;
   font-family: impact;
   font-weight: normal;
-  position: absolute;top: 0px;
+  position: relative;top: 0px;
 }
 
 /* カテゴリの設定 */
