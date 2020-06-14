@@ -564,6 +564,9 @@ th{
   vertical-align: middle;
   position: absolute;left: 0px;top: 0px;
 }
+.list6{
+  position: absolute;top: 250px;
+}
 
 /* 時間の設定 */
 .msr_newslist01 li time {
