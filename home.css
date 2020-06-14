@@ -391,7 +391,10 @@ h3{
   color: #D6E1F4;
   position: relative;top: -268px;left: 80px;
   width: 416px;
+}
+.tritext1link{
   text-decoration: none;
+  color: #D6E1F4;
 }
 .tritext2,.tritext4,.tritext6,.tritext8 {
   font-size: 20px;
