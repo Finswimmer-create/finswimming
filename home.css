@@ -306,7 +306,7 @@ h3{
   background-color: #D6E1F4;
 }
 .bar13{
-  position: absolute;top: 4800px;left: 320px;
+  position: absolute;top: 4680px;left: 320px;
 }
 .hbox1{
   width: 683px;
@@ -536,7 +536,7 @@ th{
   font-weight: 700;
   color: #000033;
   width: 720px;
-  height: 60px;
+  height: 50px;
 }
 .msr_newslist01 li a {
   box-sizing: border-box;
