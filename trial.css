@@ -1,5 +1,9 @@
+html {
+   font-size: 62.5%;
+   width: 1366px;
+}
 body{
-  width: 1366px;
+  width: 100%;
   overflow-x: hidden;
   background-color: #04111C;
   background-image: url("img/home11.png");
@@ -8,25 +12,25 @@ body{
   background-size: cover;
 }
 .imgt1{
-  width: 1366px;
-  height: 400px;
+  width: 100%;
+  height: 29.282%;
   filter: blur(6px);
   object-fit: cover;
-  position: absolute;top: 0px;left: 0px;
+  position: absolute;top: 0%;left: 0%;
 }
 
 #menu1{
   list-style-type: none;
-  width: 700px;
-  height: 80px;
-  margin: 20px;
+  width: 51.244%;
+  height: 5.856%;
+  margin: 1.464%;
   padding: 0;
   background-color: rgba (0,0,255,0);
-  position:absolute;top: 0px;left: 630px;
+  position:absolute;top: 0%;left: 46.12%;
 }
 #menu1 li{
   position: relative;
-  width: 100px;
+  width: 7.32%;
   float: left;
   margin: 0;
   padding: 0;
@@ -35,9 +39,9 @@ body{
 #menu1 li a{
   display: block;
   margin: 0;
-  padding: 8px 0;
+  padding: 0.585% 0;
   color: white;
-  font-size: 20px;
+  font-size: 2.0rem;
   font-family: impact;
   line-height: 1;
   text-decoration: none;
@@ -51,14 +55,14 @@ body{
   padding: 0;
 }
 .aboutposition li ul li{
-  position: absolute;left: -100px;
+  position: absolute;left: -7.32%;
 }
 .aboutposition li ul{
-  position: absolute;left: -100px;
+  position: absolute;left: -7.32%;
 }
 #menu1 li ul li{
   overflow: hidden;
-  width: 200px;
+  width: 14.641%;
   height: 0;
   color: white;
   -moz-transition: .2s;
@@ -68,10 +72,10 @@ body{
   transition: .2s;
 }
 #menu1 li ul li a{
-  padding: 12px 4px;
+  padding: 0.878% 0.439%;
   background: #1a5293;
   text-align: center;
-  font-size: 20px;
+  font-size: 2.0rem;
   font-weight: normal;
 }
 #menu1 li:hover > a{
@@ -80,25 +84,25 @@ body{
 }
 #menu1 li:hover ul li{
   overflow: visible;
-  height: 32px;
-  border-bottom: 1px solid #fff;
+  height: 2.342%;
+  border-bottom: 0.073% solid #fff;
 }
 .title1{
-  font-size: 96px;
+  font-size: 9.6rem;
   font-family: impact;
   color: white;
-  position: absolute;top: 17px;left: 579px;
+  position: absolute;top: 1.244%;left: 42.386%;
 }
 .title2{
-  font-size: 32px;
+  font-size: 3.2rem;
   color: #D6E1F4;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: absolute;top: 213px;left: 477px;
+  position: absolute;top: 15.592%;left: 34.919%;
 }
 .bar1{
-  width: 416px;
-  height: 4px;
-  position: absolute;top: 292px;left: 477px;
+  width: 30.453%;
+  height: 0.292%;
+  position: absolute;top: 21.376%;left: 34.919%;
   background-color: white;
 }
