@@ -151,24 +151,24 @@
 }
 #menu1 li ul li a{
   padding: 12px 4px;
-  background: #1a5293;
+  background: rgba (0,0,255,0);
   text-align: center;
   font-size: 20px;
   font-weight: normal;
 }
 #menu2 li ul li a{
   padding: 12px 4px;
-  background: #1a5293;
+  background: rgba (0,0,255,0);
   text-align: center;
   font-size: 20px;
   font-weight: normal;
 }
 #menu1 li:hover > a{
-  background: #1a5293;
+  background: rgba (0,0,255,0);
   color: #e0dc62;
 }
 #menu2 li:hover > a{
-  background: #1a5293;
+  background: rgba (0,0,255,0);
   color: #e0dc62;
 }
 #menu1 li:hover ul li{
