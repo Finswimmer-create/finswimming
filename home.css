@@ -132,6 +132,7 @@
   -o-transition: .2s;
   -ms-transition: .2s;
   transition: .2s;
+  position: absolute;
 }
 #menu2 li ul li{
   overflow: hidden;
@@ -147,8 +148,8 @@
 #menu1 li ul li a{
   padding: 12px 4px;
   background: rgba (0,0,255,0);
-  position: absolute;left: -4px;
   font-size: 20px;
+  text-align: left;
   font-weight: normal;
 }
 #menu2 li ul li a{
