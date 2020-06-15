@@ -27,7 +27,7 @@ body{
   margin: 20px;
   padding: 0;
   background-color: rgba (0,0,255,0);
-  position:absolute;top: 300px;left: 333px;
+  position:absolute;top: 360px;left: 333px;
 }
 #menu1 li{
   position: relative;
@@ -86,18 +86,18 @@ body{
   font-size: 96px;
   font-family: impact;
   color: white;
-  position: absolute;top: -33px;left: 582px;
+  position: absolute;top: 27px;left: 552px;
 }
 .title2{
   font-size: 32px;
   color: white;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: absolute;top: 163px;left: 556px;
+  position: absolute;top: 223px;left: 556px;
 }
 .bar1{
-  width: 255px;
+  width: 310px;
   height: 4px;
-  position: absolute;top: 242px;left: 556px;
+  position: absolute;top: 302px;left: 556px;
   background-color: white;
 }
