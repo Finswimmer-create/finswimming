@@ -35,7 +35,7 @@ body{
   float: left;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 #menu1 li a{
   display: block;
@@ -55,15 +55,9 @@ body{
   margin: 0;
   padding: 0;
 }
-.aboutposition li ul li{
-  position: absolute;left: -100px;
-}
-.aboutposition li ul{
-  position: absolute;left: -100px;
-}
 #menu1 li ul li{
   overflow: hidden;
-  width: 200px;
+  width: 100px;
   height: 0;
   color: white;
   -moz-transition: .2s;
@@ -71,22 +65,22 @@ body{
   -o-transition: .2s;
   -ms-transition: .2s;
   transition: .2s;
+  position: absolute;left: -4px;
 }
 #menu1 li ul li a{
   padding: 12px 4px;
-  background: #1a5293;
-  text-align: center;
+  background: rgba(0,0,0,0);
+  text-align: left;
   font-size: 20px;
   font-weight: normal;
 }
 #menu1 li:hover > a{
-  background: #1a5293;
+  background: rgba(0,0,0,0);
   color: #e0dc62;
 }
 #menu1 li:hover ul li{
   overflow: visible;
   height: 32px;
-  border-bottom: 1px solid #fff;
 }
 .title1{
   font-size: 96px;
@@ -96,7 +90,7 @@ body{
 }
 .title2{
   font-size: 32px;
-  color: #D6E1F4;
+  color: white;
   font-weight: 700;
   font-family: "Hiragino Sans";
   position: absolute;top: 163px;left: 556px;
