@@ -35,7 +35,7 @@ body{
   float: left;
   margin: 0;
   padding: 0;
-  text-align: left;
+  text-align: center;
 }
 #menu1 li a{
   display: block;
@@ -65,7 +65,7 @@ body{
   -o-transition: .2s;
   -ms-transition: .2s;
   transition: .2s;
-  position: relative;left: -4px;
+  position: relative;left: 8px;
 }
 #menu1 li ul li a{
   padding: 12px 4px;
