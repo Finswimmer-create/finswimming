@@ -132,7 +132,7 @@
   -o-transition: .2s;
   -ms-transition: .2s;
   transition: .2s;
-  position: absolute;left: -8px;
+  position: relative;left: -4px;
 }
 #menu2 li ul li{
   overflow: hidden;
