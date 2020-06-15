@@ -100,10 +100,10 @@ body{
   color: white;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: absolute;top: 163px;left: 556px;
+  position: absolute;top: 163px;left: 456px;
 }
 .bar1{
-  width: 255px;
+  width: 420px;
   height: 4px;
   position: absolute;top: 242px;left: 556px;
   background-color: white;
