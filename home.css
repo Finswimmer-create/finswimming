@@ -75,7 +75,7 @@
   float: left;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 #menu2 li{
   position: relative;
@@ -152,7 +152,7 @@
 #menu1 li ul li a{
   padding: 12px 4px;
   background: rgba (0,0,255,0);
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   font-weight: normal;
 }
@@ -174,12 +174,12 @@
 #menu1 li:hover ul li{
   overflow: visible;
   height: 32px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgba (0,0,255,0);
 }
 #menu2 li:hover ul li{
   overflow: visible;
   height: 32px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgba (0,0,255,0);
 }
 body{
   width: 1366px;
