@@ -83,7 +83,7 @@ body{
 }
 #menu1 li:hover > a{
   background: rgba(0,0,0,0);
-  color: #e0dc62;
+  color: #CCCC00;
 }
 #menu1 li:hover ul li{
   overflow: visible;
