@@ -83,7 +83,7 @@ body{
 }
 #menu1 li:hover > a{
   background: rgba(0,0,0,0);
-  color: #CCCC00;
+  color: #e0dc62;
 }
 #menu1 li:hover ul li{
   overflow: visible;
@@ -100,11 +100,11 @@ body{
   color: white;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: absolute;top: 163px;left: 456px;
+  position: absolute;top: 163px;left: 486px;
 }
 .bar1{
   width: 420px;
   height: 4px;
-  position: absolute;top: 242px;left: 556px;
+  position: absolute;top: 242px;left: 486px;
   background-color: white;
 }
