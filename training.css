@@ -7,12 +7,18 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
-.imgh1{
+.imgteam1{
   width: 1366px;
-  height: 768px;
+  height: 400px;
   object-fit: cover;
   position: absolute;top: 0px;left: 0px;
-  filter: blur(5px);
+}
+.cover{
+  width: 1366px;
+  height: 400px;
+  background-color: black;
+  position: absolute;top: 0px;left: 0px;
+  opacity: 0.5;
 }
 #menu1{
   list-style-type: none;
@@ -21,7 +27,7 @@ body{
   margin: 20px;
   padding: 0;
   background-color: rgba (0,0,255,0);
-  position:absolute;top: 0px;left: 630px;
+  position:absolute;top: 300px;left: 333px;
 }
 #menu1 li{
   position: relative;
@@ -29,7 +35,7 @@ body{
   float: left;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 #menu1 li a{
   display: block;
@@ -49,15 +55,9 @@ body{
   margin: 0;
   padding: 0;
 }
-.aboutposition li ul li{
-  position: absolute;left: -100px;
-}
-.aboutposition li ul{
-  position: absolute;left: -100px;
-}
 #menu1 li ul li{
   overflow: hidden;
-  width: 200px;
+  width: 100px;
   height: 0;
   color: white;
   -moz-transition: .2s;
@@ -65,39 +65,39 @@ body{
   -o-transition: .2s;
   -ms-transition: .2s;
   transition: .2s;
+  position: relative;left: -4px;
 }
 #menu1 li ul li a{
   padding: 12px 4px;
-  background: #1a5293;
-  text-align: center;
+  background: rgba(0,0,0,0);
+  text-align: left;
   font-size: 20px;
   font-weight: normal;
 }
 #menu1 li:hover > a{
-  background: #1a5293;
+  background: rgba(0,0,0,0);
   color: #e0dc62;
 }
 #menu1 li:hover ul li{
   overflow: visible;
   height: 32px;
-  border-bottom: 1px solid #fff;
 }
 .title1{
   font-size: 96px;
   font-family: impact;
   color: white;
-  position: absolute;top: 228px;left: 504px;
+  position: absolute;top: -33px;left: 582px;
 }
 .title2{
   font-size: 32px;
-  color: #D6E1F4;
+  color: white;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: absolute;top: 424px;left: 524px;
+  position: absolute;top: 163px;left: 556px;
 }
 .bar1{
-  width: 320px;
+  width: 255px;
   height: 4px;
-  position: absolute;top: 506px;left: 524px;
+  position: absolute;top: 242px;left: 556px;
   background-color: white;
 }
