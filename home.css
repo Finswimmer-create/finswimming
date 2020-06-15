@@ -174,12 +174,12 @@
 #menu1 li:hover ul li{
   overflow: visible;
   height: 32px;
-  border-bottom: 1px solid rgba (0,0,255,0);
+  border-bottom: 1px solid white;
 }
 #menu2 li:hover ul li{
   overflow: visible;
   height: 32px;
-  border-bottom: 1px solid rgba (0,0,255,0);
+  border-bottom: 1px solid white;
 }
 body{
   width: 1366px;
