@@ -65,7 +65,7 @@ body{
   -o-transition: .2s;
   -ms-transition: .2s;
   transition: .2s;
-  position: absolute;left: -4px;
+  position: relative;left: -4px;
 }
 #menu1 li ul li a{
   padding: 12px 4px;
