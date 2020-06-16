@@ -89,7 +89,6 @@ body{
   color: white;
   position: relative;top: 63px;
   text-align: center;
-  background-color: red;
 }
 .title2{
   font-size: 32px;
@@ -98,7 +97,6 @@ body{
   font-family: "Hiragino Sans";
   position: relative;top: -24px;
   text-align: center;
-  background-color: blue;
 }
 .bar1{
   width: 416px;
