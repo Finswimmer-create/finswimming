@@ -109,7 +109,7 @@ body{
   color: #D6E1F4;
   font-family: impact;
   text-align: center;
-  position: relative;top: 316px;
+  position: relative;top: 496px;
   background-color: red;
 }
 .bar1{
@@ -189,7 +189,7 @@ body{
   border-top: 4px solid #D6E1F4;
   width: 846px;
   margin: 0 auto;
-  position: relative;top: 400px;
+  position: relative;top: 600px;
 }
 .cp_qa .cp_actab {
   position: relative;
