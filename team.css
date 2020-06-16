@@ -204,7 +204,9 @@ body{
 }
 /* 質問 */
 .cp_qa .cp_actab label {
-  font-weight: bold;
+  font-weight: 700;
+  font-family: "Hiragino Sans";
+  font-size: 28px;
   line-height: 1.6;
   position: relative;
   display: block;
