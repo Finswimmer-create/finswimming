@@ -104,7 +104,19 @@ body{
   margin: 0 auto;
   background-color: white;
 }
-
+.box1{
+  width: 980px;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #3A1581;
+}
+.imgh7{
+  width: 490px;
+  height: 300px;
+  object-fit: cover;
+  position: relative;
+}
 .cp_qa *, .cp_qa *:after, .cp_qa *:before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
