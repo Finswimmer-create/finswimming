@@ -136,6 +136,7 @@ body{
 }
 .box2-text1{
   width: 450px;
+  position: relative;top: -544px;left:17px;
 }
 .box1-text2,.box1-text3,.box2-text2,.box2-text3{
   color: #D6E1F4;
