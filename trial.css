@@ -9,24 +9,18 @@ body{
 }
 .imgteam1{
   width: 1366px;
-  height: 400px;
+  height: 500px;
   object-fit: cover;
   position: absolute;top: 0px;left: 0px;
 }
 .cover{
   width: 1366px;
-  height: 400px;
+  height: 500px;
   background-color: black;
   position: absolute;top: 0px;left: 0px;
   opacity: 0.5;
 }
-.cover2{
-  width: 1366px;
-  height: 40px;
-  background-color: #00CCCC;
-  opacity: 0.5;
-  position: absolute;top: 360px;left: 0px;
-}
+
 #menu1{
   list-style-type: none;
   width: 700px;
@@ -34,7 +28,7 @@ body{
   margin: 20px;
   padding: 0;
   background-color: rgba (0,0,255,0);
-  position:absolute;top: 344px;left: 333px;
+  position:absolute;top: 0px;left: 600px;
 }
 #menu1 li{
   position: relative;
@@ -93,17 +87,18 @@ body{
   font-size: 96px;
   font-family: impact;
   color: white;
-  position: absolute;top: -33px;left: 582px;
+  position: absolute;top: 0px;left: 579px;
+  background-color: red;
 }
 .title2{
   font-size: 32px;
   color: white;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: absolute;top: 163px;left: 486px;
+  position: absolute;top: 163px;left: 477px;
 }
 .bar1{
-  width: 420px;
+  width: 412px;
   height: 4px;
   position: absolute;top: 242px;left: 486px;
   background-color: white;
