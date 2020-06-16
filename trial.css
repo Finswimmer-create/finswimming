@@ -103,6 +103,7 @@ body{
 .bar1{
   width: 416px;
   height: 4px;
-  position: relative;top: 333px;left: 477px;
+  position: absolute;top: 333px;
+  margin: 0 auto;
   background-color: white;
 }
