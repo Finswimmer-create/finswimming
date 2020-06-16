@@ -104,6 +104,14 @@ body{
   text-align: center;
   position: relative;top: -24px;
 }
+.title3{
+  font-size: 72px;
+  color: #D6E1F4;
+  font-family: impact;
+  text-align: center;
+  position: relative;
+  background-color: red;
+}
 .bar1{
   width: 255px;
   height: 4px;
