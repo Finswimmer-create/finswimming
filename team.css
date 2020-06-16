@@ -112,7 +112,7 @@ body{
   background-color: white;
 }
 .bar2{
-  width: 346px;
+  width: 354px;
   height: 4px;
   position: relative;top: -774px;left: 530px;
   background-color: #D6E1F4;
@@ -120,7 +120,7 @@ body{
 .box1{
   width: 980px;
   height: 300px;
-  position: relative;
+  position: relative;top: 100px;
   margin: 0 auto;
   background-color: #3A1581;
 }
@@ -129,7 +129,6 @@ body{
   font-size: 56px;
   font-family: impact;
   position: relative;top: -544px;left: 83px;
-  background-color: red;
   width: 310px;
 }
 .box1-text2,.box1-text3{
@@ -139,7 +138,6 @@ body{
   width: 360px;
   position: relative;top: -746px; left: 530px;
   font-weight: 700;
-  background-color: red;
 }
 .box1-text3{
   font-size: 20px;
