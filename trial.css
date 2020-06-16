@@ -97,11 +97,12 @@ body{
   font-family: "Hiragino Sans";
   position: relative;top: -24px;
   text-align: center;
+  background-color: blue;
 }
 .bar1{
   width: 416px;
   height: 4px;
-  position: relative;top: 333px;
+  position: relative;top: -168px;
   margin: 0 auto;
   background-color: white;
 }
