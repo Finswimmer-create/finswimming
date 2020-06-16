@@ -113,7 +113,7 @@ body{
   border-top: 4px solid #D6E1F4;
   width: 846px;
   margin: 0 auto;
-  position: relative;
+  position: relative;top: 200px;
 }
 .cp_qa .cp_actab {
   position: relative;
@@ -155,7 +155,7 @@ body{
 /* 質問を開いた時の仕様 */
 /* --アイコン */
 .cp_qa .cp_actab input:checked ~ label {
-  color: #00838F;
+  color: #e0dc62;
 }
 /* --答えの高さ */
 .cp_qa .cp_actab input:checked ~ .cp_actab-content {
@@ -175,7 +175,7 @@ body{
   text-align: center;
 }
 .cp_qa .cp_actab input[type=checkbox] + label::after {
-  content: '➤';
+  content: '➕';
 }
 .cp_qa .cp_actab input[type=checkbox]:checked + label::after {
   -webkit-transform: rotateX(180deg);
