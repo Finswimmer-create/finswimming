@@ -28,7 +28,7 @@ body{
   margin: 20px;
   padding: 0;
   background-color: rgba (0,0,255,0);
-  position:absolute;top: 0px;right: 0px;
+  position:absolute;top: 0px;right: 20px;
 }
 #menu1 li{
   position: relative;
@@ -96,7 +96,7 @@ body{
   color: white;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: relative;top: 16px;
+  position: relative;top: -24px;
   text-align: center;
   background-color: blue;
 }
