@@ -13,10 +13,10 @@ body{
   object-fit: cover;
   position: absolute;top: 0px;left: 0px;
 }
-.img-trial1{
+.img-trial2{
   width: 700px;
   height: 350px;
-  position: relative;
+  position: relative;top: 400px;
 }
 .cover{
   width: 100%;
