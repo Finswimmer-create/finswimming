@@ -138,7 +138,8 @@ body{
   border-bottom: 4px solid #D6E1F4;
 }
 .cp_qa .cp_actab label:hover {
-  color: #e0dc62;
+  color: #D6E1F4;
+  background-color: #000088
 }
 /* 答え */
 .cp_qa .cp_actab .cp_actab-content {
@@ -175,7 +176,7 @@ body{
   text-align: center;
 }
 .cp_qa .cp_actab input[type=checkbox] + label::after {
-  content: '➕';
+  content: '▽';
 }
 .cp_qa .cp_actab input[type=checkbox]:checked + label::after {
   -webkit-transform: rotateX(180deg);
