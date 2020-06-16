@@ -102,7 +102,7 @@ body{
 .bar1{
   width: 416px;
   height: 4px;
-  position: relative;top: 0px;
+  position: relative;top: -20px;
   margin: 0 auto;
   background-color: white;
 }
@@ -112,14 +112,14 @@ body{
 	        box-sizing: border-box;
 }
 .cp_qa {
-	border-top: 1px solid #1b2538;
+	border-top: 1px solid #D6E1F4;
 }
 .cp_qa .cp_actab {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
 	margin-bottom: 1px;
-	color: #1b2538;
+	color: #D6E1F4;
 }
 .cp_qa .cp_actab input {
 	position: absolute;
@@ -134,7 +134,7 @@ body{
 	margin: 0 0 0 0;
 	padding: 1em 2em 1em 1em;
 	cursor: pointer;
-	border-bottom: 1px solid #1b2538;
+	border-bottom: 1px solid #D6E1F4;
 }
 .cp_qa .cp_actab label:hover {
 	color: #00838F;
