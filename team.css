@@ -110,6 +110,7 @@ body{
   font-family: impact;
   text-align: center;
   position: relative;top: 496px;
+  background-color: red;
 }
 .bar1{
   width: 255px;
