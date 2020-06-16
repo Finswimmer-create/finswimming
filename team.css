@@ -114,7 +114,7 @@ body{
 .bar2{
   width: 346px;
   height: 4px;
-  position: relative;top: -800px;left: 530px;
+  position: relative;top: -818px;left: 530px;
   background-color: #D6E1F4;
 }
 .box1{
@@ -137,7 +137,7 @@ body{
   font-size: 27px;
   font-family: "Hiragino Sans";
   width: 360px;
-  position: relative;top: -784px; left: 530px;
+  position: relative;top: -786px; left: 530px;
   font-weight: 700;
   background-color: red;
 }
@@ -145,7 +145,7 @@ body{
   font-size: 20px;
   font-weight: 400;
   width: 410px;
-  position: relative;top: -820px; left: 530px;
+  position: relative;top: -838px; left: 530px;
 }
 .imgh7{
   width: 490px;
