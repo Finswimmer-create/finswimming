@@ -127,6 +127,9 @@ body{
   margin: 0 auto;
   background-color: #3A1581;
 }
+.box2{
+  position: relative; top: 308px;
+}
 .box1-text1,.box2-text1{
   color: #D6E1F4;
   font-size: 56px;
@@ -167,7 +170,7 @@ body{
   border-top: 4px solid #D6E1F4;
   width: 846px;
   margin: 0 auto;
-  position: relative;top: 200px;
+  position: relative;top: 400px;
 }
 .cp_qa .cp_actab {
   position: relative;
