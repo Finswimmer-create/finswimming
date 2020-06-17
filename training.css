@@ -1,5 +1,5 @@
 body{
-  width: 1366px;
+  width: 100%;
   overflow-x: hidden;
   background-color: #04111C;
   background-image: url("img/home11.png");
@@ -7,15 +7,24 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
-.imgteam1{
-  width: 1366px;
-  height: 400px;
+.wrap{
+  height: 100%;
+}
+.img-training1{
+  width: 100%;
+  height: 500px;
   object-fit: cover;
   position: absolute;top: 0px;left: 0px;
 }
+.img-training2{
+  width: 51.24%;
+  height: 350px;
+  object-fit: cover;
+  position: absolute;top: 620px;left: 14.12%;
+}
 .cover{
-  width: 1366px;
-  height: 400px;
+  width: 100%;
+  height: 500px;
   background-color: black;
   position: absolute;top: 0px;left: 0px;
   opacity: 0.5;
@@ -86,18 +95,21 @@ body{
   font-size: 96px;
   font-family: impact;
   color: white;
-  position: absolute;top: 15px;left: 528px;
+  text-align: center;
+  position: relative;top: 68px;
 }
 .title2{
   font-size: 32px;
   color: white;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  position: absolute;top: 211px;left: 544px;
+  text-align: center;
+  position: relative;top: -14px;
 }
 .bar1{
   width: 322px;
   height: 4px;
-  position: absolute;top: 290px;left: 544px;
+  position: relative;top: -48px;
+  margin: 0 auto;
   background-color: white;
 }
