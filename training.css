@@ -30,13 +30,18 @@ body{
   width: 360px;
   height: 180px;
   object-fit: cover;
-  position: absolute;top: 2518px;left:20.2%;
+  position: relative;left: 0px;
 }
 .img-training5{
   width: 360px;
   height: 180px;
   object-fit: cover;
-  position: absolute;top: 2518px; right:20.2%;
+  position: relative;right: -90px;
+}
+.img-training6{
+  width: 360px;
+  height: 180px;
+  position: relative;left: 227px;top: 88px;
 }
 .cover{
   width: 100%;
@@ -189,4 +194,10 @@ position: relative;top: 235px;right: 502px;
 }
 .tri-text4{
   position: relative;top: 5px;left: -462px;
+}
+.box1{
+  width:814px;
+  height: 180px;
+  position: relative;top: 2000px;
+  margin: 0 auto;
 }
