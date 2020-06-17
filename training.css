@@ -15,10 +15,16 @@ body{
   position: absolute;top: 0px;left: 0px;
 }
 .img-training2{
-  width: 51.24%;
-  height: auto;
+  width: 700px;
+  height: 350px;
   object-fit: cover;
   position: absolute;top: 620px;left: 14.12%;
+}
+.img-training3{
+  width: 700px;
+  height: 350px;
+  object-fit: cover;
+  position: absolute;top: 1485px;right: 14.12%;
 }
 .cover{
   width: 100%;
@@ -111,18 +117,49 @@ body{
   margin: 0 auto;
   background-color: white;
 }
-.triangle1{
+.triangle1,.triangle3{
   width: 0;
 height: 0;
 border-style: solid;
 border-width: 0 240px 160px 0;
 border-color: transparent #3A1581 transparent transparent;
+position: absolute;top: 970px;right: 14.12%;
 }
-.triangle2{
+.triangle2,.triangle4{
   width: 0;
 height: 0;
 border-style: solid;
 border-width: 160px 0 0 240px;
 border-color: transparent transparent transparent #3A1581;
-
+position: relative;top: 235px;right: 502px;
+}
+.triangle3{
+  position: relative;top: -410px;left: 262px;
+}
+.triangle4{
+  position: absolute;top: 2045px;left: 14.12%;
+}
+.tri-text1,.tri-text3{
+  font-size: 40px;
+  color: #D6E1F4;
+  font-weight: 700;
+  font-family: "Hiragino Sans";
+  width: 330px;
+  position: relative;top: -395px;left: -200px;
+  background-color: red;
+}
+.tri-text2,.tri-text4{
+  font-size: 20px;
+  color: #D6E1F4;
+  font-weight: 400;
+  font-family: "Hiragino Sans";
+  width: 662px;
+  position: relative;top: -440px;left: -200px;
+  background-color: blue;
+}
+.tri-text3{
+  position: relative;top: 45px;left: -462px;
+}
+.tri-text4{
+  position: relative;top: 5px;left: -462px;
 }
