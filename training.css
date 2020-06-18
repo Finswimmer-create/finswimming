@@ -303,23 +303,13 @@ position: relative;top: 235px;right: 502px;
 .box-text3{
   position: absolute;top: 279px;left: 366px;
 }
-.box-text4,.box-text5,.box-text6{
-  font-size: 16px;
-  font-family: "Hiragino Sans";
-  color: #D6E1F4;
-  font-weight: 700;
-  position: absolute;top: 104px;left: 53px;
-}
-.box-text5{
-  position: absolute;top:104px;left: 514px;
-  width: 240px;
-}
-.box-text6{
-  position: absolute;top:380px;left: 288px;
-  width: 240px;
-  text-align: center;
-}
 
+.btext4,.btext5,.btext6{
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Hiragino Sans";
+  font-weight: 700;
+}
 .box2{
   width: 800px;
   height: 520px;
@@ -426,10 +416,9 @@ th{
 .button3{
   position: absolute;top: 372px; left: 640px;
 }
-.button4{
+.button4,.button5,.button6{
   width: 360px;
   height: 180px;
-  border:2px solid #D6E1F4;
   float:left;
   text-align:center;
   cursor:pointer;
@@ -437,6 +426,12 @@ th{
   box-sizing:border-box;
   overflow:hidden;
   margin:0 0 40px 50px;
+}
+.button5{
+  position: absolute;top:0px; left: 404px;
+}
+.button6{
+  position: absolute;;top: 274px; left: 176px;
 }
 .button1 a{
   font-family:impact;
@@ -468,7 +463,7 @@ th{
   position:relative;
   text-align: center;
 }
-.button4 a{
+.button4 a,.button5 a,.button6 a{
   font-size: 40px;
   font-family:impact;
   color:#D6E1F4;
@@ -477,8 +472,7 @@ th{
   z-index:2;
   position:relative;top: 40px;
   text-align: center;
-  text-decoration: underline;
-  text-decoration-color: #D6E1F4;
+  text-decoration: none;
 }
 
 .eff-1{
@@ -499,28 +493,23 @@ th{
   transition:all .5s ease;
   z-index:1;
 }
-.button1:hover .eff-1{
-  left:0;
-}
-.button2:hover .eff-1{
-  left:0;
-}
+.button1:hover .eff-1,
+.button2:hover .eff-1,
 .button3:hover .eff-1{
   left:0;
 }
-.button4:hover .eff-2{
+.button4:hover .eff-2,
+.button5:hover .eff-2,
+.button6:hover .eff-2{
   left:0;
 }
-.button1:hover a{
-  color:#04111C;
-}
-.button2:hover a{
-  color:#04111C;
-}
-.button3:hover a{
-  color:#04111C;
-}
-.button4:hover a{
+
+.button1:hover a,
+.button2:hover a,
+.button3:hover a,
+.button4:hover a,
+.button5:hover a,
+.button6:hover a{
   color:#04111C;
 }
 .box3{
