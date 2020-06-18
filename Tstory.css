@@ -1,0 +1,138 @@
+body{
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #04111C;
+  background-image: url("img/home11.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.img-training1{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;top: 0px;left: 0px;
+}
+.img-training2{
+  width: 700px;
+  height: 350px;
+  object-fit: cover;
+  position: absolute;top: 620px;left: 14.12%;
+}
+.cover{
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  position: absolute;top: 0px;left: 0px;
+  opacity: 0.5;
+}
+#menu1{
+  list-style-type: none;
+  width: 700px;
+  height: 80px;
+  margin: 20px;
+  padding: 0;
+  background-color: rgba (0,0,255,0);
+  position:absolute;top: 0px;right: 20px;
+}
+#menu1 li{
+  position: relative;
+  width: 100px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+#menu1 li a{
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+  color: white;
+  font-size: 20px;
+  font-family: impact;
+  line-height: 1;
+  text-decoration: none;
+}
+#menu1 li ul{
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+#menu1 li ul li{
+  overflow: hidden;
+  width: 100px;
+  height: 0;
+  color: white;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  transition: .2s;
+  position: relative;left: -4px;
+}
+#menu1 li ul li a{
+  padding: 12px 4px;
+  background: rgba(0,0,0,0);
+  text-align: left;
+  font-size: 20px;
+  font-weight: normal;
+}
+#menu1 li:hover > a{
+  background: rgba(0,0,0,0);
+  color: #e0dc62;
+}
+#menu1 li:hover ul li{
+  overflow: visible;
+  height: 32px;
+}
+.title1{
+  font-size: 96px;
+  font-family: impact;
+  color: white;
+  text-align: center;
+  position: relative;top: 68px;
+}
+.title2{
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+  font-family: "Hiragino Sans";
+  text-align: center;
+  position: relative;top: -14px;
+  text-decoration: underline;
+}
+.triangle1{
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 240px 160px 0;
+border-color: transparent #3A1581 transparent transparent;
+position: absolute;top: 970px;right: 14.12%;
+}
+.triangle2{
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 160px 0 0 240px;
+border-color: transparent transparent transparent #3A1581;
+position: relative;top: 235px;right: 502px;
+}
+.tri-text1{
+  font-size: 40px;
+  color: #D6E1F4;
+  font-weight: 700;
+  font-family: "Hiragino Sans";
+  width: 330px;
+  position: relative;top: -395px;left: -200px;
+}
+.tri-text2{
+  font-size: 20px;
+  color: #D6E1F4;
+  font-weight: 400;
+  font-family: "Hiragino Sans";
+  width: 662px;
+  position: relative;top: -440px;left: -200px;
+}

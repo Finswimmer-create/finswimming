@@ -202,14 +202,9 @@ body{
   font-family: "Hiragino Sans";
   text-align: center;
   position: relative;top: -14px;
+  text-decoration: underline;
 }
-.bar1{
-  width: 322px;
-  height: 4px;
-  position: relative;top: -48px;
-  margin: 0 auto;
-  background-color: white;
-}
+
 .bar2,.bar3,.bar4{
   background-color: #D6E1F4;
   width: 80px;
