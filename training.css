@@ -268,7 +268,6 @@ position: relative;top: 235px;right: 502px;
   font-family: "Hiragino Sans";
   width: 330px;
   position: relative;top: -395px;left: -200px;
-  background-color: red;
 }
 .tri-text2,.tri-text4{
   font-size: 20px;
@@ -277,7 +276,6 @@ position: relative;top: 235px;right: 502px;
   font-family: "Hiragino Sans";
   width: 662px;
   position: relative;top: -440px;left: -200px;
-  background-color: blue;
 }
 .tri-text3{
   position: relative;top: 45px;left: -462px;
@@ -458,6 +456,7 @@ th{
   position:relative;
   text-align: center;
 }
+
 .eff-1{
   width:140px;
   height:50px;
