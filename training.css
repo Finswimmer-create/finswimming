@@ -11,6 +11,8 @@ body{
   width: 100%;
   background-color: red;
   max-width: 1366px;
+  position: relative;
+  margin: 0 auto;
 }
 .img-training1{
   width: 100%;
@@ -22,13 +24,13 @@ body{
   width: 700px;
   height: 350px;
   object-fit: cover;
-  position: absolute;top: 620px;left: 14.12%;
+  position: relative;top: 232px;left: 14.12%;
 }
 .img-training3{
   width: 700px;
   height: 350px;
   object-fit: cover;
-  position: absolute;top: 1485px;right: 14.12%;
+  position: relative;top: 740px;right: 14.12%;
 }
 .img-training4{
   width: 360px;
