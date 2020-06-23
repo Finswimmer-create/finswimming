@@ -30,7 +30,7 @@ body{
   width: 700px;
   height: 350px;
   object-fit: cover;
-  position: relative;top: 578px;right: 14.12%;
+  position: absolute;top: 1468px;right: 14.12%;
 }
 .img-training4{
   width: 360px;
