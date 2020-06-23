@@ -24,13 +24,13 @@ body{
   width: 700px;
   height: 350px;
   object-fit: cover;
-  position: relative;top: 120px;left: 14.12%;
+  position: absolute;top: 120px;left: 14.12%;
 }
 .img-training3{
   width: 700px;
   height: 350px;
   object-fit: cover;
-  position: absolute;top: 1468px;right: 14.12%;
+  position: absolute;top: 984px;right: 14.12%;
 }
 .img-training4{
   width: 360px;
@@ -215,15 +215,15 @@ body{
   background-color: #D6E1F4;
   width: 80px;
   height: 8px;
-  position: relative;top: 900px;
+  position: relative;top: 1828px;
   margin:0 auto;
 }
 .bar3{
-  position: relative;top: 912px;
+  position: relative;top: 1840px;
   width: 40px;
 }
 .bar4{
-  position: relative;top: 924px;
+  position: relative;top: 1852px;
   width: 12px;
 }
 .bar5,.bar6,.bar7{
@@ -246,7 +246,7 @@ body{
   border-style: solid;
   border-width: 0 240px 160px 0;
   border-color: transparent #3A1581 transparent transparent;
-  position: relative;top: 112px;right: -70%;
+  position: absolute;top: 470px;right: 14.12%;
 }
 .triangle2,.triangle4{
   width: 0;
@@ -260,7 +260,7 @@ position: relative;top: 235px;right: 502px;
   position: relative;top: -410px;left: 262px;
 }
 .triangle4{
-  position: relative;top: 780px;left: 14.12%;
+  position: absolute;top: 1544px;left: 14.12%;
 }
 .tri-text1,.tri-text3{
   font-size: 40px;
@@ -287,14 +287,15 @@ position: relative;top: 235px;right: 502px;
 .box1{
   width:814px;
   height: 180px;
-  position: relative;top: 1044px;
+  position: relative;top: 1976px;
   margin: 0 auto;
 }
 .box2{
   width: 800px;
   height: 520px;
-  position: relative;top: 1498px;
+  position: relative;top: 2432px;
   margin: 0 auto;
+  background-color: red;
 }
 .box-text1,.box-text2,.box-text3{
   font-size: 40px;
@@ -516,8 +517,9 @@ th{
 .box3{
   width: 700px;
   height: 300px;
-  position: relative;top: 1652px;
+  position: relative;top: 2588px;
   margin: 0 auto;
+  background-color: blue;
 }
 .mailadd,.JFSA{
   font-size: 24px;
