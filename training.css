@@ -30,7 +30,7 @@ body{
   width: 700px;
   height: 350px;
   object-fit: cover;
-  position: relative;top: 740px;right: 14.12%;
+  position: relative;top: 578px;right: 14.12%;
 }
 .img-training4{
   width: 360px;
@@ -215,15 +215,15 @@ body{
   background-color: #D6E1F4;
   width: 80px;
   height: 8px;
-  position: relative;top: 1932px;
+  position: relative;top: 900px;
   margin:0 auto;
 }
 .bar3{
-  position: relative;top: 1944px;
+  position: relative;top: 912px;
   width: 40px;
 }
 .bar4{
-  position: relative;top: 1956px;
+  position: relative;top: 924px;
   width: 12px;
 }
 .bar5,.bar6,.bar7{
@@ -242,11 +242,11 @@ body{
 }
 .triangle1,.triangle3{
   width: 0;
-height: 0;
-border-style: solid;
-border-width: 0 240px 160px 0;
-border-color: transparent #3A1581 transparent transparent;
-position: absolute;top: 970px;right: 14.12%;
+  height: 0;
+  border-style: solid;
+  border-width: 0 240px 160px 0;
+  border-color: transparent #3A1581 transparent transparent;
+  position: relative;top: 224px;right: -1000px;
 }
 .triangle2,.triangle4{
   width: 0;
@@ -260,7 +260,7 @@ position: relative;top: 235px;right: 502px;
   position: relative;top: -410px;left: 262px;
 }
 .triangle4{
-  position: absolute;top: 2045px;left: 14.12%;
+  position: relative;top: 780px;left: 14.12%;
 }
 .tri-text1,.tri-text3{
   font-size: 40px;
@@ -287,9 +287,14 @@ position: relative;top: 235px;right: 502px;
 .box1{
   width:814px;
   height: 180px;
-  position: relative;top: 2076px;
+  position: relative;top: 1044px;
   margin: 0 auto;
-
+}
+.box2{
+  width: 800px;
+  height: 520px;
+  position: relative;top: 1498px;
+  margin: 0 auto;
 }
 .box-text1,.box-text2,.box-text3{
   font-size: 40px;
@@ -311,12 +316,7 @@ position: relative;top: 235px;right: 502px;
   font-family: "Hiragino Sans";
   font-weight: 700;
 }
-.box2{
-  width: 800px;
-  height: 520px;
-  position: relative;top: 2500px;
-  margin: 0 auto;
-}
+
 .container{
 	margin: 0px;
   width: 410px;
@@ -516,7 +516,7 @@ th{
 .box3{
   width: 700px;
   height: 300px;
-  position: relative;top: 2626px;
+  position: relative;top: 1652px;
   margin: 0 auto;
 }
 .mailadd,.JFSA{
