@@ -9,7 +9,6 @@ body{
 }
 .allbox{
   width: 100%;
-  background-color: red;
   max-width: 1366px;
   position: relative;top: 112px;
   margin: 0 auto;
@@ -295,7 +294,6 @@ position: relative;top: 235px;right: 502px;
   height: 520px;
   position: relative;top: 2432px;
   margin: 0 auto;
-  background-color: red;
 }
 .box-text1,.box-text2,.box-text3{
   font-size: 40px;
@@ -519,7 +517,6 @@ th{
   height: 300px;
   position: relative;top: 2588px;
   margin: 0 auto;
-  background-color: blue;
 }
 .mailadd,.JFSA{
   font-size: 24px;
