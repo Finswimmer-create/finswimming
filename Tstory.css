@@ -46,6 +46,13 @@ body{
   max-width: 400px;
   max-height: 600px;
 }
+.img-Tstory4{
+  width: 45.55%;
+  height: auto;
+  position: absolute;top:-136px; right: 478px;
+  max-width: 400px;
+  max-height: 600px;
+}
 .cover{
   width: 100%;
   height: 500px;
@@ -157,6 +164,12 @@ body{
   height: 400px;
   position: absolute;top: 3320px; left: 15.66%;
 }
+.box4{
+  width: 64.27%;
+  height: 400px;
+  position: absolute;top: 4420px; right: 15.66%;
+  background-color: red;
+}
 .triangle1{
   width: 0;
   height: 0;
@@ -224,6 +237,23 @@ body{
   position: relative;top: 200px;left: 300px;
   z-index: 20;
 }
+.triangle9{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 240px 160px 0 0;
+  border-color: #151d81 transparent transparent transparent;
+  position: absolute;top: 0px;right: 300px;
+}
+.triangle10{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 240px 160px;
+  border-color: transparent transparent #151d81 transparent;
+  position: relative;top: 200px;left: 300px;
+  z-index: 20;
+}
 .tri-text1{
   font-size: 40px;
   color: #D6E1F4;
@@ -242,18 +272,19 @@ body{
 }
 .tri-text3,.tri-text4,
 .tri-text6,.tri-text7,
-.tri-text9,.tri-text10{
+.tri-text9,.tri-text10,
+.tri-text12,.tri-text13{
   font-size: 48px;
   color: #D6E1F4;
   width: 380px;
   font-family: impact;
   position: absolute;top: -248px;left: 40px;
 }
-.tri-text4,.tri-text7,.tri-text10{
+.tri-text4,.tri-text7,.tri-text10,.tri-text13{
   font-size: 24px;
   position: absolute;top: -166px;left: 40px;
 }
-.tri-text5,.tri-text8,.tri-text11{
+.tri-text5,.tri-text8,.tri-text11,.tri-text14{
   font-size: 20px;
   font-weight: 700;
   width: 380px;
@@ -262,6 +293,7 @@ body{
   position: absolute;top: -102px;left: 40px;
   z-index: 40;
   line-height: 1.6;
+  background-color: red;
 }
 .bar1,.bar2,.bar3{
   background-color: #D6E1F4;
