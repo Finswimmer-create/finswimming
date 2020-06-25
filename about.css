@@ -19,6 +19,13 @@ body{
   position: absolute;top: 0px;left: 0px;
   opacity: 0.5;
 }
+.cover2{
+  width: 450px;
+  height: 300px;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;top: 0px;left: 0px;
+}
 #menu1{
   list-style-type: none;
   width: 700px;
@@ -102,4 +109,82 @@ body{
   position: relative;top: -46px;
   margin:0 auto;
   background-color:  #D6E1F4;
+}
+.bar2{
+  width: 216px;
+  height: 4px;
+  position: absolute;top: 72px;left: 480px;
+  background-color:  #D6E1F4;
+}
+.box1{
+  width: 900px;
+  position: relative;top: 200px;
+  background-color: red;
+  margin: 0 auto;
+}
+.box2{
+  width: 900px;
+  height: 300px;
+  position: absolute;
+  background-color: #3A1581;
+}
+.img-about2{
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  position: relative;top: 0px; left: 0px;
+}
+.box2-text1{
+  color: #D6E1F4;
+  font-size: 27px;
+  font-family: "Hiragino Sans";
+  width: 360px;
+  font-weight: 700;
+  position: absolute;left: 480px;top: 4px;
+}
+.box2-text2{
+  color: #D6E1F4;
+  font-size: 20px;
+  font-family: "Hiragino Sans";
+  font-weight: 400;
+  width: 390px;
+  height: 180px;
+  position: absolute;left: 480px; top:78px;
+}
+.button1{
+  width: 450px;
+  height: 300px;
+  float:left;
+  text-align:center;
+  cursor:pointer;
+  position: absolute;top: 0px;left: -50px;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 40px 50px;
+}
+.button1 a{
+  font-size: 56px;
+  font-family:impact;
+  color:#D6E1F4;
+  text-decoration:none;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;top: 116px;
+  text-align: center;
+  text-decoration: none;
+}
+.eff-1{
+  width:450px;
+  height:300px;
+  left:-450px;
+  background:#D6E1F4;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+.button1:hover .eff-1{
+  left:0;
+}
+.button1:hover a{
+  color:#3A1581;
 }
