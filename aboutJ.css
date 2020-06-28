@@ -1,0 +1,83 @@
+body{
+  width: 100%;
+  background-color: #04111C;
+  background-image: url("img/home11.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.img-aboutJ1{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;top: 0px;left: 0px;
+}
+.cover{
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  position: absolute;top: 0px;left: 0px;
+  opacity: 0.5;
+}
+#menu1{
+  list-style-type: none;
+  width: 700px;
+  height: 80px;
+  margin: 20px;
+  padding: 0;
+  background-color: rgba (0,0,255,0);
+  position:absolute;top: 0px;right: 20px;
+}
+#menu1 li{
+  position: relative;
+  width: 100px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+#menu1 li a{
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+  color: white;
+  font-size: 20px;
+  font-family: impact;
+  line-height: 1;
+  text-decoration: none;
+}
+#menu1 li ul{
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+#menu1 li ul li{
+  overflow: hidden;
+  width: 100px;
+  height: 0;
+  color: white;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  transition: .2s;
+  position: relative;left: -4px;
+}
+#menu1 li ul li a{
+  padding: 12px 4px;
+  background: rgba(0,0,0,0);
+  text-align: left;
+  font-size: 20px;
+  font-weight: normal;
+}
+#menu1 li:hover > a{
+  background: rgba(0,0,0,0);
+  color: #e0dc62;
+}
+#menu1 li:hover ul li{
+  overflow: visible;
+  height: 32px;
+}
