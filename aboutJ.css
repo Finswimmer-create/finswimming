@@ -6,11 +6,30 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
+.allbox{
+  width: 100%;
+  height: 400px;
+  max-width: 1366px;
+  position: relative;top:164px;
+  margin: 0 auto;
+}
 .img-aboutJ1{
   width: 100%;
   height: 500px;
   object-fit: cover;
   position: absolute;top: 0px;left: 0px;
+}
+.img-aboutJ2{
+  width: 700px;
+  height: 350px;
+  object-fit: cover;
+  position: absolute;top: 0px;left: 14.12%;
+}
+.img-aboutJ3{
+  width: 700px;
+  height: 350px;
+  object-fit: cover;
+  position: absolute;top: 984px;right: 14.12%;
 }
 .cover{
   width: 100%;
@@ -80,4 +99,124 @@ body{
 #menu1 li:hover ul li{
   overflow: visible;
   height: 32px;
+}
+.title1{
+  font-size: 96px;
+  font-family: impact;
+  color: white;
+  text-align: center;
+  position: relative;top: 64px;
+}
+.title2{
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+  font-family: "Hiragino Sans";
+  text-align: center;
+  position: relative;top: -16px;
+}
+.title3,.title4{
+  font-size: 72px;
+  font-family: impact;
+  color:  #D6E1F4;
+  position: relative;top:156px;
+  text-align: center;
+}
+.title4{
+  position: relative;top: 756px;
+}
+.bar1{
+  width: 450px;
+  height: 4px;
+  position: relative;top: -52px;
+  margin:0 auto;
+  background-color:  #D6E1F4;
+}
+.bar2,.bar3{
+  width: 60px;
+  height: 12px;
+  position: relative;top: 84px;
+  margin: 0 auto;
+  background-color:  #D6E1F4;
+}
+.bar3{
+  position: relative;top:684px;
+}
+.box1,.box2,.box3,
+.box4,.box5{
+  width: 100%;
+  height: 200px;
+  position: relative;top: 164px;
+}
+.box2{
+  position: relative;top:764px;
+}
+.box3{
+  position: relative;top: 404px;
+}
+.box4{
+  position: relative;top: 1988px;
+}
+.box5{
+  position: relative;top: 1628px;
+}
+.triangle1,.triangle3{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 240px 160px 0;
+  border-color: transparent #3A1581 transparent transparent;
+  position: absolute;top: 348px;right: 14.12%;
+}
+.triangle2,.triangle4{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 160px 0 0 240px;
+  border-color: transparent transparent transparent #3A1581;
+  position: relative;top: 235px;right: 502px;
+}
+.triangle3{
+  position: relative;top: -430px;left: 262px;
+}
+.triangle4{
+  position: absolute;top: 1544px;left: 14.12%;
+}
+.tri-text1{
+  font-size: 40px;
+  color: #D6E1F4;
+  font-weight: 700;
+  font-family: "Hiragino Sans";
+  width: 700px;
+  position: relative;top: -399px;left: -200px;
+}
+.tri-text2,.tri-text6{
+  font-size: 20px;
+  color: #D6E1F4;
+  font-weight: 400;
+  font-family: "Hiragino Sans";
+  width: 662px;
+  position: relative;top: -427px;left: -200px;
+}
+.tri-text3,.tri-text5{
+  font-size: 40px;
+  color: #D6E1F4;
+  font-weight: 700;
+  font-family: impact;
+  width: 700px;
+  position: relative;top: -399px;left: -200px;
+}
+.tri-text4{
+  font-size: 28px;
+  color:  #D6E1F4;
+  font-weight: 700;
+  font-family: "Hiragino Sans";
+  width: 220px;
+  margin-left: 20px;
+}
+.tri-text5{
+  position: relative;top: 35px;left: -462px;
+}
+.tri-text6{
+  position: relative;top: 7px;left: -462px;
 }

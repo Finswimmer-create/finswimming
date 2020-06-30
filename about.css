@@ -104,7 +104,7 @@ body{
   position: relative;top: -14px;
 }
 .bar1{
-  width: 500px;
+  width: 360px;
   height: 4px;
   position: relative;top: -46px;
   margin:0 auto;
@@ -152,10 +152,13 @@ body{
   position: relative;top: 0px; left: 0px;
 }
 .box-title1,.box-title2{
-  position: absolute;top: 50px;left: 50px;
+  position: absolute;top: 68px;left: 83px;
   font-size: 50px;
   font-family: Impact;
   color: #D6E1F4;
+}
+.box-title2{
+  position: absolute;top: 68px;left:196px;
 }
 .box2-text1,.box3-text1{
   color: #D6E1F4;
