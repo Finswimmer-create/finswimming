@@ -151,7 +151,12 @@ body{
   object-fit: cover;
   position: relative;top: 0px; left: 0px;
 }
-
+.box-title1,.box-title2{
+  position: absolute;top: 50px;left: 50px;
+  font-size: 50px;
+  font-family: Impact;
+  color: #D6E1F4;
+}
 .box2-text1,.box3-text1{
   color: #D6E1F4;
   font-size: 27px;
@@ -180,44 +185,54 @@ body{
 .box2-text3 a:hover{
   color: pink;
 }
-.button1,.button2{
-  width: 450px;
-  height: 300px;
+.button1,.button2,.button3{
+  width:102px;
+  height:48px;
+  border:2px solid #D6E1F4;
   float:left;
   text-align:center;
   cursor:pointer;
-  position: absolute;top: 0px;left: -50px;
+  position:absolute;top: 228px;left: 640px;
   box-sizing:border-box;
   overflow:hidden;
   margin:0 0 40px 50px;
 }
-.button1 a,.button2 a{
-  font-size: 56px;
+.button2{
+  position: absolute;top: 300px; left: 640px;
+}
+.button3{
+  position: absolute;top: 372px; left: 640px;
+}
+.button1 a,.button2 a,.button3 a{
   font-family:impact;
+  font-size:32px;
   color:#D6E1F4;
   text-decoration:none;
   transition:all .5s ease;
   z-index:2;
-  position:relative;top: 116px;
+  position:relative;
   text-align: center;
-  text-decoration: none;
+  padding: auto;
 }
 .eff-1{
-  width:450px;
-  height:300px;
-  left:-450px;
+  width:102px;
+  height:48px;
+  left:-102px;
   background:#D6E1F4;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
 }
-.button1:hover .eff-1,.button2:hover .eff-1{
+.button1:hover .eff-1,
+.button2:hover .eff-1,
+.button3:hover .eff-1{
   left:0;
 }
-.button1:hover a,.button2:hover a{
-  color:#3A1581;
+.button1:hover a,
+.button2:hover a,
+.button3:hover a{
+  color:#04111C;
 }
-
 .container{
 	margin: 0px;
   width: 410px;
@@ -300,73 +315,7 @@ th{
   background-color: #FF0000;
   position: absolute;top:376px;left:448px;
 }
-.button3,.button4,.button5{
-  width:102px;
-  height:48px;
-  border:2px solid #D6E1F4;
-  float:left;
-  text-align:center;
-  cursor:pointer;
-  position:absolute;top: 228px;left: 640px;
-  box-sizing:border-box;
-  overflow:hidden;
-  margin:0 0 40px 50px;
-}
-.button4{
-  position: absolute;top: 300px; left: 640px;
-}
-.button5{
-  position: absolute;top: 372px; left: 640px;
-}
-.button3 a{
-  font-family:impact;
-  font-size:32px;
-  color:#D6E1F4;
-  text-decoration:none;
-  transition:all .5s ease;
-  z-index:2;
-  position:relative;
-  text-align: center;
-}
-.button4 a{
-  font-family:impact;
-  font-size:32px;
-  color:#D6E1F4;
-  text-decoration:none;
-  transition:all .5s ease;
-  z-index:2;
-  position:relative;
-  text-align: center;
-}
-.button5 a{
-  font-family:impact;
-  font-size:32px;
-  color:#D6E1F4;
-  text-decoration:none;
-  transition:all .5s ease;
-  z-index:2;
-  position:relative;
-  text-align: center;
-}
-.eff-2{
-  width:140px;
-  height:50px;
-  left:-140px;
-  background:#D6E1F4;
-  position:absolute;
-  transition:all .5s ease;
-  z-index:1;
-}
-.button3:hover .eff-2,
-.button4:hover .eff-2,
-.button5:hover .eff-2{
-  left:0;
-}
-.button3:hover a,
-.button4:hover a,
-.button5:hover a,{
-  color:#04111C;
-}
+
 #menu2{
   list-style-type: none;
   width: 700px;
