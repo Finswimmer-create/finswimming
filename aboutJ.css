@@ -10,7 +10,7 @@ body{
   width: 100%;
   height: 400px;
   max-width: 1366px;
-  position: relative;top:164px;
+  position: relative;top:0px;
   margin: 0 auto;
 }
 .img-aboutJ1{
@@ -30,6 +30,17 @@ body{
   height: 350px;
   object-fit: cover;
   position: absolute;top: 984px;right: 14.12%;
+}
+.img-aboutJ4,.img-aboutJ5,.img-aboutJ6{
+  width: 160px;
+  height: 160px;
+  position: absolute;top: 0px;left: 0px;
+}
+.img-aboutJ5{
+  position: absolute;top: 0px;left:280px;
+}
+.img-aboutJ6{
+  position: absolute;top: 0px;left:560px;
 }
 .cover{
   width: 100%;
@@ -115,7 +126,7 @@ body{
   text-align: center;
   position: relative;top: -16px;
 }
-.title3,.title4{
+.title3,.title4,.title5{
   font-size: 72px;
   font-family: impact;
   color:  #D6E1F4;
@@ -125,6 +136,9 @@ body{
 .title4{
   position: relative;top: 756px;
 }
+.title5{
+  position: relative;top: 3200px;
+}
 .bar1{
   width: 450px;
   height: 4px;
@@ -132,7 +146,7 @@ body{
   margin:0 auto;
   background-color:  #D6E1F4;
 }
-.bar2,.bar3{
+.bar2,.bar3,.bar4{
   width: 60px;
   height: 12px;
   position: relative;top: 84px;
@@ -141,6 +155,9 @@ body{
 }
 .bar3{
   position: relative;top:684px;
+}
+.bar4{
+  position: relative;top: 3128px;
 }
 .box1,.box2,.box3,
 .box4,.box5{
@@ -160,13 +177,25 @@ body{
 .box5{
   position: relative;top: 1628px;
 }
+.box6,.box7,.box8{
+  width: 720px;
+  height: 240px;
+  position: relative;top: 3200px;
+  margin: 0 auto;
+}
+.box7{
+  position: relative;top: 3220px;
+}
+.box8{
+  position: relative;top: 3240px;
+}
 .triangle1,.triangle3{
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 0 240px 160px 0;
   border-color: transparent #3A1581 transparent transparent;
-  position: absolute;top: 348px;right: 14.12%;
+  position: absolute;top: 350px;right: 14.12%;
 }
 .triangle2,.triangle4{
   width: 0;
@@ -180,7 +209,7 @@ body{
   position: relative;top: -430px;left: 262px;
 }
 .triangle4{
-  position: absolute;top: 1544px;left: 14.12%;
+  position: absolute;top: 1564px;left: 14.12%;
 }
 .tri-text1{
   font-size: 40px;
@@ -219,4 +248,29 @@ body{
 }
 .tri-text6{
   position: relative;top: 7px;left: -462px;
+}
+.member1,.member3,.member5{
+  font-size: 24px;
+  font-family: impact;
+  color: #D6E1F4;
+  position: absolute;top: 144px;left: 0px;
+}
+.member2,.member4,.member6{
+  font-size: 16px;
+  font-family: impact;
+  color: #D6E1F4;
+  position: absolute;top: 188px;left: 0px;
+}
+.member3{
+  position: absolute;top: 144px;left: 280px;
+}
+.member4{
+  position: absolute;top: 188px;left: 280px;
+}
+.member5{
+  position: absolute;top: 144px;left: 560px;
+  width: 300px;
+}
+.member6{
+  position: absolute;top: 188px;left: 560px;
 }
