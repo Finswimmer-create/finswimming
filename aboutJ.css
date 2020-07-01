@@ -189,6 +189,12 @@ body{
 .box8{
   position: relative;top: 3240px;
 }
+.box9{
+  width: 700px;
+  height: 300px;
+  position: relative;top: 3380px;
+  margin: 0 auto;
+}
 .triangle1,.triangle3{
   width: 0;
   height: 0;
@@ -273,4 +279,93 @@ body{
 }
 .member6{
   position: absolute;top: 188px;left: 560px;
+}
+#menu2{
+  list-style-type: none;
+  width: 700px;
+  height: 80px;
+  margin: 20px;
+  padding: 0;
+  background-color: rgba (0,0,255,0);
+  position: absolute;left: -22px;
+}
+#menu2 li{
+  position: relative;
+  width: 100px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#menu2 li a {
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+  color: #D6E1F4;
+  font-size: 20px;
+  font-family: impact;
+  line-height: 1;
+  text-decoration: none;
+}
+#menu2 li ul{
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+#menu2 li ul li{
+  overflow: hidden;
+  width: 100px;
+  height: 0;
+  color: #D6E1F4;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  transition: .2s;
+}
+#menu2 li ul li a{
+  padding: 12px 4px;
+  background: rgba (0,0,255,0);
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+#menu2 li:hover > a{
+  background: rgba (0,0,255,0);
+  color: #e0dc62;
+}
+#menu2 li:hover ul li{
+  overflow: visible;
+  height: 32px;
+  border-bottom: 1px solid rgba (0,0,255,0);
+}
+.mailadd,.JFSA{
+  font-size: 24px;
+  font-family: impact;
+  color: #D6E1F4;
+  text-align: center;
+  position: relative;top:72px;
+}
+.JFSA{
+  position: relative;top:162px;
+  margin-bottom: 120px;
+}
+.LINE,.insta,.twitter,.YouTube{
+  width: 60px;
+  height: 60px;
+}
+.LINE{
+  position: absolute;top: 125px;left: 176px;
+}
+.insta{
+  position: absolute;top: 125px;left: 272px;
+}
+.YouTube{
+  position: absolute;top: 125px;left: 368px;
+}
+.twitter{
+  position: absolute;top: 125px;left: 464px;
 }

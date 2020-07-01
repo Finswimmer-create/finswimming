@@ -238,7 +238,8 @@ body{
   position: absolute;top: 0px;
 }
 .box2,.box3{
-  width: 940px;
+  width: 100%;
+  max-width: 940px;
   height: 200px;
   position: relative;top: 1124px;
   margin: 0 auto;
@@ -252,14 +253,51 @@ body{
   position: relative;top: 3080px;
   margin: 0 auto;
 }
-
+.button1{
+  width:102px;
+  height:48px;
+  border:2px solid #D6E1F4;
+  float:left;
+  text-align:center;
+  cursor:pointer;
+  position:absolute;top: 276px;left: 128px;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 40px 50px;
+}
+.button1 a{
+  font-family:impact;
+  font-size:32px;
+  color:#D6E1F4;
+  text-decoration:none;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+  text-align: center;
+  padding: auto;
+}
+.eff-1{
+  width:102px;
+  height:48px;
+  left:-102px;
+  background:#D6E1F4;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+.button1:hover .eff-1{
+  left:0;
+}
+.button1:hover a{
+  color:#04111C;
+}
 .triangle1{
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 0 240px 160px 0;
   border-color: transparent #3A1581 transparent transparent;
-  position: absolute;top: 348px;right: 14.12%;
+  position: absolute;top: 350px;right: 14.12%;
 }
 .triangle2{
   width: 0;
@@ -269,8 +307,7 @@ body{
   border-color: transparent transparent transparent #3A1581;
   position: relative;top: 235px;right: 502px;
 }
-.triangle3,.triangle4,
-.triangle5,.triangle6{
+.triangle3,.triangle5{
   width: 0;
   height: 0;
   border-style: solid;
@@ -278,14 +315,22 @@ body{
   border-color: transparent #3A1581 transparent transparent;
   position: absolute;top:0px;left: 80px;
 }
+.triangle4,.triangle6{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 360px 332px 0;
+  border-color: transparent #3A1581 transparent transparent;
+  position: absolute;top:0px;right: 0px;
+}
 .triangle4{
-  position: absolute;top:120px;left: 580px;
+  position: absolute;top:120px;right: 0px;
 }
 .triangle5{
   position: absolute;top: 532px; left: 80px;
 }
 .triangle6{
-  position: absolute;top: 652px; left: 580px;
+  position: absolute;top: 652px; right: 0px;
 }
 .tri-text1{
   font-size: 40px;
@@ -304,12 +349,12 @@ body{
   position: relative;top: -440px;left: -200px;
 }
 .tri-text3{
-  width: 280px;
+  width: 288px;
   font-size: 16px;
   font-weight: 700;
   font-family: "Hiragino Sans";
   color:  #D6E1F4;
-  position: relative;top: -224px;right: 8px;
+  position: relative;top: -208px;right: 8px;
 }
 .tri-text4,.tri-text6,
 .tri-text7,.tri-text8{
