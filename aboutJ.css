@@ -49,6 +49,20 @@ body{
   position: absolute;top: 0px;left: 0px;
   opacity: 0.5;
 }
+.cover2{
+  width: 742px;
+  height: 395px;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;top: 350px;right: 14.12%;
+}
+.cover3{
+  width: 742px;
+  height: 395px;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;top: 1336px;left: 14.12%;
+}
 #menu1{
   list-style-type: none;
   width: 700px;
@@ -137,7 +151,7 @@ body{
   position: relative;top: 756px;
 }
 .title5{
-  position: relative;top: 3200px;
+  position: relative;top: 3240px;
 }
 .bar1{
   width: 450px;
@@ -157,7 +171,7 @@ body{
   position: relative;top:684px;
 }
 .bar4{
-  position: relative;top: 3128px;
+  position: relative;top: 3168px;
 }
 .box1,.box2,.box3,
 .box4,.box5{
@@ -172,27 +186,27 @@ body{
   position: relative;top: 404px;
 }
 .box4{
-  position: relative;top: 1988px;
+  position: relative;top: 2016px;
 }
 .box5{
-  position: relative;top: 1628px;
+  position: relative;top: 1660px;
 }
 .box6,.box7,.box8{
   width: 720px;
   height: 240px;
-  position: relative;top: 3200px;
+  position: relative;top: 3248px;
   margin: 0 auto;
 }
 .box7{
-  position: relative;top: 3220px;
+  position: relative;top: 3268px;
 }
 .box8{
-  position: relative;top: 3240px;
+  position: relative;top: 3288px;
 }
 .box9{
   width: 700px;
   height: 300px;
-  position: relative;top: 3380px;
+  position: relative;top: 3444px;
   margin: 0 auto;
 }
 .triangle1,.triangle3{
@@ -212,10 +226,10 @@ body{
   position: relative;top: 235px;right: 502px;
 }
 .triangle3{
-  position: relative;top: -430px;left: 262px;
+  position: relative;top: -435px;left: 262px;
 }
 .triangle4{
-  position: absolute;top: 1564px;left: 14.12%;
+  position: absolute;top: 1571px;left: 14.12%;
 }
 .tri-text1{
   font-size: 40px;

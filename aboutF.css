@@ -38,6 +38,14 @@ body{
   position: absolute;top: 0px;left: 0px;
   opacity: 0.5;
 }
+.cover2{
+  width: 742px;
+  height: 395px;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;top: 350px;right:14.12%;
+  z-index: 10;
+}
 #menu1{
   list-style-type: none;
   width: 700px;
@@ -239,8 +247,9 @@ body{
 }
 .box2,.box3{
   width: 100%;
-  max-width: 940px;
   height: 200px;
+  max-width: 940px;
+  min-width: 900px;
   position: relative;top: 1124px;
   margin: 0 auto;
 }
@@ -298,6 +307,7 @@ body{
   border-width: 0 240px 160px 0;
   border-color: transparent #3A1581 transparent transparent;
   position: absolute;top: 350px;right: 14.12%;
+  z-index: 20;
 }
 .triangle2{
   width: 0;
