@@ -1,18 +1,66 @@
+body{
+  width: 100%;
+  background-color: #04111C;
+  background-image: url("img/home11.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.allbox{
+  width: 100%;
+  height: 400px;
+  max-width: 1366px;
+  position: relative;top:1034px;
+  margin: 0 auto;
+}
+.box1{
+  width: 100%;
+  height: 300px;
+  max-width: 1366px;
+  background-color: red;
+  position: relative;top: 800px;
+  margin: 0 auto;
+}
+.box2{
+  width: 100%
+  height:200px;
+  position: relative;top: 1000px;
+  margin:0 auto;
+}
+.box3{
+  width: 100%;
+  height: 200px;
+  position: relative;top: 0px;
+  margin: 0 auto;
+}
+.box4,.box5,.box6{
+  width: 800px;
+  height: 700px;
+  position: relative;top: 1000px;
+  margin: 0 auto;
+}
+.box5{
+  height: 550px;
+}
+.box6{
+  height: 100px;
+  position: relative;top: 1224px;
+}
 .imgh1{
-  width: 1366px;
+  width: 100%;
   height: 768px;
   object-fit: cover;
   position: absolute;top: 0px;left: 0px;
 }
 .imgh2{
-  position: absolute; top: 160px;left: 683px;
+  position: absolute; top: 160px;right: 9%;
   width: 560px;
   height: 489px;
 }
 .imgh3{
   width: 683px;
   height: 500px;
-  position: absolute;top: 1568px; left: 0px;
+  position: absolute;top: 0px; left: 0px;
 }
 .imgh4,.imgh5,.imgh6,.imgh7{
   width: 480px;
@@ -40,16 +88,16 @@
   height: 60px;
 }
 .LINE{
-  position: absolute;top: 5196px;left: 509px;
+  position: absolute;top: 112px;left: 226px;
 }
 .insta{
-  position: absolute;top: 5196px;left: 605px;
+  position: absolute;top: 112px;left: 322px;
 }
 .YouTube{
-  position: absolute;top: 5196px;left: 701px;
+  position: absolute;top: 112px;left: 418px;
 }
 .twitter{
-  position: absolute;top: 5196px;left: 797px;
+  position: absolute;top: 112px;left: 514px;
 }
 #menu1{
   list-style-type: none;
@@ -58,7 +106,7 @@
   margin: 20px;
   padding: 0;
   background-color: rgba (0,0,255,0);
-  position:absolute;top: 0px;left: 600px;
+  position:absolute;top: 0px;right: 20px;
 }
 #menu2{
   list-style-type: none;
@@ -67,7 +115,8 @@
   margin: 20px;
   padding: 0;
   background-color: rgba (0,0,255,0);
-  position: absolute;top: 5074px; left: 314px;
+  position: relative;top: 0px;
+  margin: 0 auto;
 }
 #menu1 li{
   position: relative;
@@ -177,21 +226,13 @@
   height: 32px;
   border-bottom: 1px solid rgba (0,0,255,0);
 }
-body{
-  width: 1366px;
-  background-color: #04111C;
-  background-image: url("img/home11.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  overflow-x: hidden;
-}
+
 h2{
   font-size: 32px;
   font-family: Impact;
   letter-spacing: 0.77px;
   color: #D6E1F4;
-  position: relative; top:788px;
+  position: relative; top:0px;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -200,7 +241,7 @@ h3{
   font-family: "Hiragino Sans";
   letter-spacing: 0.77px;
   color: #D6E1F4;
-  position: relative; top:795px;
+  position: relative; top:0px;
   text-align: center;
   margin-bottom: 0px;
 }
@@ -208,70 +249,75 @@ h3{
   font-size: 72px;
   color: #D6E1F4;
   font-family: impact;
-  position: absolute;top: 1336px;left: 356px;
+  position: relative;top:0px;
+  text-align: center;
 }
 .title2{
-  position: absolute;top: 2138px;left: 480px;
+  position: relative;top: 0px;
 }
 .title3{
-  position: absolute;top: 3474px;left: 541px;
+  position: relative;top: 0px;
 }
 .title4{
-  position: absolute;top: 4228px;left: 601px;
+  position: relative;top: 0px;
 }
 .more1,.more2,.more3{
   font-size: 40px;
   color: #D6E1F4;
   font-family: impact;
-  position: absolute;top: 3894px; left: 796px;
+  position: absolute;top: 310px; left: 512px;
 }
 .more2{
-  position: absolute;top: 3966px; left: 796px;
+  position: absolute;top: 382px; left: 512px;
 }
 .more3{
-  position: absolute;top: 4038px; left: 796px;
+  position: absolute;top: 454px; left: 512px;
 }
 .circle1,.circle2,.circle3{
   width: 40px;
   height: 40px;
   background-color: #68D92D;
   border-radius: 50%;
-  position: absolute;top:3938px;left:732px;
+  position: absolute;top:356px;left:448px;
 }
 .circle2{
   background-color: #6AABF7;
-  position: absolute;top:4010px;left:732px;
+  position: absolute;top:426px;left:448px;
 }
 .circle3{
   background-color: #FF0000;
-  position: absolute;top:4082px;left:732px;
+  position: absolute;top:498px;left:448px;
 }
 .bar1{
   width: 80px;
   height: 8px;
   background-color: #D6E1F4;
-  position:absolute;top: 1202px;left: 643px;
+  position:relative;top: 60px;
+  margin:0 auto;
 }
 .bar2{
     width: 40px;
     height: 8px;
     background-color: #D6E1F4;
-    position:absolute;top: 1222px;left: 663px;
+    position:relative;top: 72px;
+    margin:0 auto;
 }
 .bar3{
     width: 12px;
     height: 8px;
     background-color: #D6E1F4;
-    position:absolute;top: 1242px;left: 677px;
+    position:relative;top: 84px;
+    margin:0 auto;
 }
 .bar4,.bar5,.bar10,.bar11{
     width: 60px;
     height: 12px;
     background-color: #D6E1F4;
-    position:absolute;top: 1496px;left: 653px;
+    position:relative;top: -72px;
+    margin: 0 auto;
 }
 .bar5{
-    position:absolute;top: 2298px;left: 653px;
+    position:relative;top: -74px;
 }
 .bar6,.bar7,.bar8,.bar9{
   width: 416px;
@@ -289,96 +335,57 @@ h3{
   width: 224px;
 }
 .bar10{
-  position: absolute;top:3634px;
+  position: relative;top: -72px;
 }
 .bar11{
-  position: absolute;top: 4388px;
+  position: relative;top:-72px;
 }
 .bar12,.bar13{
   width: 720px;
   height: 2px;
-  position: absolute;top:4462px;left: 320px;
+  position: absolute;top: 158px;left: 40px;
   background-color: #D6E1F4;
 }
 .bar13{
-  position: absolute;top: 4788px;left: 320px;
+  position: absolute;top: 484px;left: 40px;
 }
 .hbox1{
-  width: 683px;
+  width: 100%;
   height: 500px;
-  position: absolute;top: 1568px;left: 683px;
+  position: relative;top: -14px;left: 0px;
   background-color: #3A1581;
 }
 .hbox1 p {
   font-size: 24px;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
-  position: relative;top: 100px;left: 62px;
+  position: absolute;top: 100px;right: 4.53%;
   width: 560px;
   font-weight: 700;
 }
 
-.button1,.button2,.button3,.button4,.button5 {
-  border: 1px solid #15aeec;
-  background-color: #4D84FF;
-  background-image: -webkit-linear-gradient(top, #4D84FF, #2cafe3);
-  background-image: linear-gradient(to bottom, #4D84FF, #2cafe3);
-  border-radius: 24px;
-  color: #fff;
-  font-family: impact;
-  font-size: 32px;
-  text-align: center;
-  text-decoration: none;
-  line-height: 50px;
-  -webkit-transition: none;
-  transition: none;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
-  position: absolute;top: 1902px;left: 966px;
-  width: 118px;
-  hight:48px;
-}
-.button1:hover,.button2:hover,.button3:hover,
-.button4:hover,.button5:hover {
-  border:1px solid #1090c3;
-  background-color: #1ab0ec;
-  background-image: -webkit-linear-gradient(top, #1ab0ec, #1a92c2);
-  background-image: linear-gradient(to bottom, #1ab0ec, #1a92c2);
-}
-.button1:active,.button2:active,.button3:active,
-.button4:active,.button5:active  {
-  background: #1a92c2;
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .2);
-  color: #1679a1;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
-}
-.button2{
-  position: absolute;top: 3932px;left: 990px;
-}
-.button3{
-  position: absolute;top: 4004px; left: 990px;
-}
-.button4{
-  position: absolute;top: 4076px; left: 990px;
-}
-.button5{
-  position: absolute;top: 4850px; left: 624px;
-}
-.triangle1,.triangle2,.triangle3,.triangle4{
+
+.triangle1,.triangle2{
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 408px 480px 0 0;
   border-color: #3A1581 transparent transparent transparent;
-  position: absolute;top: 2448px;left: 204px;
+  position: absolute;top: 256px;right: 682px;
+}
+.triangle3,.triangle4{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 408px 480px 0 0;
+  border-color: #3A1581 transparent transparent transparent;
+  position: absolute;top: 824px;left: 0px;
 }
 .triangle2{
-  position: absolute;top: 2448px;left: 806px;
-}
-.triangle3{
-  position: absolute;top: 3016px;left: 0px;
+  position: absolute;top: 256px;right: 80px;
 }
 .triangle4{
-  position: absolute;top: 3016px; left:602px;
+  position: absolute;top: 824px; left:602px;
 }
 .tritext1,.tritext3,.tritext5,.tritext7 {
   font-size: 32px;
@@ -413,20 +420,12 @@ h3{
   width: 240px;
 }
 .figure1,.figure2,.figure3,.figure4 {
-  position: absolute;top: 2348px;left: 244px;
+  position: absolute;top: -508px;left: 44px;
   overflow: hidden;
   width: 480px;
   height: 240px;
 }
-.figure2{
-  position: absolute;top: 2348px;left: 846px;
-}
-.figure3{
-  position: absolute;top: 2920px;left: 40px;
-}
-.figure4{
-  position: absolute;top: 2920px;left: 642px;
-}
+
 .figcaption1,.figcaption2,.figcaption3,.figcaption4 {
   position: absolute;
   top: 0;
@@ -472,15 +471,15 @@ h3{
 }
 
 .container{
-	margin: 20px;
-  width: 450px;
+	margin: 0px;
+  width: 410px;
 	height: auto;
   background-color: rgba (0,0,255,0);
   float:left;
-  position: absolute;top:3646px;left:214px;
+  position: absolute;top:116px;left:0px;
 }
 table{
-  margin: 25px;
+  margin: 5px;
 	width: 400px;
   height: auto;
   border-top: 8px solid #D6E1F4;
@@ -529,7 +528,7 @@ th{
 
 .msr_newslist01 {
   width: 720px;
-  position: absolute;top: 4448px;left: 280px;
+  position: absolute;top: 144px;
 }
 .msr_newslist01 li {
   border-bottom: 2px solid #D6E1F4;
@@ -606,9 +605,10 @@ th{
   font-size: 24px;
   font-family: impact;
   color: #D6E1F4;
-  position: absolute;top:5120px;left: 554px;
+  position: relative;top:-44px;
+  text-align: center;
 }
 .JFSA{
-  position: absolute;top:5256px;left: 471px;
+  position: relative;top:40px;
   margin-bottom: 120px;
 }

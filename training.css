@@ -445,12 +445,13 @@ th{
   box-sizing:border-box;
   overflow:hidden;
   margin:0 0 40px 50px;
+  border: 2px solid #000088;
 }
 .button5{
-  position: absolute;top:0px; left: 404px;
+  position: absolute;top:0px; left: 405px;
 }
 .button6{
-  position: absolute;;top: 274px; left: 176px;
+  position: absolute;;top: 274px; left: 177px;
 }
 .button1 a{
   font-family:impact;
@@ -485,7 +486,7 @@ th{
 .button4 a,.button5 a,.button6 a{
   font-size: 40px;
   font-family:impact;
-  color:#D6E1F4;
+  color:white;
   text-decoration:none;
   transition:all .5s ease;
   z-index:2;
