@@ -59,13 +59,13 @@ body{
   margin:0 0 40px 50px;
 }
 .button2{
-  position: absolute;top: 348px;right: 20px;
+  position: absolute;top: 348px;right: -36px;
 }
 .button3{
-  position: absolute;top: 422px;right: 20px;
+  position: absolute;top: 422px;right: -36px;
 }
 .button4{
-  position: absolute;top: 496px;right: 20px;
+  position: absolute;top: 496px;right: -36px;
 }
 .button1 a,.button2 a,.button3 a,
 .button4 a{
