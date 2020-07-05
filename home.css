@@ -45,7 +45,19 @@ body{
   height: 100px;
   position: relative;top: 1224px;
 }
-.button1,.button2,.button3,
+.button1{
+  width:102px;
+  height:48px;
+  border:2px solid #D6E1F4;
+  float:left;
+  text-align:center;
+  cursor:pointer;
+  position:relative;top: 140px;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 auto;
+}
+.button2,.button3,
 .button4{
   width:102px;
   height:48px;
@@ -53,13 +65,9 @@ body{
   float:left;
   text-align:center;
   cursor:pointer;
-  position:absolute;top: 335px;right: 20.86%;
+  position: absolute;top: 348px;right: -36px;
   box-sizing:border-box;
   overflow:hidden;
-  margin:0 0 40px 50px;
-}
-.button2{
-  position: absolute;top: 348px;right: -36px;
 }
 .button3{
   position: absolute;top: 422px;right: -36px;
@@ -113,8 +121,9 @@ body{
   height: 489px;
 }
 .imgh3{
-  width: 683px;
+  width: 50%;
   height: 500px;
+  object-fit: cover;
   position: absolute;top: 0px; left: 0px;
 }
 .imgh4,.imgh5,.imgh6,.imgh7{
@@ -410,13 +419,20 @@ h3{
   position: relative;top: -14px;left: 0px;
   background-color: #3A1581;
 }
+.hbox2{
+  width: 50%;
+  height: 500px;
+  position: relative;top: 0px;right: -50%;
+  background-color: red;
+}
 .hbox1 p {
   font-size: 24px;
   font-family: "Hiragino Sans";
   color: #D6E1F4;
-  position: absolute;top: 100px;right: 4.53%;
-  width: 560px;
+  position: relative;top: 100px;
+  width: auto;
   font-weight: 700;
+  margin: 0 20px;
 }
 
 
