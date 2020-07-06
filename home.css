@@ -63,15 +63,15 @@ body{
   float:left;
   text-align:center;
   cursor:pointer;
-  position: absolute;top: 348px;right: -36px;
+  position: absolute;top: 348px;right: 8px;
   box-sizing:border-box;
   overflow:hidden;
 }
 .button3{
-  position: absolute;top: 422px;right: -36px;
+  position: absolute;top: 422px;right: 8px;
 }
 .button4{
-  position: absolute;top: 496px;right: -36px;
+  position: absolute;top: 496px;right: 8px;
 }
 .button1 a,.button2 a,.button3 a,
 .button4 a{
