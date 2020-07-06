@@ -49,12 +49,10 @@ body{
   width:102px;
   height:48px;
   border:2px solid #D6E1F4;
-  float:left;
   text-align:center;
   cursor:pointer;
   position:relative;top: 140px;
-  box-sizing:border-box;
-  overflow:hidden;
+  overflow: hidden;
   margin:0 auto;
 }
 .button2,.button3,
@@ -423,7 +421,6 @@ h3{
   width: 50%;
   height: 500px;
   position: relative;top: 0px;right: -50%;
-  background-color: red;
 }
 .hbox1 p {
   font-size: 24px;
@@ -432,7 +429,8 @@ h3{
   position: relative;top: 100px;
   width: auto;
   font-weight: 700;
-  margin: 0 20px;
+  margin: 0 62px;
+  min-width: 300px;
 }
 
 
