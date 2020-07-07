@@ -801,7 +801,7 @@ body{
   font-weight: 700;
   font-family: "Hiragino Sans";
   width: 330px;
-  position: relative;top: -784px;left: -197px;
+  position: relative;top: -784px;left: -180px;
 }
 .tri-text2,.tri-text4{
   font-size: 28px;
@@ -809,13 +809,13 @@ body{
   font-weight: 400;
   font-family: "Hiragino Sans";
   width: 664px;
-  position: relative;top: -788px;left: -197px;
+  position: relative;top: -788px;left: -180px;
 }
 .tri-text3{
-  position: relative;top: 120px;left: -467px;
+  position: relative;top: 120px;left: -458px;
 }
 .tri-text4{
-  position: relative;top: 120px;left: -467px;
+  position: relative;top: 120px;left: -458px;
 }
 .box1{
   width:750px;
