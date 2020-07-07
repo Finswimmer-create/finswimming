@@ -572,7 +572,7 @@ th{
 
 @media screen and (max-width:850px){
 body{
-  width: 100%;
+  width: 850px;
   overflow-x: hidden;
   background-color: #04111C;
   background-image: url("img/home11.png");
@@ -581,29 +581,29 @@ body{
   background-size: cover;
 }
 .allbox{
-  width: 100%;
+  width: 850px;
   max-width: 850px;
-  position: relative;top:1000px;
+  position: relative;top:-64px;
   margin: 0 auto;
 }
 .img-training1{
-  width: 100%;
+  width: 850px;
   height: 800px;
   object-fit: cover;
   position: absolute;top: 0px;left: 0px;
   z-index: 25;
 }
 .img-training2{
-  width: 100%;
+  width: 850px;
   height: 375px;
   object-fit: cover;
-  position: absolute;top: 120px;left: 0px;
+  position: absolute;top: 120px;left: -8px;
 }
 .img-training3{
-  width: 700px;
-  height: 350px;
+  width: 850px;
+  height: 375px;
   object-fit: cover;
-  position: absolute;top: 984px;right: 14.12%;
+  position: absolute;top: 1360px;right: 8px;
 }
 .img-training4{
   width: 360px;
@@ -645,18 +645,18 @@ body{
   position: absolute; top: 275px;right: 227px;
 }
 .cover5{
-  width: 742px;
-  height: 395px;
+  width: 850px;
+  height: 864px;
   background-color: black;
   opacity: 0.5;
-  position: absolute;top: 472px;right: 14.12%;
+  position: absolute;top: 496px;right: 8px;
 }
 .cover6{
-  width: 742px;
-  height: 395px;
+  width: 850px;
+  height: 864px;
   background-color: black;
   opacity: 0.5;
-  position: absolute;top: 1337px;left: 14.12%;
+  position: absolute;top: 1737px;left:-8px;
 }
 
 #menu2{
@@ -726,7 +726,7 @@ body{
   font-family: impact;
   color: white;
   text-align: center;
-  position: relative;top: 0px;
+  position: relative;top: -126px;
   z-index: 100;
 }
 .title2{
@@ -735,14 +735,14 @@ body{
   font-weight: 700;
   font-family: "Hiragino Sans";
   text-align: center;
-  position: relative;top: -14px;
-    z-index: 100;
+  position: relative;top: -224px;
+  z-index: 100;
 }
 .bar1{
   background-color: #D6E1F4;
   width: 320px;
   height: 4px;
-  position: relative;top: -46px;
+  position: relative;top: -258px;
   margin:0 auto;
     z-index: 100;
 }
@@ -750,15 +750,15 @@ body{
   background-color: #D6E1F4;
   width: 80px;
   height: 8px;
-  position: relative;top: 1852px;
+  position: relative;top: 2740px;
   margin:0 auto;
 }
 .bar3{
-  position: relative;top: 1864px;
+  position: relative;top: 2752px;
   width: 40px;
 }
 .bar4{
-  position: relative;top: 1876px;
+  position: relative;top: 2764px;
   width: 12px;
 }
 .bar5,.bar6,.bar7{
@@ -781,21 +781,21 @@ body{
   border-style: solid;
   border-width: 0 240px 160px 0;
   border-color: transparent #3A1581 transparent transparent;
-  position: absolute;top: 470px;right: 14.12%;
+  position: absolute;top: 496px;right: 0px;
 }
 .triangle2,.triangle4{
   width: 0;
-height: 0;
-border-style: solid;
-border-width: 160px 0 0 240px;
-border-color: transparent transparent transparent #3A1581;
-position: relative;top: 235px;right: 502px;
+  height: 0;
+  border-style: solid;
+  border-width: 160px 0 0 240px;
+  border-color: transparent transparent transparent #3A1581;
+  position: relative;top: 704px;right: 618px;
 }
 .triangle3{
-  position: relative;top: -436px;left: 262px;
+  position: relative;top: -904px;left: 370px;
 }
 .triangle4{
-  position: absolute;top: 1572px;left: 14.12%;
+  position: absolute;top: 2440px;left: -8px;
 }
 .tri-text1,.tri-text3{
   font-size: 40px;
@@ -803,32 +803,32 @@ position: relative;top: 235px;right: 502px;
   font-weight: 700;
   font-family: "Hiragino Sans";
   width: 330px;
-  position: relative;top: -395px;left: -200px;
+  position: relative;top: -784px;left: -147px;
 }
 .tri-text2,.tri-text4{
-  font-size: 20px;
+  font-size: 28px;
   color: #D6E1F4;
   font-weight: 400;
   font-family: "Hiragino Sans";
-  width: 662px;
-  position: relative;top: -440px;left: -200px;
+  width: 664px;
+  position: relative;top: -788px;left: -147px;
 }
 .tri-text3{
-  position: relative;top: 45px;left: -462px;
+  position: relative;top: 120px;left: -517px;
 }
 .tri-text4{
-  position: relative;top: 5px;left: -462px;
+  position: relative;top: 120px;left: -517px;
 }
 .box1{
   width:814px;
   height: 180px;
-  position: relative;top: 2000px;
+  position: relative;top: 3000px;
   margin: 0 auto;
 }
 .box2{
   width: 800px;
   height: 520px;
-  position: relative;top: 2456px;
+  position: relative;top: 3456px;
   margin: 0 auto;
 }
 .box-text1,.box-text2,.box-text3{
@@ -1052,7 +1052,7 @@ th{
 .box3{
   width: 700px;
   height: 300px;
-  position: relative;top: 2612px;
+  position: relative;top: 3612px;
   margin: 0 auto;
 }
 .mailadd,.JFSA{
