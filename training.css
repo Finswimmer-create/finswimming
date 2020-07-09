@@ -588,20 +588,20 @@ body{
   width: 750px;
   height: 800px;
   object-fit: cover;
-  position: absolute;top: 0px;left: 0px;
+  position: absolute;top: 0px;
   z-index: 25;
 }
 .img-training2{
   width: 750px;
   height: 375px;
   object-fit: cover;
-  position: absolute;top: 120px;left: -8px;
+  position: absolute;top: 0px;left: 0px;
 }
 .img-training3{
   width: 750px;
   height: 375px;
   object-fit: cover;
-  position: absolute;top: 1360px;right: 8px;
+  position: absolute;top: 0px;right: 0px;
 }
 .img-training4{
   width: 600px;
@@ -624,7 +624,7 @@ body{
   width: 750px;
   height: 800px;
   background-color: black;
-  position: absolute;top: 0px;left: 0px;
+  position: absolute;top: 0px;
   opacity: 0.5;
   z-index: 50;
 }
@@ -647,14 +647,14 @@ body{
   height: 864px;
   background-color: black;
   opacity: 0.5;
-  position: absolute;top: 496px;right: 8px;
+  position: absolute;top:374px;right: 0px;
 }
 .cover6{
-  width: 750px;
-  height: 864px;
+  width: 100%;
+  height: 69.76%;
   background-color: black;
   opacity: 0.5;
-  position: absolute;top: 1737px;left:-8px;
+  position: absolute;top: 374px;left:0px;
 }
 
 #menu2{
@@ -748,15 +748,15 @@ body{
   background-color: #D6E1F4;
   width: 80px;
   height: 8px;
-  position: relative;top: 2740px;
+  position: relative;top: 240px;
   margin:0 auto;
 }
 .bar3{
-  position: relative;top: 2752px;
+  position: relative;top: 252px;
   width: 40px;
 }
 .bar4{
-  position: relative;top: 2764px;
+  position: relative;top: 264px;
   width: 12px;
 }
 .bar5,.bar6,.bar7{
@@ -779,7 +779,7 @@ body{
   border-style: solid;
   border-width: 0 240px 160px 0;
   border-color: transparent #3A1581 transparent transparent;
-  position: absolute;top: 496px;right: 8px;
+  position: absolute;top: 374px;right: 0px;
 }
 .triangle2,.triangle4{
   width: 0;
@@ -787,13 +787,13 @@ body{
   border-style: solid;
   border-width: 160px 0 0 240px;
   border-color: transparent transparent transparent #3A1581;
-  position: relative;top: 704px;right: 518px;
+  position: relative;top: 704px;right: 510px;
 }
 .triangle3{
   position: relative;top: -904px;left: 270px;
 }
 .triangle4{
-  position: absolute;top: 2440px;left: -8px;
+  position: absolute;top: 1080px;left: 0px;
 }
 .tri-text1,.tri-text3{
   font-size: 40px;
@@ -818,15 +818,35 @@ body{
   position: relative;top: 120px;left: -458px;
 }
 .box1{
-  width:750px;
+  width:100%;
   height: 180px;
-  position: relative;top: 2908px;
+  position: relative;top: 400px;
   margin: 0 auto;
 }
 .box2{
   width: 750px;
   height: 820px;
-  position: relative;top: 4116px;
+  position: relative;top: 1516px;
+  margin: 0 auto;
+}
+.box3{
+  width: 700px;
+  height: 300px;
+  position: relative;top: 1560px;
+  margin: 0 auto;
+}
+.box4{
+  width: 100%;
+  height: 1240px;
+  position: relative;top: 120px;
+  background-color: red;
+  margin: 0 auto;
+}
+.box5{
+  width: 100%;
+  height: 1240px;
+  position: relative;top: 120px;
+  background-color: red;
   margin: 0 auto;
 }
 .box-text1,.box-text2,.box-text3{
@@ -1046,12 +1066,6 @@ th{
 .button5:hover a,
 .button6:hover a{
   color:#04111C;
-}
-.box3{
-  width: 700px;
-  height: 300px;
-  position: relative;top: 4260px;
-  margin: 0 auto;
 }
 .mailadd,.JFSA{
   font-size: 24px;
