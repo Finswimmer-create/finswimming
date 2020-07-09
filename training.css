@@ -724,8 +724,9 @@ body{
   font-family: impact;
   color: white;
   text-align: center;
-  position: relative;top: -144px;
+  position: relative;top: -376px;
   z-index: 100;
+  margin-top: 314px;
 }
 .title2{
   font-size: 32px;
@@ -733,14 +734,14 @@ body{
   font-weight: 700;
   font-family: "Hiragino Sans";
   text-align: center;
-  position: relative;top: -236px;
+  position: relative;top: -472px;
   z-index: 100;
 }
 .bar1{
   background-color: #D6E1F4;
   width: 320px;
   height: 4px;
-  position: relative;top: -270px;
+  position: relative;top: -508px;
   margin:0 auto;
     z-index: 100;
 }
@@ -838,13 +839,13 @@ body{
 .box4{
   width: 750px;
   height: 1240px;
-  position: relative;top: 220px;
+  position: relative;top: 0px;
   margin: 0 auto;
 }
 .box5{
   width: 750px;
   height: 1240px;
-  position: relative;top: 220px;
+  position: relative;top: 0px;
   margin: 0 auto;
 }
 .box-text1,.box-text2,.box-text3{
