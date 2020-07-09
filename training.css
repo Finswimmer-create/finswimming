@@ -581,7 +581,7 @@ body{
 }
 .allbox{
   width: 750px;
-  position: relative;top:-64px;
+  position: relative;top:60px;
   margin: 0 auto;
 }
 .img-training1{
