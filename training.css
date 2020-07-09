@@ -724,7 +724,7 @@ body{
   font-family: impact;
   color: white;
   text-align: center;
-  position: relative;top: -376px;
+  position: relative;top: 0px;
   z-index: 100;
   line-height: 1;
   margin-top: 314px;
@@ -735,14 +735,14 @@ body{
   font-weight: 700;
   font-family: "Hiragino Sans";
   text-align: center;
-  position: relative;top: -472px;
+  position: relative;top: -80px;
   z-index: 100;
 }
 .bar1{
   background-color: #D6E1F4;
   width: 320px;
   height: 4px;
-  position: relative;top: -508px;
+  position: relative;top: -100px;
   margin:0 auto;
     z-index: 100;
 }
@@ -818,6 +818,14 @@ body{
 }
 .tri-text4{
   position: relative;top: 120px;left: -458px;
+}
+.titlebox{
+  width: 750px;
+  height: 200px;
+  margin:0 auto;
+  position: relative;top: -400px;
+  background-color: red;
+  z-index: 200;
 }
 .box1{
   width:750px;
