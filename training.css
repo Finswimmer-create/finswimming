@@ -724,7 +724,8 @@ body{
   font-family: impact;
   color: white;
   text-align: center;
-  position: relative;top: -138px;
+  position: absolute;top: 214px;left: 223px;
+  background-color: red;
   z-index: 100;
 }
 .title2{
