@@ -818,7 +818,7 @@ body{
   position: relative;top: 120px;left: -458px;
 }
 .box1{
-  width:100%;
+  width:750px;
   height: 180px;
   position: relative;top: 400px;
   margin: 0 auto;
@@ -836,17 +836,15 @@ body{
   margin: 0 auto;
 }
 .box4{
-  width: 100%;
+  width: 750px;
   height: 1240px;
   position: relative;top: 120px;
-  background-color: red;
   margin: 0 auto;
 }
 .box5{
-  width: 100%;
+  width: 750px;
   height: 1240px;
   position: relative;top: 120px;
-  background-color: red;
   margin: 0 auto;
 }
 .box-text1,.box-text2,.box-text3{
