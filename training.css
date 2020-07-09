@@ -726,6 +726,7 @@ body{
   text-align: center;
   position: relative;top: -376px;
   z-index: 100;
+  line-height: 1;
   margin-top: 314px;
 }
 .title2{
