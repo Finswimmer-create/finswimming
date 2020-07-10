@@ -724,7 +724,7 @@ body{
   font-family: impact;
   color: white;
   text-align: center;
-  position: relative;top:0px;
+  position: absolute;top:-80px;left: 192px;
   z-index: 100;
   line-height: 1;
   padding-top: 20px;
@@ -735,7 +735,7 @@ body{
   font-weight: 700;
   font-family: "Hiragino Sans";
   text-align: center;
-  position: relative;top: -92px;
+  position: relative;top: 140px;
   z-index: 100;
 }
 .bar1{
