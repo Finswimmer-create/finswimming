@@ -817,12 +817,12 @@ body{
   margin:0 auto;
 }
 .box1{
-  width: 750px;
+  width: 550px;
   height: 400px;
   position: absolute;top: 1812px;left: 116px;
 }
 .box2{
-  width: 750px;
+  width: 550px;
   height: 400px;
   position: absolute;top: 3210px;left: -116px;
 }
@@ -1133,7 +1133,7 @@ th{
   color: #D6E1F4;
   font-weight: 700;
   font-family: "Hiragino Sans";
-  width: 330px;
+  width: 600px;
   position: relative;top: -785px;left: -189px;
 }
 .tri-text2,.tri-text3{
