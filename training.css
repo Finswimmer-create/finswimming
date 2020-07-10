@@ -581,7 +581,7 @@ body{
 }
 .allbox{
   width: 750px;
-  position: relative;top:260px;
+  position: relative;top:152px;
   margin: 0 auto;
 }
 .img-training1{
@@ -750,15 +750,15 @@ body{
   background-color: #D6E1F4;
   width: 80px;
   height: 8px;
-  position: relative;top: 240px;
+  position: relative;top: 2612px;
   margin:0 auto;
 }
 .bar3{
-  position: relative;top: 252px;
+  position: relative;top: 2624px;
   width: 40px;
 }
 .bar4{
-  position: relative;top: 264px;
+  position: relative;top: 2636px;
   width: 12px;
 }
 .bar5,.bar6,.bar7{
@@ -824,37 +824,37 @@ body{
   height: 200px;
   margin:0 auto;
   position: relative;top: -134px;
-  background-color: #6AABF7;
+  margin: 0 auto;
   z-index: 200;
 }
 .box1{
   width:750px;
   height: 180px;
-  position: relative;top: 400px;
+  position: absolute;top: 2804px;
   margin: 0 auto;
 }
 .box2{
   width: 750px;
   height: 820px;
-  position: relative;top: 1516px;
+  position: absolute;top: 4232px;
   margin: 0 auto;
 }
 .box3{
   width: 700px;
   height: 300px;
-  position: relative;top: 1560px;
+  position: absolute;top: 5200px;
   margin: 0 auto;
 }
 .box4{
   width: 750px;
   height: 1240px;
-  position: relative;top: 0px;
+  position: absolute;top: 0px;
   margin: 0 auto;
 }
 .box5{
   width: 750px;
   height: 1240px;
-  position: relative;top: 0px;
+  position: absolute;top: 1236px;
   margin: 0 auto;
 }
 .box-text1,.box-text2,.box-text3{
@@ -1080,10 +1080,10 @@ th{
   font-family: impact;
   color: #D6E1F4;
   text-align: center;
-  position: relative;top:72px;
+  position: relative;top:48px;
 }
 .JFSA{
-  position: relative;top:162px;
+  position: relative;top:138px;
   margin-bottom: 120px;
 }
 .LINE,.insta,.twitter,.YouTube{
