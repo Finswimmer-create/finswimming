@@ -588,20 +588,20 @@ body{
   width: 750px;
   height: 800px;
   object-fit: cover;
-  position: absolute;top: 0px;
+  position: absolute;top: 0px;left: 0px;
   z-index: 25;
 }
 .img-training2{
   width: 750px;
   height: 375px;
   object-fit: cover;
-  position: absolute;top: 0px;left: 0px;
+  position: absolute;top: 0px;left: -8px;
 }
 .img-training3{
   width: 750px;
   height: 375px;
   object-fit: cover;
-  position: absolute;top: 0px;right: 0px;
+  position: absolute;top: 0px;right: 8px;
 }
 .img-training4{
   width: 600px;
@@ -624,7 +624,7 @@ body{
   width: 750px;
   height: 800px;
   background-color: black;
-  position: absolute;top: 0px;
+  position: absolute;top: 0px;left: 0px;
   opacity: 0.5;
   z-index: 50;
 }
@@ -647,14 +647,14 @@ body{
   height: 864px;
   background-color: black;
   opacity: 0.5;
-  position: absolute;top:374px;right: 0px;
+  position: absolute;top:374px;right: 8px;
 }
 .cover6{
   width: 750px;
   height: 864px;
   background-color: black;
   opacity: 0.5;
-  position: absolute;top: 374px;left:0px;
+  position: absolute;top: 374px;left:-8px;
 }
 #menu1{
   list-style-type: none;
@@ -846,7 +846,7 @@ body{
   border-style: solid;
   border-width: 0 240px 160px 0;
   border-color: transparent #3A1581 transparent transparent;
-  position: absolute;top: 374px;right: 0px;
+  position: absolute;top: 374px;right: 8px;
 }
 .triangle2,.triangle4{
   width: 0;
@@ -854,13 +854,13 @@ body{
   border-style: solid;
   border-width: 160px 0 0 240px;
   border-color: transparent transparent transparent #3A1581;
-  position: relative;top: 704px;right: 510px;
+  position: relative;top: 704px;right: 518px;
 }
 .triangle3{
   position: relative;top: -904px;left: 270px;
 }
 .triangle4{
-  position: absolute;top: 1080px;left: 0px;
+  position: absolute;top: 1080px;left: -8px;
 }
 .tri-text1,.tri-text3{
   font-size: 40px;
@@ -900,7 +900,7 @@ body{
 .box3{
   width: 700px;
   height: 300px;
-  position: absolute;top: 5200px;
+  position: absolute;top: 5080px;
   margin: 0 auto;
 }
 .box4{
@@ -942,7 +942,7 @@ body{
 	height: auto;
   background-color: rgba (0,0,255,0);
   float:left;
-  position: absolute;top:0px;left:92px;
+  position: absolute;top:0px;left:84px;
 }
 table{
   margin: 5px;
@@ -995,28 +995,28 @@ th{
   font-size: 29px;
   color: #D6E1F4;
   font-family: impact;
-  position: absolute;top: 640px; left: 240px;
+  position: absolute;top: 608px; left: 166px;
 }
 .more2{
-  position: absolute;top: 680px; left: 240px;
+  position: absolute;top: 608px; left: 328px;
 }
 .more3{
-  position: absolute;top: 720px; left: 240px;
+  position: absolute;top: 608px; left: 538px;
 }
 .circle1,.circle2,.circle3{
   width: 28px;
   height: 28px;
   background-color: #68D92D;
   border-radius: 50%;
-  position: absolute;top: 672px;left:192px;
+  position: absolute;top: 640px;left:130px;
 }
 .circle2{
   background-color: #6AABF7;
-  position: absolute;top: 712px;left:192px;
+  position: absolute;top: 640px;left:292px;
 }
 .circle3{
   background-color: #FF0000;
-  position: absolute;top:752px;left:192px;
+  position: absolute;top:640px;left:502px;
 }
 .button1,.button2,.button3{
   width:102px;
@@ -1029,6 +1029,7 @@ th{
   box-sizing:border-box;
   overflow:hidden;
   margin:0 0 40px 50px;
+  display: none;
 }
 .button2{
   position: absolute;top: 708px; left: 400px;
