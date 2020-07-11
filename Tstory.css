@@ -907,28 +907,28 @@ th{
   font-size: 29px;
   color: #D6E1F4;
   font-family: impact;
-  position: absolute;top: 640px; left: 240px;
+  position: absolute;top: 608px; left: 166px;
 }
 .more2{
-  position: absolute;top: 680px; left: 240px;
+  position: absolute;top: 608px; left: 328px;
 }
 .more3{
-  position: absolute;top: 720px; left: 240px;
+  position: absolute;top: 608px; left: 538px;
 }
 .circle1,.circle2,.circle3{
   width: 28px;
   height: 28px;
   background-color: #68D92D;
   border-radius: 50%;
-  position: absolute;top: 672px;left:192px;
+  position: absolute;top: 640px;left:130px;
 }
 .circle2{
   background-color: #6AABF7;
-  position: absolute;top: 712px;left:192px;
+  position: absolute;top: 640px;left:292px;
 }
 .circle3{
   background-color: #FF0000;
-  position: absolute;top:752px;left:192px;
+  position: absolute;top:640px;left:502px;
 }
 .button1,.button2,.button3{
   width:102px;
@@ -941,6 +941,7 @@ th{
   box-sizing:border-box;
   overflow:hidden;
   margin:0 0 40px 50px;
+  display: none;
 }
 .button2{
   position: absolute;top: 708px; left: 400px;

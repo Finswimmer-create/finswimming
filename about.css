@@ -576,7 +576,7 @@ body{
   position: absolute;top: -347px;left: 221px;
   font-size: 60px;
   font-family: Impact;
-  color: #D6E1F4;
+  color: white;
 }
 .box-title2{
   position: absolute;top: -347px;left:322px;
@@ -596,17 +596,18 @@ body{
   font-weight: 700;
   width: 584px;
   height: 256px;
-  position: absolute;left: 83px; top:112px;
+  line-height: 1.9;
+  position: absolute;left: 83px; top:104px;
 }
 .box2-text3{
   font-size: 32px;
   font-family: impact;
   width: 300px;
   height: auto;
-  position: absolute;top:390px;left: 457px;
+  position: absolute;top:386px;left: 457px;
 }
 .box2-text3 a{
-  color: white;
+  color:  #D6E1F4;
   text-decoration: none;
 }
 .box2-text3 a:hover{
