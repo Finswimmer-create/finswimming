@@ -38,10 +38,10 @@ body{
   height: 160px;
   position: absolute;top: 0px;left: 0px;
 }
-.img-aboutJ5{
+.img-aboutJ5,.img-aboutJ5-2{
   position: absolute;top: 0px;left:280px;
 }
-.img-aboutJ6{
+.img-aboutJ6,.img-aboutJ6-2,.img-aboutJ6-3{
   position: absolute;top: 0px;left:560px;
 }
 .cover{
