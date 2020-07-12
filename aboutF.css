@@ -26,7 +26,7 @@ body{
   object-fit: cover;
   position: absolute;top: 0px;left: 14.12%;
 }
-.img-aboutF3{
+.img-aboutF3,.img-aboutF4{
   width: 360px;
   height: 180px;
   object-fit: cover;
@@ -318,7 +318,7 @@ body{
   border-color: transparent transparent transparent #3A1581;
   position: relative;top: 235px;right: 502px;
 }
-.triangle3,.triangle5{
+.triangle3,.triangle5,.triangle7,.triangle9{
   width: 0;
   height: 0;
   border-style: solid;
@@ -326,7 +326,7 @@ body{
   border-color: transparent #3A1581 transparent transparent;
   position: absolute;top:0px;left: 80px;
 }
-.triangle4,.triangle6{
+.triangle4,.triangle6,.triangle8,.triangle10{
   width: 0;
   height: 0;
   border-style: solid;
@@ -334,13 +334,13 @@ body{
   border-color: transparent #3A1581 transparent transparent;
   position: absolute;top:0px;right: 0px;
 }
-.triangle4{
+.triangle4,.triangle8{
   position: absolute;top:120px;right: 0px;
 }
-.triangle5{
+.triangle5,.triangle9{
   position: absolute;top: 532px; left: 80px;
 }
-.triangle6{
+.triangle6,.triangle10{
   position: absolute;top: 652px; right: 0px;
 }
 .tri-text1{
@@ -536,6 +536,12 @@ body{
   object-fit: cover;
   position: relative;top: -110px;right: 118px;
 }
+.img-aboutF4{
+  width: 640px;
+  height: 320px;
+  object-fit: cover;
+  position: relative;top: -582px;right: -110px;
+}
 .cover{
   width: 750px;
   height: 800px;
@@ -718,17 +724,16 @@ body{
   position: relative;top: 4428px;
 }
 .title7,.title8{
-  font-size: 50px;
+  font-size: 60px;
   font-family: impact;
-  width: 120px;
+  width: 500px;
   color:  #D6E1F4;
-  position: relative;top: -128px;right: 8px;
+  position: relative;top: -608px;left: 110px;
+  z-index: 200;
 }
-.title8{
-  width: 200px;
-}
+
 .title9{
-  position: relative;top:7241px;
+  position: relative;top:7352px;
 }
 .bar1{
   width: 254px;
@@ -751,7 +756,7 @@ body{
   position:relative;top:4356px
 }
 .bar5{
-  position: relative;top: 7168px;
+  position: relative;top: 7280px;
 }
 .box1{
   width: 750px;
@@ -765,12 +770,12 @@ body{
   margin: 0 auto;
 }
 .box3{
-  position: relative;top: 4606px;
+  position: relative;top: 4604px;
 }
 .box4{
   width: 700px;
   height: 300px;
-  position: relative;top: 7500px;
+  position: relative;top: 7612px;
   margin: 0 auto;
 }
 .button1{
@@ -844,15 +849,35 @@ body{
   border-color: transparent #3A1581 transparent transparent;
   position: absolute;top:750px;right: 0px;
 }
-.triangle4{
-  position: absolute;top:742px;right: 0px;
+.triangle7,.triangle9{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 474px 640px 0px 0;
+  border-color:  #3A1581 transparent transparent transparent;
+  position: absolute;top:0px;left: -8px;
+}
+.triangle8,.triangle10{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 474px 640px 0px 0px;
+  border-color: #3A1581 transparent transparent transparent;
+  position: absolute;top:770px;left:-8px;
 }
 .triangle5{
-  position: absolute;top: 1484px; left: 80px;
+  position: absolute;top:1500px;left:110px;
 }
 .triangle6{
-  position: absolute;top: 2226px; right: 0px;
+  position: absolute;top:2250px;left:110px;
 }
+.triangle9{
+  position: absolute;top: 1540px; left: -8px;
+}
+.triangle10{
+  position: absolute;top: 2310px; left: -8px;
+}
+
 .tri-text1{
   font-size: 40px;
   color: #D6E1F4;
@@ -881,30 +906,33 @@ body{
 }
 .tri-text4,.tri-text6,
 .tri-text7,.tri-text8{
-  width: 100px;
-  font-size: 20px;
+  width: 300px;
+  font-size: 28px;
   font-weight: 700;
   font-family: "Hiragino Sans";
   color:  #D6E1F4;
-  position: relative;top: -212px;right: -128px;
+  position: relative;top: -712px;left: 288px;
+  z-index: 250;
 }
 .tri-text5{
   width: 320px;
-  font-size: 16px;
+  font-size: 28px;
   font-weight: 700;
   font-family: "Hiragino Sans";
   color:  #D6E1F4;
-  position: relative;top: -224px;right: 8px;
+  height: 203px;
+  width: 512px;
+  position: relative;top: -696px;left: 110px;
+  line-height: 1.8;
 }
 .tri-text6{
-  position: relative;top: -212px; right: -200px;
+  position: relative;top: -712px; left: 376px;
 }
 .tri-text7{
-  position: relative;top: -212px; right: -192px;
-  width: 150px;
+  position: relative;top: -712px; left: 360px;
 }
 .tri-text8{
-  position: relative;top: -212px;right: -176px;
+  position: relative;top: -712px; left: 346px;
 }
 
 .cp_qa *, .cp_qa *:after, .cp_qa *:before {
@@ -915,7 +943,7 @@ body{
   border-top: 4px solid #D6E1F4;
   width: 700px;
   margin: 0 auto;
-  position: relative;top: 7304px;
+  position: relative;top: 7416px;
 }
 .cp_qa .cp_actab {
   position: relative;
