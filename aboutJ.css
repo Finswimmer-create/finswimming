@@ -127,6 +127,59 @@ body{
   overflow: visible;
   height: 32px;
 }
+.menu-smaho{
+  display: none;
+}
+#check{
+  display: none;
+  z-index: 500;
+}
+#check:checked ~ #content{
+  transform: translateX(0px);
+}
+.line{
+  width: 72px;
+  height: 8px;
+  margin: 12px;
+  background-color: white;
+  position: relative;left:606px;
+  z-index: 500;
+}
+
+#content{
+  background-color: #000044;
+  width: 750px;
+  height: 1500px;
+  transform: translateX(-750px);
+  transition: 1s ease-in-out;
+  z-index: 400;
+  position: absolute;top: 0px;
+  position: fixed;
+}
+#menu3{
+  list-style-type: none;
+}
+
+#menu3 li a{
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+  color: #D6E1F4;
+  font-size: 40px;
+  font-family: impact;
+  line-height: 1;
+  text-decoration: none;
+  position: relative;top: 150px;
+}
+#menu3 li ul li{
+  list-style-type: none;
+}
+#menu3 li ul li a{
+  list-style-type: none;
+  border-top: none;
+  border-bottom: none;
+  color: #FFFF33;
+}
 .title1{
   font-size: 96px;
   font-family: impact;
@@ -525,6 +578,60 @@ body{
 #menu1 li:hover ul li{
   overflow: visible;
   height: 32px;
+}
+.menu-smaho{
+  z-index: 1000;
+  position: absolute;top: 56px;left: 0px;
+}
+#check{
+  display: none;
+  z-index: 500;
+}
+#check:checked ~ #content{
+  transform: translateX(0px);
+}
+.line{
+  width: 72px;
+  height: 8px;
+  margin: 12px;
+  background-color: white;
+  position: relative;left:606px;
+  z-index: 500;
+}
+
+#content{
+  background-color: #000044;
+  width: 750px;
+  height: 1500px;
+  transform: translateX(-750px);
+  transition: 1s ease-in-out;
+  z-index: 400;
+  position: absolute;top: 0px;
+  position: fixed;
+}
+#menu3{
+  list-style-type: none;
+}
+
+#menu3 li a{
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+  color: #D6E1F4;
+  font-size: 40px;
+  font-family: impact;
+  line-height: 1;
+  text-decoration: none;
+  position: relative;top: 150px;
+}
+#menu3 li ul li{
+  list-style-type: none;
+}
+#menu3 li ul li a{
+  list-style-type: none;
+  border-top: none;
+  border-bottom: none;
+  color: #FFFF33;
 }
 .titlebox{
   width: 750px;
