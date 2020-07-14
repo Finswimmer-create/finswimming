@@ -834,6 +834,7 @@ body{
 }
 #check{
   display: none;
+  z-index: 500;
 }
 #check:checked ~ #content{
   transform: translateX(0px);
@@ -844,6 +845,7 @@ body{
   margin: 12px;
   background-color: white;
   position: relative;left:606px;
+  z-index: 500;
 }
 
 #content{
@@ -852,6 +854,8 @@ body{
   height: 1280px;
   transform: translateX(-750px);
   transition: 1s ease-in-out;
+  z-index: 400;
+  position: relative;top: -150px;
 }
 #menu3{
   list-style-type: none;
@@ -866,6 +870,7 @@ body{
   font-family: impact;
   line-height: 1;
   text-decoration: none;
+  position: relative;top: 150px;
 }
 #menu3 li ul li{
   list-style-type: none;
