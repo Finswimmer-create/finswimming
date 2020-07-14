@@ -1,0 +1,46 @@
+body{
+  width: 750px;
+  background-color: #000044;
+}
+#check{
+  display: none;
+}
+#check:checked ~ #content{
+  transform: translateX(0px);
+}
+.line{
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 4px;
+}
+#content{
+  background-color: #000044;
+  width: 500px;
+  height: 900px;
+  transform: translateX(-508px);
+  transition: 1s ease-in-out;
+}
+#menu1{
+  list-style-type: none;
+}
+
+#menu1 li a{
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+  color: #D6E1F4;
+  font-size: 40px;
+  font-family: impact;
+  line-height: 1;
+  text-decoration: none;
+}
+#menu1 li ul li{
+  list-style-type: none;
+}
+#menu1 li ul li a{
+  list-style-type: none;
+  border-top: none;
+  border-bottom: none;
+  color: #FFFF33;
+}
