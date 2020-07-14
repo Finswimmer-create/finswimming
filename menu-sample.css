@@ -13,12 +13,13 @@ body{
   height: 3px;
   background-color: white;
   margin: 4px;
+  position: relative;left: 700px;
 }
 #content{
   background-color: #000044;
-  width: 500px;
+  width: 750px;
   height: 900px;
-  transform: translateX(-508px);
+  transform: translateX(-750px);
   transition: 1s ease-in-out;
 }
 #menu1{
