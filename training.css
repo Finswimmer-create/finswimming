@@ -849,7 +849,7 @@ body{
 #content{
   background-color: #000044;
   width: 750px;
-  height: auto;
+  height: 900px;
   transform: translateX(-750px);
   transition: 1s ease-in-out;
 }
