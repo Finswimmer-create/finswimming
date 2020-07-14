@@ -851,11 +851,12 @@ body{
 #content{
   background-color: #000044;
   width: 750px;
-  height: 1280px;
+  height: 1380px;
   transform: translateX(-750px);
   transition: 1s ease-in-out;
   z-index: 400;
-  position: relative;top: -150px;
+  position: absolute;top: -150px;
+  position: fixed;
 }
 #menu3{
   list-style-type: none;
