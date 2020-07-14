@@ -855,7 +855,7 @@ body{
   transform: translateX(-750px);
   transition: 1s ease-in-out;
   z-index: 400;
-  position: absolute;top: -150px;
+  position: absolute;top: 0px;
   position: fixed;
 }
 #menu3{
