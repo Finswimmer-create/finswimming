@@ -786,7 +786,7 @@ body{
 }
 #nav-drawer {
   position: relative;
-  position: absolute;top: 56px;left: 56px;
+  position: absolute;top: 56px;left: 622px;
 }
 .nav-unshown {
   display:none;
