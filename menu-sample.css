@@ -1,32 +1,89 @@
 body{
-  width: 750px;
-  background-color: #000044;
+  width: 500px;
+  background-color: red;;
 }
-#check{
-  display: none;
+#nav-drawer {
+  position: relative;
+  position: absolute;top: 56px;right: 56px;
 }
-#check:checked ~ #content{
-  transform: translateX(0px);
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display:none;
 }
-.line{
-  width: 30px;
-  height: 3px;
-  background-color: white;
-  margin: 4px;
-  position: relative;left: 700px;
+
+/*アイコンのスペース*/
+#nav-open {
+    display: inline-block;
+    width: 72px;
+    height: 50px;
+    vertical-align: middle;
 }
-#content{
-  background-color: #000044;
-  width: 750px;
-  height: 900px;
-  transform: translateX(-750px);
-  transition: 1s ease-in-out;
+
+/*ハンバーガーアイコンをCSSだけで表現*/
+#nav-open span, #nav-open span:before, #nav-open span:after {
+    position: absolute;right: 0px;
+    height: 8px;/*線の太さ*/
+    width: 72px;/*長さ*/
+    border-radius: 3px;
+    background: white;
+    display: block;
+    content: '';
+    cursor: pointer;
 }
-#menu1{
+#nav-open span:before {
+    bottom: -20px;
+}
+#nav-open span:after {
+    bottom: -40px;
+}
+
+/*閉じる用の薄黒カバー*/
+#nav-close {
+    display: none;/*はじめは隠しておく*/
+    position: fixed;
+    z-index: 99;
+    top: 0;/*全体に広がるように*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+/*中身*/
+#nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;/*最前面に*/
+    width: 90%;/*右側に隙間を作る*/
+    max-width: 330px;/*最大幅*/
+    height: 100%;
+    background: #000033;/*背景色*/
+    transition: .3s ease-in-out;/*滑らかに表示*/
+    -webkit-transform: translateX(105%);
+    transform: translateX(105%);/*左に隠しておく*/
+}
+
+/*チェックが入ったらもろもろ表示*/
+#nav-input:checked ~ #nav-close {
+    display: block;/*カバーを表示*/
+    opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);/*中身を表示*/
+    box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+#menu3{
   list-style-type: none;
 }
 
-#menu1 li a{
+#menu3 li a{
   display: block;
   margin: 0;
   padding: 8px 0;
@@ -35,11 +92,12 @@ body{
   font-family: impact;
   line-height: 1;
   text-decoration: none;
+  border-top: 2px solid white;
 }
-#menu1 li ul li{
+#menu3 li ul li{
   list-style-type: none;
 }
-#menu1 li ul li a{
+#menu3 li ul li a{
   list-style-type: none;
   border-top: none;
   border-bottom: none;
