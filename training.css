@@ -869,7 +869,7 @@ body{
   font-family: impact;
   line-height: 1;
   text-decoration: none;
-  position: relative;top: 150px;
+  border-top: 2px solid white;
 }
 #menu3 li ul li{
   list-style-type: none;
@@ -880,7 +880,6 @@ body{
   border-bottom: none;
   color: #FFFF33;
 }
-
 .title1{
   font-size: 96px;
   font-family: impact;
