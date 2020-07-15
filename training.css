@@ -786,7 +786,7 @@ body{
 }
 #nav-drawer {
   position: relative;
-  position: absolute;top: 56px;
+  position: absolute;top: 56px;left: 56px;
 }
 .nav-unshown {
   display:none;
@@ -798,7 +798,7 @@ body{
     vertical-align: middle;
 }
 #nav-open span, #nav-open span:before, #nav-open span:after {
-    position: absolute;right: 0px;
+    position: absolute;left: 0px;
     height: 8px;/*線の太さ*/
     width: 72px;/*長さ*/
     border-radius: 3px;
