@@ -303,7 +303,9 @@ body{
   height: 32px;
   border-bottom: 1px solid rgba (0,0,255,0);
 }
-
+#nav-drawer {
+  display: none;
+}
 h2{
   font-size: 32px;
   font-family: Impact;
@@ -706,13 +708,66 @@ th{
   position: relative;top:40px;
   margin-bottom: 120px;
 }
+.snsbox1,.snsbox2,.snsbox3,.snsbox4 {
+	position:absolute;
+	width: 100px;
+	height: 40px;
+	top: 56px;
+	left: 208px;
+	border-radius: 10px 10px 10px 10px;
+	background-color:  yellow;
+	display: none;
+}
+.snsbox2{
+  left: 304px;
+}
+.snsbox3{
+  left: 400px;
+}
+.snsbox4{
+  left: 496px;
+}
+.snsbox1:after,.snsbox2:after,
+.snsbox3:after,.snsbox4:after{
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	top: 40px;
+	left: 40px;
+	border: 8px solid transparent;
+	border-top: 8px solid  yellow;
+}
+
+.snstext1,.snstext2,.snstext3,.snstext4 {
+	font-size: 16px;
+  font-weight: 700;
+	position: absolute;
+	top: -7px;
+	left: 28px;
+	color: #000044;
+}
+.snstext2{
+  left: 4px;
+}
+.snstext3{
+  left: 14px;
+}
+.snstext4{
+  left: 20px;
+}
+.sample:hover .snsbox1,.sample:hover .snsbox2,
+.sample:hover .snsbox3,.sample:hover .snsbox4 {
+	z-index: 2;
+  display: block;
+}
 }
 
 @media screen and (max-width:750px){
 body{
   width: 750px;
   background-color: #04111C;
-  background-image: url("img/home11.png");
+  background-image: url("img/backscreen.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -1032,7 +1087,96 @@ body{
   height: 32px;
   border-bottom: 1px solid rgba (0,0,255,0);
 }
+#nav-drawer {
+  position: relative;
+  position: absolute;top: 56px;left: 622px;
+}
+.nav-unshown {
+  display:none;
+}
+#nav-open {
+    display: inline-block;
+    width: 72px;
+    height: 50px;
+    vertical-align: middle;
+}
+#nav-open span, #nav-open span:before, #nav-open span:after {
+    position: absolute;left: 0px;
+    height: 8px;
+    width: 72px;
+    border-radius: 3px;
+    background: white;
+    display: block;
+    content: '';
+    cursor: pointer;
+    z-index: 500;
+}
+#nav-open span:before {
+    bottom: -20px;
+}
+#nav-open span:after {
+    bottom: -40px;
+}
+#nav-close {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+#nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    width: 90%;
+    max-width: 500px;
+    height: 100%;
+    background: #000033;
+    transition: .3s ease-in-out;
+    -webkit-transform: translateX(105%);
+    transform: translateX(105%);
+}
+#nav-input:checked ~ #nav-close {
+    display: block;
+    opacity: .5;
+}
 
+#nav-input:checked ~ #nav-content {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+#menu3{
+  list-style-type: none;
+}
+
+#menu3 li a{
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+  color: #D6E1F4;
+  font-size: 40px;
+  font-family: impact;
+  line-height: 1;
+  text-decoration: none;
+  border-top: 2px solid white;
+}
+#menu3 li ul li{
+  list-style-type: none;
+}
+#menu3 li ul li a{
+  list-style-type: none;
+  border-top: none;
+  border-bottom: none;
+  color: #FFFF33;
+}
 h2{
   font-size: 32px;
   font-family: Impact;
@@ -1060,7 +1204,6 @@ h3{
 }
 .title2{
   position: relative;top: 0px;
-  background-color: red;
 }
 .title3{
   position: relative;top: 0px;
@@ -1454,5 +1597,59 @@ th{
 .JFSA{
   position: relative;top:40px;
   margin-bottom: 120px;
+}
+
+.snsbox1,.snsbox2,.snsbox3,.snsbox4 {
+	position:absolute;
+	width: 100px;
+	height: 40px;
+	top: 56px;
+	left: 208px;
+	border-radius: 10px 10px 10px 10px;
+	background-color:  yellow;
+	display: none;
+}
+.snsbox2{
+  left: 304px;
+}
+.snsbox3{
+  left: 400px;
+}
+.snsbox4{
+  left: 496px;
+}
+.snsbox1:after,.snsbox2:after,
+.snsbox3:after,.snsbox4:after{
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	top: 40px;
+	left: 40px;
+	border: 8px solid transparent;
+	border-top: 8px solid  yellow;
+}
+
+.snstext1,.snstext2,.snstext3,.snstext4 {
+	font-size: 16px;
+  font-weight: 700;
+	position: absolute;
+	top: -7px;
+	left: 28px;
+	color: #000044;
+}
+.snstext2{
+  left: 4px;
+}
+.snstext3{
+  left: 14px;
+}
+.snstext4{
+  left: 20px;
+}
+.sample:hover .snsbox1,.sample:hover .snsbox2,
+.sample:hover .snsbox3,.sample:hover .snsbox4 {
+	z-index: 2;
+  display: block;
 }
 }
