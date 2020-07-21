@@ -1686,6 +1686,7 @@ th{
 .msr_newslist01 li {
   border-bottom: 2px solid #D6E1F4;
   border-top: 2px solid #D6E1F4;
+  font-family: "Hiragino Sans";
   font-size: 20px;
   font-weight: 700;
   color: #000033;
@@ -1726,7 +1727,7 @@ th{
   vertical-align: top;
   width: 90px;
   color: #D6E1F4;
-  font-family: impact;
+  font-family: "Hiragino Sans";
   font-weight: normal;
   position: relative;top: 0px;
 }
