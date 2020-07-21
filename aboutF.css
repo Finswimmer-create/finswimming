@@ -1004,7 +1004,7 @@ body{
   font-weight: 700;
   font-family: "Hiragino Sans";
   color:  #D6E1F4;
-  position: relative;top: -712px;left: 288px;
+  position: relative;top: -712px;left: 328px;
   z-index: 250;
 }
 .tri-text5{
@@ -1019,13 +1019,13 @@ body{
   line-height: 1.8;
 }
 .tri-text6{
-  position: relative;top: -712px; left: 376px;
+  position: relative;top: -712px; left: 416px;
 }
 .tri-text7{
-  position: relative;top: -712px; left: 360px;
+  position: relative;top: -712px; left: 400px;
 }
 .tri-text8{
-  position: relative;top: -712px; left: 346px;
+  position: relative;top: -712px; left: 386px;
 }
 
 .cp_qa *, .cp_qa *:after, .cp_qa *:before {

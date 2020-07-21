@@ -774,17 +774,17 @@ body{
   position: relative;top: 100px;left: -467px;
 }
 .member1,.member3,.member5,.member5-2{
-  font-size: 32px;
+  font-size: 30px;
   font-family: impact;
   color: #D6E1F4;
-  width: 300px;
+  width: 310px;
   position: absolute;top: 232px;left: 0px;
 }
 .member2,.member4,.member6,.member6-2{
   font-size: 24px;
   font-family: impact;
   color: #D6E1F4;
-  width: 250px;
+  width: 270px;
   position: absolute;top: 296px;left: 0px;
 }
 .member3{
