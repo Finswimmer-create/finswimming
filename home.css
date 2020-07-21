@@ -744,24 +744,189 @@ th{
   font-weight: 700;
 	position: absolute;
 	top: -7px;
-	left: 28px;
+	width: 100px;
+  text-align: center;
 	color: #000044;
 }
-.snstext2{
-  left: 4px;
-}
-.snstext3{
-  left: 14px;
-}
-.snstext4{
-  left: 20px;
-}
+
 .sample:hover .snsbox1,.sample:hover .snsbox2,
 .sample:hover .snsbox3,.sample:hover .snsbox4 {
 	z-index: 2;
   display: block;
 }
 }
+
+
+@media screen and (min-width:750px) and ( max-width:1100px) {
+.box3{
+  width: 800px;
+  height: 2000px;
+  position: relative;top: 0px;
+  margin: 0 auto;
+}
+.box4,.box5,.box6{
+  width: 800px;
+  height: 700px;
+  position: relative;top: 288px;
+  margin: 0 auto;
+}
+.box5{
+  height: 550px;
+}
+.box6{
+  height: 100px;
+  position: relative;top: 512px;
+}
+.triangle1{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 408px 480px 0 0;
+  border-color: #3A1581 transparent transparent transparent;
+  position: absolute;top: 256px;left: -8px;
+}
+.triangle2{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 480px 408px 0;
+  border-color: transparent #3A1581 transparent transparent;
+  position: absolute;top: 784px;right: 0px;
+}
+.triangle3{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 408px 480px 0 0;
+  border-color: #3A1581 transparent transparent transparent;
+  position: absolute;top: 1312px;left: -8px;
+}
+.triangle4{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 480px 408px 0;
+  border-color: transparent #3A1581 transparent transparent;
+  position: absolute;top: 1840px;left: 320px;
+}
+.tritext1,.tritext3,.tritext5,.tritext7 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Hiragino Sans";
+  color: #D6E1F4;
+  position: relative;top: -268px;left: 80px;
+  width: 416px;
+}
+.tritext3,.tritext7{
+  position: relative;top: 144px;left:-80px;
+}
+.tritext1link{
+  text-decoration: none;
+  color: #D6E1F4;
+}
+.tritext1link :hover{
+	transform: scale(1.05);
+}
+.tritext2,.tritext4,.tritext6,.tritext8 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Hiragino Sans";
+  color: #D6E1F4;
+  width: 330px;
+  position: relative;top: -300px;left: 80px;
+}
+.tritext4,.tritext8{
+  position: relative;top: 112px;left: -80px;
+}
+.tritext2-2,.tritext4-2,.tritext6-2,.tritext8-2{
+  display: none;
+}
+.tritext2-2{
+  font-size: 40px;
+  font-family: impact;
+  color: #D6E1F4;
+  position: absolute;top: -202px;left: 598px;
+  display: none;
+}
+.tritext3{
+  width: 256px;
+}
+.tritext5{
+  width: 320px;
+}
+.tritext7{
+  width: 240px;
+}
+.figure1,.figure3 {
+  position: absolute;top: -508px;left: 44px;
+  overflow: hidden;
+  width: 480px;
+  height: 240px;
+}
+.figure2,.figure4{
+  position: absolute;top: -96px;left: -120px;
+  overflow: hidden;
+  width: 480px;
+  height: 240px;
+}
+
+.figcaption1,.figcaption2,.figcaption3,.figcaption4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 480px;
+  height: 240px;
+  background: rgba(0,0,0,.6);
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 0;
+}
+.figcaption1 p,.figcaption2 p,
+.figcaption3 p,.figcaption4 p {
+  font-size: 40px;
+  font-family: impact;
+  color: #D6E1F4;
+  position: relative;bottom: -20px;
+  text-align: center;
+}
+.figcaption2 p,.figcaption3 p,.figcaption4 p{
+  position: relative;bottom: -8px;
+}
+.figure1:hover .figcaption1 {
+  opacity: 1;
+  top: 4px;
+  left: 0px;
+}
+.figure2:hover .figcaption2 {
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+}
+.figure3:hover .figcaption3 {
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+}
+.figure4:hover .figcaption4 {
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+}
+.bar7,.bar9{
+  width: 416px;
+  height: 4px;
+  background-color: #D6E1F4;
+  position: relative;top: 112px;left: -80px;
+}
+.bar7{
+  width: 256px;
+}
+.bar9{
+  width: 224px;
+}
+}
+
 
 @media screen and (max-width:750px){
 body{
@@ -1375,16 +1540,18 @@ h3{
   font-size: 40px;
   font-family: impact;
   color: #D6E1F4;
-  position: absolute;top: -202px;left: 598px;
+  position: absolute;top: -202px;left: 540px;
+  text-align: center;
+  width: 200px;
 }
 .tritext4-2{
-  position: absolute;top: 288px; left: -23px;
+  position: absolute;top: 288px; left: -82px;
 }
 .tritext6-2{
-  position: absolute;top: -212px;left: 540px;
+  position: absolute;top: -212px;left: 516px;
 }
 .tritext8-2{
-    position: absolute;top: 296px;left: -21px;
+    position: absolute;top: 296px;left: -82px;
 }
 .tritext3,.tritext7{
   width: 256px;
@@ -1635,18 +1802,11 @@ th{
   font-weight: 700;
 	position: absolute;
 	top: -7px;
-	left: 28px;
 	color: #000044;
+  width: 100px;
+  text-align: center;
 }
-.snstext2{
-  left: 4px;
-}
-.snstext3{
-  left: 14px;
-}
-.snstext4{
-  left: 20px;
-}
+
 .sample:hover .snsbox1,.sample:hover .snsbox2,
 .sample:hover .snsbox3,.sample:hover .snsbox4 {
 	z-index: 2;
